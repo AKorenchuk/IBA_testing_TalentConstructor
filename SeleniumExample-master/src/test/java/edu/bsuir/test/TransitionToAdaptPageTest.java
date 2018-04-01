@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.*;
 
-import java.util.List;
 
 public class TransitionToAdaptPageTest {
 
@@ -18,27 +17,17 @@ public class TransitionToAdaptPageTest {
 
     @Test
     public void сheckTransitionToAdaptPageTest() {
-        driver.get("http://testing.cld.iba.by/");
+        driver.get("http://testing.cld.iba.by");
         WebElement login = driver.findElement(By.xpath("//input[@id='_58_login']"));
         login.sendKeys("kabanov@tc.by");
         WebElement password = driver.findElement(By.xpath("//input[@id='_58_password']"));
         password.sendKeys("welcome");
-        password.sendKeys(Keys.RETURN);//*[@id="navigationIcon3"]
+        password.sendKeys(Keys.RETURN);
 
-        WebElement cell = driver.findElement(By.xpath("//a[@href = 'http://testing.cld.iba.by/web/guest/recruiting']"));
-        cell.click();
+        WebDriverWait wait1 = new WebDriverWait(driver, 120);
+        WebElement element1 = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='layout_2']/a")));
+        element1.click();
         Assert.assertEquals("Подбор и адаптация - Конструктор Талантов", driver.getTitle());
-
-
-//        WebElement navigationIcon = driver.findElement(By.xpath("//*[@id='heading']/div"));
-//        navigationIcon.click();
-//        WebElement navigationIcon1 = driver.findElement(By.xpath("//*[@id='layout_2']/a"));
-//        navigationIcon1.click();
-
-//        WebDriverWait explicitWait = new WebDriverWait(driver, 40);
-//        explicitWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//li[@id='layout_2']/a")));
-//        driver.findElement(By.xpath("//li[@id='layout_2']/a")).click();
-//        Assert.assertEquals("Подбор и адаптация - Конструктор Талантов", driver.getTitle());
     }
 
 
