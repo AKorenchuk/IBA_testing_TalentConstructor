@@ -6,6 +6,7 @@ import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.MenuPage;
 import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.xml.sax.SAXException;
@@ -25,34 +26,57 @@ public class MenuTest {
     public String ADAPT_PAGE = "Подбор и адаптация - Конструктор Талантов";
     public String DIRECTORIES_PAGE = "Справочники - Конструктор Талантов";
     public String MAIN_PAGE = "Главная - Конструктор Талантов";
+    public String PROFILE_PAGE = "Мой профиль - Конструктор Талантов";
+    public String ADD_COMPETENCE_PAGE = "Добавить компетенцию - Конструктор Талантов";
+    public String CALENDAR_PAGE = "Календарь - Конструктор Талантов";
+    public String SETTING_PAGE = "Календарь - Конструктор Талантов";
+
+    @Before
+    public void init() throws SAXException, ParserConfigurationException, XPathExpressionException, IOException {
+        form.signIn(Role.CHIEF_RECRUITER);
+    }
 
     @Test
-    public void сheckTransitionToAdaptPageTest() throws InterruptedException, SAXException, ParserConfigurationException, XPathExpressionException, IOException {
-        form.signIn(Role.CHIEF_RECRUITER);
+    public void сheckTransitionToAdaptPageTest() {
         mp.openAdaptPage();
         Assert.assertEquals(ADAPT_PAGE, driver.getTitle());
     }
 
 
     @Test
-    public void сheckTransitionToDirectoriesPageTest() throws InterruptedException, SAXException, ParserConfigurationException, XPathExpressionException, IOException {
-        form.signIn(Role.CHIEF_RECRUITER);
+    public void сheckTransitionToDirectoriesPageTest()  {
         mp.openDirectoryPage();
         Assert.assertEquals(DIRECTORIES_PAGE, driver.getTitle());
     }
 
     @Test
-    public void сheckTransitionToMainPageTest() throws InterruptedException, SAXException, ParserConfigurationException, XPathExpressionException, IOException {
-        form.signIn(Role.CHIEF_RECRUITER);
+    public void сheckTransitionToMainPageTest()  {
         mp.openMainPage();
         Assert.assertEquals(MAIN_PAGE, driver.getTitle());
     }
 
     @Test
-    public void сheckTransitionToNotificationPageTest() throws InterruptedException, SAXException, ParserConfigurationException, XPathExpressionException, IOException {
-        form.signIn(Role.CHIEF_RECRUITER);
+    public void сheckTransitionToNotificationPageTest()  {
         mp.openNotification();
         Assert.assertTrue( (mp.getNotificationTitle()).contains("Notifications "));
+    }
+
+    @Test
+    public void сheckTransitionToProfilePageTest()  {
+        mp.openProfileInfo();
+        Assert.assertEquals( PROFILE_PAGE, driver.getTitle());
+    }
+
+    @Test
+    public void сheckTransitionToAddCompetencePageTest()  {
+        mp.openAddCompetencePage();
+        Assert.assertEquals( ADD_COMPETENCE_PAGE, driver.getTitle());
+    }
+
+    @Test
+    public void сheckTransitionToCalendarPageTest()  {
+        mp.openCalendarPage();
+        Assert.assertEquals( CALENDAR_PAGE, driver.getTitle());
     }
 
     @After

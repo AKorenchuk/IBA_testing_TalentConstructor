@@ -23,6 +23,22 @@ public class MenuPage {
         MenuElement.NOTIFICATION_PAGE.click();
     }
 
+    public void openProfileInfo(){
+        MenuElement.PROFILE_PAGE.click();
+    }
+
+    public void openAddCompetencePage(){
+        MenuElement.ADD_COMPETENCE_PAGE.click();
+    }
+
+    public void openCalendarPage(){
+        MenuElement.CALENDAR_PAGE.click();
+    }
+
+    public void openSettingPage(){
+        MenuElement.SETTING_PAGE.click();
+    }
+
     public String getNotificationTitle(){
         return MenuElement.NOTIFICATION_HEADER.getText();
     }
