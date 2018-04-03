@@ -1,11 +1,18 @@
 package edu.bsuir.test;
 
 import edu.bsuir.driver.WebDriverSingleton;
-import edu.bsuir.test.web.page.LoginPage;
+import edu.bsuir.test.services.SignIn;
+import edu.bsuir.test.services.enums.Role;
+import edu.bsuir.web.page.LoginPage;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.xml.sax.SAXException;
+
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.xpath.XPathExpressionException;
+import java.io.IOException;
 
 
 public class LoginTest {
@@ -15,8 +22,8 @@ public class LoginTest {
 
 
     public WebDriver driver;
+    public SignIn form = new SignIn();
     public LoginPage lp = new LoginPage();
-
 
     @Before
     public void init(){
@@ -24,11 +31,8 @@ public class LoginTest {
     }
 
     @Test
-    public void сheckPositiveLoginAndPassword()  {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
+    public void сheckPositiveLoginAndPassword() throws SAXException, ParserConfigurationException, XPathExpressionException, IOException {
+        form.signIn(Role.CHIEF_RECRUITER);
         WebElement profileInfo = driver.findElement(By.xpath("//*[@id='user-email']"));
         Assert.assertEquals("kabanov@tc.by", profileInfo.getText());
     }
@@ -36,33 +40,21 @@ public class LoginTest {
 
     @Test
     public void сheckNegativeLoginAndPassword() {
-        lp.openLoginPage();
-        lp.enterLogin("login");
-        lp.enterPassword("password");
-        lp.clickLoginButton();
-
+        form.signIn("login","password");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
 
     @Test
     public void сheckNegativeLogin() {
-        lp.openLoginPage();
-        lp.enterLogin("login");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("login","welcom");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
 
     @Test
     public void сheckNegativePassword() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("password");
-        lp.clickLoginButton();
-
+        form.signIn("kabanov@tc.by","password");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
@@ -77,162 +69,100 @@ public class LoginTest {
 
     @Test
     public void сheckNullPassword() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.clickLoginButton();
+        form.signIn("kabanov@tc.by","");
         Assert.assertEquals(REQUIRED_FIELD_MESSAGE, lp.getPasswordErrorMessage());
     }
 
     @Test
     public void сheckNullLogin() {
-        lp.openLoginPage();
-        lp.enterPassword("password");
-        lp.clickLoginButton();
+        form.signIn("","welcome");
         Assert.assertEquals(REQUIRED_FIELD_MESSAGE, lp.getLoginErrorMessage());
     }
 
 
     @Test
     public void сheckChangeOfPlacesOfLoginAndPassword() {
-        lp.openLoginPage();
-        lp.enterLogin("password");
-        lp.enterPassword("kabanov@tc.by");
-        lp.clickLoginButton();
-
+        form.signIn("welcome","kabanov@tc.by");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckScriptAtLogin() {
-        lp.openLoginPage();
-        lp.enterLogin("<script>alert(123)</script>");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("<script>alert(kabanov@tc.by)</script>","welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckScriptAtPassword() {
-
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("<script>alert(123)</script>");
-        lp.clickLoginButton();
-
+        form.signIn("kabanov@tc.by","<script>alert(welcome)</script>");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckLoginEndsWithSpace() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by   ");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("kabanov@tc.by   ","welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckLoginStartsWithSpace() {
-        lp.openLoginPage();
-        lp.enterLogin("   kabanov@tc.by");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("   kabanov@tc.by","welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
 
     @Test
     public void сheckPasswordEndsWithSpace() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("welcome   ");
-        lp.clickLoginButton();
-
+        form.signIn("kabanov@tc.by","welcome   ");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckPasswordStartsWithSpace() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("   welcome");
-        lp.clickLoginButton();
-
+        form.signIn("kabanov@tc.by","   welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckPasswordDifferentCase() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("welComE");
-        lp.clickLoginButton();
-
+        form.signIn("kabanov@tc.by","welComE");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckPasswordUpperCase() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("WELCOME");
-        lp.clickLoginButton();
-
+        form.signIn("kabanov@tc.by","WELCOME");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckLoginDifferentCase() {
-        lp.openLoginPage();
-        lp.enterLogin("kaBanoV@tc.by");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("kaBanoV@tc.by","welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckLoginUpperCase() {
-        lp.openLoginPage();
-        lp.enterLogin("KABANOV@TC.BY");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("KABANOV@TC.BY","welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckLoginWithCorner() {
-        lp.openLoginPage();
-        lp.enterLogin("<kabanov@tc.by>");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("<kabanov@tc.by>","welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
 
     @Test
     public void сheckLoginWithCyrillic() {
-        lp.openLoginPage();
-        lp.enterLogin("kаbаnоv@tc.bу");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
+        form.signIn("kаbаnоv@tc.bу","welcome");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 
     @Test
     public void сheckPasswordWithCyrillic() {
-
-        lp.openLoginPage();
-        lp.enterLogin("kаbаnоv@tc.bу");
-        lp.enterPassword("wеlcоmе");
-        lp.clickLoginButton();
-
+        form.signIn("kаbаnоv@tc.bу","wеlcоmе");
         Assert.assertEquals(INVALID_DATA_MESSAGE, lp.getErrorMessage());
     }
 

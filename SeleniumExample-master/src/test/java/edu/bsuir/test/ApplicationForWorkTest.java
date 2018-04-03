@@ -2,9 +2,10 @@ package edu.bsuir.test;
 
 
 import edu.bsuir.driver.WebDriverSingleton;
-import edu.bsuir.test.web.page.CreatingApplicationPage;
-import edu.bsuir.test.web.page.LoginPage;
-import edu.bsuir.test.web.page.MenuPage;
+import edu.bsuir.test.services.SignIn;
+import edu.bsuir.test.services.enums.Role;
+import edu.bsuir.web.page.CreatingApplicationPage;
+import edu.bsuir.web.page.MenuPage;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,20 +16,17 @@ public class ApplicationForWorkTest {
 
     private WebDriver driver = WebDriverSingleton.getInstance();
 
-    public LoginPage lp = new LoginPage();
+
     public CreatingApplicationPage cap = new CreatingApplicationPage();
     public MenuPage mp = new MenuPage();
+    public SignIn form = new SignIn();
 
 
     @Test
-    public void checkApplicationForWorkTest() {
-        lp.openLoginPage();
-        lp.enterLogin("kabanov@tc.by");
-        lp.enterPassword("welcome");
-        lp.clickLoginButton();
-
-
+    public void checkApplicationForWorkTest() throws Exception {
+        form.signIn(Role.CHIEF_RECRUITER);
         mp.openAdaptPage();
+
         cap.startCreateApi();
 
         cap.enterName("programmer");
@@ -48,7 +46,8 @@ public class ApplicationForWorkTest {
         cap.enterPriorityWorkingExperience("IBA,EPAM");
         cap.enterUndesirableWorkingExperience("-");
         cap.setEditRequiredCompetence();
-        cap.enterName(" programmer ");
+        cap.enterComment("urgently");
+
 
 
 //       driver.findElement(By.xpath("//*[@id='editrequiredCompetence']")).click();
@@ -84,11 +83,11 @@ public class ApplicationForWorkTest {
 //        element.click();
 //
 //        driver.findElement(By.xpath("//button[text()='OK' and @class='btn btn-primary-modal btn-primary-modal-content yui3-widget btn-content btn-focused']")).click();
-//
-        cap.enterComment("urgently");
+
+        Thread.sleep(5000);
         cap.saveApplication();
 
-        Assert.assertEquals("Заявка успешно сохранена", driver.getTitle());
+        Assert.assertEquals("programmer - Конструктор Талантов", driver.getTitle());
 }
 
 

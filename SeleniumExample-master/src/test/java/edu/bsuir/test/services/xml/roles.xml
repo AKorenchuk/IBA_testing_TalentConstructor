@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalog>
+   <role id="GENERAL_DIRECTOR">
+      <mail>kamelev@tc.by</mail>
+      <password>welcome</password>
+   </role>
+<role id="STRATEGIC_LEADER">
+      <mail>zaharov@tc.by</mail>
+      <password>welcome</password>
+   </role>
+<role id="HEAD_OF_ADMINISTRATION">
+      <mail>romanova@tc.by</mail>
+      <password>welcome</password>
+   </role>
+<role id="COMPETENCY_MODEL_USER">
+      <mail>nikitin@tc.by</mail>
+      <password>welcome</password>
+   </role>
+<role id="CHIEF_RECRUITER">
+      <mail>kabanov@tc.by</mail>
+      <password>welcome</password>
+   </role>
+<role id="RECRUITER">
+      <mail>sokolov@tc.by</mail>
+      <password>welcome</password>
+   </role>
+</catalog>
