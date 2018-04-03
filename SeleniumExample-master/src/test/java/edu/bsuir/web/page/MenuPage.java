@@ -1,12 +1,8 @@
 package edu.bsuir.web.page;
 
-import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.web.elements.MenuElement;
-import org.openqa.selenium.WebDriver;
 
 public class MenuPage {
-
-    WebDriver driver = WebDriverSingleton.getInstance();
 
     public void openAdaptPage(){
         MenuElement.ADAPT_PAGE.click();
@@ -15,6 +11,7 @@ public class MenuPage {
     public void openDirectoryPage(){
         MenuElement.DIRECTORY_PAGE.click();
     }
+
     public void openMainPage(){
         MenuElement.MAIN_PAGE.click();
     }
@@ -35,8 +32,22 @@ public class MenuPage {
         MenuElement.CALENDAR_PAGE.click();
     }
 
-    public void openSettingPage(){
+    public void openSettingPoint1(){
         MenuElement.SETTING_PAGE.click();
+        MenuElement.SETTING_POINT_1.click();
+    }
+
+    public void openSettingPoint2(){
+        MenuElement.SETTING_PAGE.click();
+        MenuElement.SETTING_POINT_2.click();
+    }
+
+    public void openHelpPage(){
+        MenuElement.HELP_PAGE.click();
+    }
+
+    public void openExitPage(){
+        MenuElement.EXIT.click();
     }
 
     public String getNotificationTitle(){
