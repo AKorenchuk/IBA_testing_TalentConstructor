@@ -68,11 +68,10 @@ public class CreatingApplicationPage {
 
     public void enterReason(String reason) {
         CreatingApplicationElement.REASON.setText(reason);
-
     }
 
     public void enterCandidateType() {
-        CreatingApplicationElement.CANDIDATE_TYPE_EXTERNAL.click();
+        CreatingApplicationElement.CANDIDATE_TYPE_INTERNAL.click();
     }
 
     public void enterEducationSpecialization(String requiredEducation) {

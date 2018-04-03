@@ -12,7 +12,7 @@ public class CreatingApplicationElement {
         public static final Element PRIORITY = new Element("priority",By.xpath("//div[./input[@id='priority-1']]"));
         public static final Element QUANTITY = new Element("quantity",By.xpath("//*[@id='quantity']"));
         public static final Element REASON = new Element("reasone",By.xpath("//*[@id='creationReason']"));
-        public static final Element CONTRACT_TYPE = new Element("contract_type",By.xpath("//*[@id='contractType-0']"));
+        public static final Element CONTRACT_TYPE = new Element("contract_type",By.xpath("//div[./input[@id='contractType-1']]"));
         public static final Element SALARY = new Element("salary",By.xpath("//*[@id='salary']"));
         public static final Element EMPLOYEES = new Element("employees",By.xpath("//*[@id='employees']"));
         public static final Element BUSINESS_TRIP = new Element("business_trip",By.xpath("//*[@id='businessTrip']"));
@@ -20,8 +20,8 @@ public class CreatingApplicationElement {
         public static final Element PROBATION_PERIOD = new Element("probation_period",By.xpath("//*[@id='probationPeriod']"));
         public static final Element RESPONSIBILITIES = new Element("responsibilities",By.xpath("//*[@id='responsibilities']"));
 
-        public static final Element CANDIDATE_TYPE_EXTERNAL = new Element("external_type",By.id("candidateTypeExternal"));
-        public static final Element CANDIDATE_TYPE_INTERNAL = new Element("internal_type",By.id("candidateTypeInternal"));
+        public static final Element CANDIDATE_TYPE_EXTERNAL = new Element("external_type",By.xpath("//div[./input[@id='candidateTypeExternal']]"));
+        public static final Element CANDIDATE_TYPE_INTERNAL = new Element("internal_type",By.xpath("//div[./input[@id='candidateTypeInternal']]"));
 
 
         public static final Element EDUCATION_SPECIALIZATION = new Element("education_specialization",By.xpath("//*[@id='educationSpecialization']"));
