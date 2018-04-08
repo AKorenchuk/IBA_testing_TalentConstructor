@@ -50,6 +50,11 @@ public class MenuPage {
         MenuElement.EXIT.click();
     }
 
+
+    public void moveToElementAdaptPage()  {
+        MenuElement.ADAPT_PAGE.moveToElement();
+    }
+
     public String getNotificationTitle(){
         return MenuElement.NOTIFICATION_HEADER.getText();
     }

@@ -8,6 +8,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.List;
 import java.util.NoSuchElementException;
 
 public class Element {
@@ -40,6 +41,10 @@ public class Element {
         return WebDriverSingleton.getInstance().findElement(xpath);
     }
 
+    public List<WebElement> getWebElements(){
+        return WebDriverSingleton.getInstance().findElements(xpath);
+    }
+
     public WebElement getClickableElement(){
         WebDriverWait wait = new WebDriverWait(WebDriverSingleton.getInstance(), 100);
         return wait.until(ExpectedConditions.elementToBeClickable(xpath));
@@ -62,7 +67,7 @@ public class Element {
         try{
             getWebElement();
             return true;
-        }catch(NoSuchElementException ex){
+        }catch(Exception ex){
             return false;
         }
     }
@@ -84,6 +89,12 @@ public class Element {
         actions.doubleClick(getWebElement());
         actions.perform();
     }
+
+    public void moveToElement(){
+        Actions actions = new Actions(WebDriverSingleton.getInstance());
+        actions.moveToElement(getWebElement()).build().perform();
+    }
+
 
     public String getText(){
         assertPresence();

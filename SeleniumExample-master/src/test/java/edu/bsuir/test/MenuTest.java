@@ -110,6 +110,8 @@ public class MenuTest {
         Assert.assertTrue( PASSWORD.isElementPresent());
     }
 
+
+
     @After
     public void shutDown() {
         driver.close();

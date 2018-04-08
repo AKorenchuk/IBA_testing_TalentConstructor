@@ -4,7 +4,6 @@ import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.web.elements.LoginElement;
 import org.openqa.selenium.WebDriver;
 
-
 public class LoginPage {
 
     WebDriver driver = WebDriverSingleton.getInstance();
