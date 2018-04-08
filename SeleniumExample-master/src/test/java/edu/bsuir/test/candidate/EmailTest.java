@@ -2,7 +2,7 @@ package edu.bsuir.test.candidate;
 
 
 import edu.bsuir.driver.WebDriverSingleton;
-import edu.bsuir.entity.GeneratorMode;
+import edu.bsuir.entity.enums.GeneratorMode;
 import edu.bsuir.entity.Helper;
 import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;

@@ -2,6 +2,7 @@ package edu.bsuir.entity;
 
 
 import edu.bsuir.driver.WebDriverSingleton;
+import edu.bsuir.entity.enums.GeneratorMode;
 import org.openqa.selenium.JavascriptExecutor;
 
 import java.io.IOException;

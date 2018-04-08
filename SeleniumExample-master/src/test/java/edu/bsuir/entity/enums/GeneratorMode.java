@@ -1,4 +1,4 @@
-package edu.bsuir.entity;
+package edu.bsuir.entity.enums;
 
 public enum GeneratorMode {
     ALPHA,
