@@ -1,6 +1,5 @@
 package edu.bsuir.test.candidate;
 
-
 import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.entity.Helper;
 import edu.bsuir.test.services.SignIn;
@@ -19,7 +18,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AddingFilesTest {
+public class AdditionResumeTest {
 
     public WebDriver driver ;
     public SignIn form = new SignIn();
