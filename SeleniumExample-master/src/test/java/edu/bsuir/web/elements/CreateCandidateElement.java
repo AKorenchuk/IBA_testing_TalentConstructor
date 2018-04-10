@@ -12,7 +12,12 @@ public class CreateCandidateElement {
     public static final Element CREATE_CANDIDATE_BUTTON = new Element("create_candidate_button",
             By.xpath("//a[@id='createProfileButton']"));
 
-    public static final Element PHOTO = new Element("photo",By.xpath("//span[@id='changeImgLink']"));
+    public static final Element ADD_PHOTO_LINK = new Element("link",By.xpath("//span[@id='changeImgLink']"));
+    public static final Element ADD_PHOTO_IMG = new Element("photo",By.xpath("//img[@class='image-wrapper']"));
+    public static final Element CURRENT_IMG = new Element("current photo",By.id("currentImage"));
+    public static final Element IMAGE_INPUT = new Element("image input",By.xpath("//input[@id='profileImage']"));
+    public static final Element IMAGE_ERROR = new Element("error",By.xpath("//span[@id='errorMessage']"));
+
 
     public static final Element FIRST_NAME = new Element("first_name",By.xpath("//input[@id='name']"));
     public static final Element ERROR_NAME = new Element("error_name",By.xpath("//div[./input[@id='name']]/div"));
@@ -73,6 +78,8 @@ public class CreateCandidateElement {
 
     public static final Element ADD_DOCUMENT = new Element("add_document",By.xpath("//span[./i[@class='fa fa-plus add-attachment']]"));
     public static final Element REMOVE_DOCUMENT = new Element("remove_document",By.xpath("//i[@class='fa fa-remove remove remove-attachment']"));
+    public static final Element LIST_OF_DOCUMENT = new Element("list of documents",By.xpath("//div[@id='attached-files']/div[@class='control-group']/span"));
+
 
     public static final Element ERROR_MESSAGE = new Element("error_message",By.xpath("//div[@class='message']/strong[text()='Ошибка!']"));
     public static final Element FREE_SPACE = new Element("free space",By.xpath("//div[@class='tc-theme-page-name']"));
@@ -80,5 +87,8 @@ public class CreateCandidateElement {
     public static final Element FIO = new Element("FIO",By.xpath("//div[@class='tc-theme-page-name']"));
     public static final Element TELEPHONE_NUMBER = new Element("telephone",By.xpath("//div[@id='primaryTelephone']"));
     public static final Element MAIL = new Element("mail",By.xpath("//div[@id='primaryEmail']\t"));
+
+
+    public static final Element EDIT_BUTTON = new Element("edit",By.xpath("//a[@id='editButton']"));
 
 }

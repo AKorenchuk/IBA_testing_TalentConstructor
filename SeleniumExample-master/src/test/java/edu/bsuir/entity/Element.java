@@ -9,7 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 public class Element {
 
@@ -107,5 +106,14 @@ public class Element {
         element.clear();
         element.sendKeys(text);
 
+    }
+
+    public String getAttribute(String mean) {
+        assertPresence();
+        return getWebElement().getAttribute(mean);
+    }
+
+    public void sendKeys(String string) {
+        getWebElement().sendKeys(string);
     }
 }

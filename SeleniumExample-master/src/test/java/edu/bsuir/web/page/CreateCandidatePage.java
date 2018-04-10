@@ -1,16 +1,26 @@
 package edu.bsuir.web.page;
 
 import edu.bsuir.driver.WebDriverSingleton;
+import edu.bsuir.test.services.LoadingFile;
 import edu.bsuir.web.elements.CreateCandidateElement;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CreateCandidatePage {
 
     WebDriver driver = WebDriverSingleton.getInstance();
+    LoadingFile file = new LoadingFile();
 
     public void setName(String name){
         CreateCandidateElement.FIRST_NAME.setText(name);
+    }
+
+    public String getName(){
+        return CreateCandidateElement.FIRST_NAME.getText();
     }
 
     public boolean isVisibleErrorName(){
@@ -19,6 +29,10 @@ public class CreateCandidatePage {
 
     public void setLastName(String name){
         CreateCandidateElement.LAST_NAME.setText(name);
+    }
+
+    public String getLastName(){
+        return CreateCandidateElement.LAST_NAME.getText();
     }
 
     public boolean isVisibleErrorLastName(){
@@ -122,6 +136,10 @@ public class CreateCandidatePage {
     public void setEmail(String email){
         CreateCandidateElement.EMAIL.setText(email);
     }
+    public String getEmail(){
+        return CreateCandidateElement.EMAIL.getText();
+    }
+
 
     public boolean isVisibleErrorPhone(){
         return CreateCandidateElement.ERROR_TELEPHONE.isElementPresent();
@@ -133,6 +151,10 @@ public class CreateCandidatePage {
 
     public void setPhoneNumber(String number){
         CreateCandidateElement.TELEPHONE.setText(number);
+    }
+
+    public String getPhoneNumber(){
+        return CreateCandidateElement.TELEPHONE.getText();
     }
 
 
@@ -153,14 +175,58 @@ public class CreateCandidatePage {
         CreateCandidateElement.CANCEL.click();
     }
 
-    public void addPhoto() throws InterruptedException {
-        Thread.sleep(3000);
-        CreateCandidateElement.PHOTO.click();
-        Thread.sleep(3000);
+    public void editCandidateProfile(){
+        CreateCandidateElement.EDIT_BUTTON.click();
+    }
 
-//        WebElement fileInput = driver.findElement(By.name("uploadfile"));
-//        fileInput.sendKeys("photo.jpg");
-//        fileInput.click();
+    public void addPhotoByLink() throws InterruptedException {
+        CreateCandidateElement.ADD_PHOTO_LINK.click();
+        Thread.sleep(3000);
+    }
+
+    public void addDocuments() throws InterruptedException {
+        CreateCandidateElement.ADD_DOCUMENT.click();
+        Thread.sleep(3000);
+    }
+
+
+    public void removeDocuments(Integer index) throws InterruptedException {
+        List<WebElement> currentDocuments = CreateCandidateElement.REMOVE_DOCUMENT.getWebElements();
+        currentDocuments.get(index).click();
+        Thread.sleep(1000);
+    }
+
+    public List<String> getListOfDocuments() throws InterruptedException {
+        List<String> listOfDocument = new ArrayList<>();
+        List<WebElement> currentDocuments = CreateCandidateElement.LIST_OF_DOCUMENT.getWebElements();
+        System.out.println(currentDocuments.size());
+
+        for(WebElement i: currentDocuments){
+            System.out.println(i);
+            listOfDocument.add(i.getText());
+        }
+        return listOfDocument;
+    }
+
+    public String getLinkOfCurrentImg() {
+        CreateCandidateElement.CURRENT_IMG.assertPresence();
+        return CreateCandidateElement.CURRENT_IMG.getAttribute("src");
+    }
+
+    public boolean isVisibleImageError() {
+        return CreateCandidateElement.IMAGE_ERROR.isElementPresent();
+    }
+
+    public void loadFileSelenium(String path) {
+        file.uploadFileUsingSelenium(CreateCandidateElement.IMAGE_INPUT,path);
+    }
+
+    public void loadFileRobot(String path) {
+        file.uploadFileUsingRobot(path);
+    }
+
+    public void loadFileSikuli(String path) throws Exception {
+        file.uploadFileUsingSikuli(path);
     }
 
 }
