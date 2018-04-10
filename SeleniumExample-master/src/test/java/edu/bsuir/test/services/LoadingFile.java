@@ -58,8 +58,8 @@ public class LoadingFile {
 
     public void uploadFileUsingSikuli(String path) throws Exception {
 
-        Pattern filePath = new Pattern("resources/sikuli/FilePath.JPG");
-        Pattern openButton = new Pattern("resources/sikuli/OpenButton.JPG");
+        Pattern filePath = new Pattern(getAbsolutePath("resources/sikuli/FilePath.JPG"));
+        Pattern openButton = new Pattern(getAbsolutePath("resources/sikuli/OpenButton.JPG"));
 
         Screen screen = new Screen();
         screen.wait(filePath, 20);

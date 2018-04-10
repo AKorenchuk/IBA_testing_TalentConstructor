@@ -217,6 +217,12 @@ public class CreateCandidatePage {
         return CreateCandidateElement.IMAGE_ERROR.isElementPresent();
     }
 
+    public void loadResume() throws InterruptedException {
+        CreateCandidateElement.LOAD_RESUME.click();
+        Thread.sleep(2000);
+        CreateCandidateElement.AGREE_WITH_LOAD_RESUME.click();
+    }
+
     public void loadFileSelenium(String path) {
         file.uploadFileUsingSelenium(CreateCandidateElement.IMAGE_INPUT,path);
     }
