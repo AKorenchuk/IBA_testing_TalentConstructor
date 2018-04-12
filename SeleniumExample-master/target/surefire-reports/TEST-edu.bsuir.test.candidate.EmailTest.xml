@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.EmailTest" time="1,222.109" tests="28" errors="0" skipped="0" failures="7">
+  <properties>
+    <property name="idea.version" value="2016.3.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\bin"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7533"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\0737~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_20\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\Аня\AppData\Local\Programs\Python\Python36-32;C:\Users\Аня\Documents\apache-maven-3.5.0\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Аня"/>
+    <property name="user.timezone" value="America/Bahia"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Аня"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.3.4 clean test allure:report"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="сheckEmailWithoutAt" classname="edu.bsuir.test.candidate.EmailTest" time="27.166"/>
+  <testcase name="сheckEmptyEmail" classname="edu.bsuir.test.candidate.EmailTest" time="24.558"/>
+  <testcase name="сheckEmailWithCirilicInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="36.417">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInDomen(EmailTest.java:383)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 30172
+Only local connections are allowed.
+апр 12, 2018 10:11:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckEmailWithSomeAt" classname="edu.bsuir.test.candidate.EmailTest" time="31.675"/>
+  <testcase name="сheckEmailWithNumericInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="48.733"/>
+  <testcase name="сheckEmailDifferentSymbols" classname="edu.bsuir.test.candidate.EmailTest" time="70.434"/>
+  <testcase name="сheckIncorrectDomen" classname="edu.bsuir.test.candidate.EmailTest" time="42.73">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckIncorrectDomen(EmailTest.java:318)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 8532
+Only local connections are allowed.
+апр 12, 2018 10:14:55 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckEmailWithoutDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="26.751"/>
+  <testcase name="сheckEmailWithNumericInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="46.154"/>
+  <testcase name="сheckEmailWithOneLetterInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="36.525">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithOneLetterInDomen(EmailTest.java:357)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 45034
+Only local connections are allowed.
+апр 12, 2018 10:16:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckEmailWithSpecificSymbolsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="27.016"/>
+  <testcase name="сheckEmailWithCirilic" classname="edu.bsuir.test.candidate.EmailTest" time="41.191">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilic(EmailTest.java:396)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 32527
+Only local connections are allowed.
+апр 12, 2018 10:18:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckEmailWithSomeDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="94.511"/>
+  <testcase name="сheckEmailInLowerCase" classname="edu.bsuir.test.candidate.EmailTest" time="36.461"/>
+  <testcase name="сheckEmailMaxLenght" classname="edu.bsuir.test.candidate.EmailTest" time="74.305">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailMaxLenght(EmailTest.java:200)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 8247
+Only local connections are allowed.
+апр 12, 2018 10:21:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckEmailWithDashInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="35.674"/>
+  <testcase name="сheckEmailWithoutDomen" classname="edu.bsuir.test.candidate.EmailTest" time="35.677">
+    <failure message="By.xpath: //input [@id=&apos;primaryEmail&apos;] is not found. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //input [@id='primaryEmail'] is not found. 
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithoutDomen(EmailTest.java:302)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 6056
+Only local connections are allowed.
+апр 12, 2018 10:23:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckEmailWithCirilicInAccount" classname="edu.bsuir.test.candidate.EmailTest" time="39.405">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInAccount(EmailTest.java:370)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 34365
+Only local connections are allowed.
+апр 12, 2018 10:24:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckEmailWithDotInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="30.118"/>
+  <testcase name="сheckEmailWithSpecificSymbolsInAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="26.148"/>
+  <testcase name="сheckEmailInUpperCase" classname="edu.bsuir.test.candidate.EmailTest" time="36.898"/>
+  <testcase name="сheckEmailWithoutAccountNameAndDomen" classname="edu.bsuir.test.candidate.EmailTest" time="26.058"/>
+  <testcase name="сheckEmailWithUnderscoreInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="37.462"/>
+  <testcase name="сheckEmailWithoutAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="26.731"/>
+  <testcase name="сheckEmailWithDashInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="41.302"/>
+  <testcase name="сheckEmailWithUnderscoreInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="37.862"/>
+  <testcase name="сheckEmailWithSpaceInAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="26.882"/>
+  <testcase name="сheckEmailWithSpaceDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="36.625"/>
+</testsuite>

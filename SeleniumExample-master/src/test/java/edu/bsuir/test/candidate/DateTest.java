@@ -5,6 +5,8 @@ import edu.bsuir.entity.Helper;
 import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.CreateCandidatePage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -32,6 +34,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("Формат DDMMYYYY")
+    @Description("Ввод дате в формате DDMMYYYY ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckDateInFormateDDMMYYYY() {
         ccp.setDayOfBirthDay("20");
         ccp.setDayOfBirthMonth("04");
@@ -42,6 +49,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("Формат DMYYYY")
+    @Description("Ввод дате в формате DMYYYY")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckDateInFormateDMYYYY() {
         ccp.setDayOfBirthDay("2");
         ccp.setDayOfBirthMonth("4");
@@ -52,6 +64,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("Формат DDMMYY")
+    @Description("Ввод дате в формате DDMMYY")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckDateInFormateDDMMYY() {
         ccp.setDayOfBirthDay("20");
         ccp.setDayOfBirthMonth("04");
@@ -62,6 +79,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("Несуществующий день")
+    @Description("Ввод дате несуществующего дня (45 число)")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAnrealDay() {
         ccp.setDayOfBirthDay("45");
         ccp.setDayOfBirthMonth("04");
@@ -72,6 +94,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("Несуществующий месяц")
+    @Description("Ввод дате несуществующего месяца (45 месяц)")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAnrealMonth() {
         ccp.setDayOfBirthDay("20");
         ccp.setDayOfBirthMonth("45");
@@ -82,6 +109,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("Несуществующий год")
+    @Description("Ввод дате несуществующего год (2067)")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAnrealYear() {
         ccp.setDayOfBirthDay("20");
         ccp.setDayOfBirthMonth("02");
@@ -92,6 +124,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("31 февраля")
+    @Description("Ввод 31 февраля")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAnrealFebruaryDay() {
         ccp.setDayOfBirthDay("31");
         ccp.setDayOfBirthMonth("02");
@@ -102,6 +139,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("29 февраля высокосный год")
+    @Description("Ввод 29 февраля высокосный год")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckFebruaryDay29() {
         ccp.setDayOfBirthDay("29");
         ccp.setDayOfBirthMonth("02");
@@ -112,6 +154,11 @@ public class DateTest {
     }
 
     @Test
+    @DisplayName("29 февраля невысокосный год")
+    @Description("Ввод 29 февраля невысокосный год")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 12 – Проверка поля 'Даты рождения'")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAnrealFebruaryDay29() {
         ccp.setDayOfBirthDay("29");
         ccp.setDayOfBirthMonth("02");

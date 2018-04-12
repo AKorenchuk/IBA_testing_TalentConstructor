@@ -1,0 +1,308 @@
+{
+  "uid" : "dbb1bba22234c7ac",
+  "name" : "Большой размер",
+  "fullName" : "edu.bsuir.test.candidate.PhotoTest.сheckSizePhoto",
+  "historyId" : "1442e4deb46828545e44818c66eef142",
+  "time" : {
+    "start" : 1523539920735,
+    "stop" : 1523539949632,
+    "duration" : 28897
+  },
+  "status" : "passed",
+  "description" : "Загрузка фото большого размера",
+  "descriptionHtml" : "<p>Загрузка фото большого размера</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523539920735,
+        "stop" : 1523539939420,
+        "duration" : 18685
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 5,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523539920751,
+          "stop" : 1523539939420,
+          "duration" : 18669
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523539920751,
+            "stop" : 1523539929221,
+            "duration" : 8470
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523539929221,
+            "stop" : 1523539930270,
+            "duration" : 1049
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523539930271,
+            "stop" : 1523539931045,
+            "duration" : 774
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523539931045,
+            "stop" : 1523539939420,
+            "duration" : 8375
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523539939420,
+        "stop" : 1523539944542,
+        "duration" : 5122
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка фамилии кандидата Korenchuk",
+      "time" : {
+        "start" : 1523539944543,
+        "stop" : 1523539945446,
+        "duration" : 903
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Korenchuk"
+      } ]
+    }, {
+      "name" : " установка имени кандидата Anna ",
+      "time" : {
+        "start" : 1523539945446,
+        "stop" : 1523539945908,
+        "duration" : 462
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Anna"
+      } ]
+    }, {
+      "name" : " установка номера телефона кандидата 2345678",
+      "time" : {
+        "start" : 1523539945908,
+        "stop" : 1523539946422,
+        "duration" : 514
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "2345678"
+      } ]
+    }, {
+      "name" : " установка эл.почты korenchuk@mail.com",
+      "time" : {
+        "start" : 1523539946422,
+        "stop" : 1523539947331,
+        "duration" : 909
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "korenchuk@mail.com"
+      } ]
+    }, {
+      "name" : " загрузка файла resources/big_size.JPG испльзуя selenium",
+      "time" : {
+        "start" : 1523539947331,
+        "stop" : 1523539947459,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 2,
+      "steps" : [ {
+        "name" : " selenium  действии. Элемент edu.bsuir.entity.Element@14d040d,путь к файлу resources/big_size.JPG",
+        "time" : {
+          "start" : 1523539947331,
+          "stop" : 1523539947458,
+          "duration" : 127
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 1,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/big_size.JPG",
+          "time" : {
+            "start" : 1523539947332,
+            "stop" : 1523539947332,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/big_size.JPG"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "inputFile",
+          "value" : "edu.bsuir.entity.Element@14d040d"
+        }, {
+          "name" : "path",
+          "value" : "resources/big_size.JPG"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/big_size.JPG"
+      } ]
+    }, {
+      "name" : " наличие ошибки связанной с добавлением фото",
+      "time" : {
+        "start" : 1523539947460,
+        "stop" : 1523539947541,
+        "duration" : 81
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 15
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.PhotoTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckSizePhoto"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.PhotoTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "3636@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 8 – Загрузка фото"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

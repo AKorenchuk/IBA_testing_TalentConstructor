@@ -21,6 +21,8 @@ public class CreateCandidateElement {
 
     public static final Element FIRST_NAME = new Element("first_name",By.xpath("//input[@id='name']"));
     public static final Element ERROR_NAME = new Element("error_name",By.xpath("//div[./input[@id='name']]/div"));
+    public static final Element CURRENT_FIRST_NAME = new Element("first_name",By.xpath("//div[./input[@id='name']]"));
+
 
     public static final Element LAST_NAME = new Element("last_name",By.xpath("//input[@id='surname']"));
     public static final Element ERROR_LAST_NAME = new Element("error_last_name",By.xpath("//div[./input[@id='surname']]/div"));
@@ -76,7 +78,6 @@ public class CreateCandidateElement {
     public static final Element CANCEL = new Element("cancel",By.xpath("//a[@id='cancelButton']"));
     public static final Element LOAD_RESUME = new Element("load_resume",By.xpath("//span[@id='loadCVLink']"));
     public static final Element AGREE_WITH_LOAD_RESUME = new Element("agree with load_resume",By.xpath("//button [text()='OK']"));
-    //button[@class='btn btn-primary-modal btn-primary-modal-content yui3-widget btn-content btn-focused']
     public static final Element ADD_DOCUMENT = new Element("add_document",By.xpath("//span[./i[@class='fa fa-plus add-attachment']]"));
     public static final Element REMOVE_DOCUMENT = new Element("remove_document",By.xpath("//i[@class='fa fa-remove remove remove-attachment']"));
     public static final Element LIST_OF_DOCUMENT = new Element("list of documents",By.xpath("//div[@id='attached-files']/div[@class='control-group']/span"));

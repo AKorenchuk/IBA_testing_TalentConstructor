@@ -16,11 +16,11 @@ public class MenuElement {
 
     public static final Element SETTING_PAGE = new Element("setting",By.xpath("//div[@class='dropdown go-dropdown']"));
 
-    public static final Element SETTING_POINT_1 = new Element("setting_1",By.xpath("//li[./a[text()=' Настройка пользователя ']]"));
-    public static final Element SETTING_POINT_1_TITLE = new Element("setting_1_title",By.xpath("//h3[text()='My Account']"));
+    public static final Element USER_SETTING = new Element("setting_1",By.xpath("//li[./a[text()=' Настройка пользователя ']]"));
+    public static final Element USER_SETTING_TITLE = new Element("setting_1_title",By.xpath("//h3[text()='My Account']"));
 
-    public static final Element SETTING_POINT_2 = new Element("setting_2",By.xpath("//li[./a[text()='Настройка текущей страницы']]"));
-    public static final Element SETTING_POINT_2_MESSAGE = new Element("setting_2_message",By.xpath("//span[@id='infoMessage']"));
+    public static final Element PAGE_SETTING = new Element("setting_2",By.xpath("//li[./a[text()='Настройка текущей страницы']]"));
+    public static final Element PAGE_SETTING_MESSAGE = new Element("setting_2_message",By.xpath("//span[@id='infoMessage']"));
 
 
     public static final Element HELP_PAGE = new Element("help",By.xpath("//li[./a[@href='/help']]"));

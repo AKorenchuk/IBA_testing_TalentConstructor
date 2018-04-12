@@ -5,6 +5,8 @@ import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.CreatingApplicationPage;
 import edu.bsuir.web.page.MenuPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,13 +17,17 @@ public class ApplicationForWorkTest {
 
     private WebDriver driver = WebDriverSingleton.getInstance();
 
-
     public CreatingApplicationPage cap = new CreatingApplicationPage();
     public MenuPage mp = new MenuPage();
     public SignIn form = new SignIn();
 
 
     @Test
+    @DisplayName("Создание заявки")
+    @Description("Создание заявки с корректными данными")
+    @Feature("Создание заявки")
+    @Story("Сценарий 1 – Логирование")
+    @Severity(SeverityLevel.NORMAL)
     public void checkApplicationForWorkTest() throws Exception {
         form.signIn(Role.CHIEF_RECRUITER);
         mp.openAdaptPage();

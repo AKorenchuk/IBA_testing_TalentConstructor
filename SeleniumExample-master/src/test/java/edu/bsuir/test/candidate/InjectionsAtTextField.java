@@ -3,9 +3,9 @@ package edu.bsuir.test.candidate;
 import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;
-import edu.bsuir.web.page.CandidatePage;
 import edu.bsuir.web.page.CreateCandidatePage;
-import edu.bsuir.web.page.MenuPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -24,7 +24,6 @@ public class InjectionsAtTextField {
     public CreateCandidatePage ccp = new CreateCandidatePage();
 
 
-
     @Before
     public void init() throws SAXException, ParserConfigurationException, XPathExpressionException, IOException {
         driver = WebDriverSingleton.getInstance();
@@ -33,6 +32,11 @@ public class InjectionsAtTextField {
     }
 
     @Test
+    @DisplayName("Инъекция XSS в поле 'имя' ")
+    @Description("Сохранения пользователя с инъекцией в 'иммени'")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 9 – Инъекции")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckInjectionXSSAtFirstName() throws InterruptedException {
         ccp.setLastName("Korenchuk");
         ccp.setName("http://ha.ckers.org/xss.html");
@@ -45,6 +49,11 @@ public class InjectionsAtTextField {
 
 
     @Test
+    @DisplayName("Инъекция XSS в поле 'фамилия' ")
+    @Description("Сохранения пользователя с инъекцией в 'фамилии'")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 9 – Инъекции")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckInjectionXSSAtLastName() throws InterruptedException {
         ccp.setLastName("<script>alert(\"xss!\")</script>");
         ccp.setName("Anna");
@@ -56,6 +65,11 @@ public class InjectionsAtTextField {
     }
 
     @Test
+    @DisplayName("Инъекция в поле 'фамилия' ")
+    @Description("Сохранения пользователя с инъекцией в 'фамилии'")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 9 – Инъекции")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckInjectionAtLastName() throws InterruptedException {
         ccp.setLastName("\"${code}\";");
         ccp.setName("Anna");

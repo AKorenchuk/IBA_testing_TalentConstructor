@@ -1,0 +1,1162 @@
+{
+  "statistic" : {
+    "failed" : 28,
+    "broken" : 5,
+    "skipped" : 0,
+    "passed" : 70,
+    "unknown" : 0,
+    "total" : 103
+  },
+  "time" : {
+    "minDuration" : 22418,
+    "maxDuration" : 353091,
+    "sumDuration" : 4562505,
+    "start" : 1523536624132,
+    "stop" : 1523541543483,
+    "duration" : 4919351
+  },
+  "children" : [ {
+    "uid" : "60a3d9026d534416",
+    "name" : "edu.bsuir.test.candidate",
+    "time" : {
+      "minDuration" : 22418,
+      "maxDuration" : 353091,
+      "sumDuration" : 4562505,
+      "start" : 1523536624132,
+      "stop" : 1523541543483,
+      "duration" : 4919351
+    },
+    "statistic" : {
+      "failed" : 28,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 70,
+      "unknown" : 0,
+      "total" : 103
+    },
+    "type" : "TestGroupNode",
+    "children" : [ {
+      "uid" : "7a4ad2ac2b303cf8",
+      "name" : "loadOtherResumeDOC",
+      "time" : {
+        "start" : 1523537378857,
+        "stop" : 1523537412635,
+        "duration" : 33778
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "84a34b3c54733969",
+      "name" : "сheckFirstName",
+      "time" : {
+        "start" : 1523541225455,
+        "stop" : 1523541260027,
+        "duration" : 34572
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "488223a3ff37ec6",
+      "name" : "сheckEmailWithoutAccountName",
+      "time" : {
+        "start" : 1523539678312,
+        "stop" : 1523539705038,
+        "duration" : 26726
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "fade75209a87549d",
+      "name" : "сheckEmailWithSomeAt",
+      "time" : {
+        "start" : 1523538733884,
+        "stop" : 1523538765555,
+        "duration" : 31671
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "26b1efc2eda238e1",
+      "name" : "loadResumeDOC",
+      "time" : {
+        "start" : 1523537302974,
+        "stop" : 1523537340524,
+        "duration" : 37550
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ae44ca0f7d7747e0",
+      "name" : "сheckAnrealDay",
+      "time" : {
+        "start" : 1523538509161,
+        "stop" : 1523538535990,
+        "duration" : 26829
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "5e153a2ea708aa2a",
+      "name" : "сheckPhoneNumberWithBrackets",
+      "time" : {
+        "start" : 1523540298312,
+        "stop" : 1523540335739,
+        "duration" : 37427
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "dd2b5c3c6dbd5211",
+      "name" : "сheckCreatePhoneStartAndEndWithSpace",
+      "time" : {
+        "start" : 1523537545603,
+        "stop" : 1523537585288,
+        "duration" : 39685
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "b1c922d5cc7f1f0f",
+      "name" : "сheckPhoneNumberWithInvalidBrackets",
+      "time" : {
+        "start" : 1523540233289,
+        "stop" : 1523540267329,
+        "duration" : 34040
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6d90d76a8703b83c",
+      "name" : "сheckPhoneNumberWithCountryCode",
+      "time" : {
+        "start" : 1523540479426,
+        "stop" : 1523540518114,
+        "duration" : 38688
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6e60c3981b24a7f3",
+      "name" : "сheckCreateMailWithSpace",
+      "time" : {
+        "start" : 1523537667248,
+        "stop" : 1523537791869,
+        "duration" : 124621
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "79226a5a3e98b9ef",
+      "name" : "сheckEmailWithUnderscoreInDomen",
+      "time" : {
+        "start" : 1523539751108,
+        "stop" : 1523539788965,
+        "duration" : 37857
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "6cc5468143d08c18",
+      "name" : "сheckNumberAtCountry",
+      "time" : {
+        "start" : 1523541162289,
+        "stop" : 1523541185517,
+        "duration" : 23228
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "dbb1bba22234c7ac",
+      "name" : "сheckSizePhoto",
+      "time" : {
+        "start" : 1523539920735,
+        "stop" : 1523539949632,
+        "duration" : 28897
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "49b01e7a56a23528",
+      "name" : "сheckLenghtOfAdditionalInfo",
+      "time" : {
+        "start" : 1523540820418,
+        "stop" : 1523541045461,
+        "duration" : 225043
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f234722f7a88043c",
+      "name" : "сheckIncorrectDomen",
+      "time" : {
+        "start" : 1523538895913,
+        "stop" : 1523538938635,
+        "duration" : 42722
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "63fc1c0062e1d774",
+      "name" : "сheckEmailWithCirilicInAccount",
+      "time" : {
+        "start" : 1523539468224,
+        "stop" : 1523539507628,
+        "duration" : 39404
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "9cfa37012b5cd64a",
+      "name" : "сheckEmailWithCirilic",
+      "time" : {
+        "start" : 1523539092465,
+        "stop" : 1523539133650,
+        "duration" : 41185
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e107d15bb3669ff3",
+      "name" : "сheckAnrealFebruaryDay",
+      "time" : {
+        "start" : 1523538310668,
+        "stop" : 1523538335255,
+        "duration" : 24587
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ef12e17086439260",
+      "name" : "сheckPhoneNumberWithDash",
+      "time" : {
+        "start" : 1523540164728,
+        "stop" : 1523540201341,
+        "duration" : 36613
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "5f7c79aecf9e8b13",
+      "name" : "сheckCorrectPhoneNumber",
+      "time" : {
+        "start" : 1523540123381,
+        "stop" : 1523540159068,
+        "duration" : 35687
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ece7c5041d2bb591",
+      "name" : "сheckAnrealFebruaryDay29",
+      "time" : {
+        "start" : 1523538567449,
+        "stop" : 1523538594057,
+        "duration" : 26608
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "8770370093b47290",
+      "name" : "сheckEmailMaxLenght",
+      "time" : {
+        "start" : 1523539273473,
+        "stop" : 1523539347771,
+        "duration" : 74298
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d0b8dd15d0ac0fa9",
+      "name" : "сheckSpecificSymbolsAtSkype",
+      "time" : {
+        "start" : 1523541087068,
+        "stop" : 1523541121355,
+        "duration" : 34287
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "9ee51874d3399ee6",
+      "name" : "сheckLenghtOfSkype",
+      "time" : {
+        "start" : 1523540559670,
+        "stop" : 1523540589943,
+        "duration" : 30273
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "4399a3ee74585469",
+      "name" : "сheckPhoneNumberWithSpecificSymbolsPart1",
+      "time" : {
+        "start" : 1523540421005,
+        "stop" : 1523540448843,
+        "duration" : 27838
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e1bf99204332c66a",
+      "name" : "сheckEmailWithNumericInDomen",
+      "time" : {
+        "start" : 1523538768779,
+        "stop" : 1523538817505,
+        "duration" : 48726
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f291706635f759ea",
+      "name" : "сheckCreateEmptyCadidateProfile",
+      "time" : {
+        "start" : 1523538213227,
+        "stop" : 1523538242519,
+        "duration" : 29292
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "80b1b36bad702772",
+      "name" : "сheckDoubleChangePhoto",
+      "time" : {
+        "start" : 1523539862033,
+        "stop" : 1523539888810,
+        "duration" : 26777
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "7963a8c31550806a",
+      "name" : "сheckDateInFormateDMYYYY",
+      "time" : {
+        "start" : 1523538403990,
+        "stop" : 1523538456776,
+        "duration" : 52786
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "9d8fb4c6864e8971",
+      "name" : "сheckDesiredPosition",
+      "time" : {
+        "start" : 1523541299679,
+        "stop" : 1523541335850,
+        "duration" : 36171
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "4ce4472c4d6ca3cd",
+      "name" : "сheckFebruaryDay29",
+      "time" : {
+        "start" : 1523538338204,
+        "stop" : 1523538372561,
+        "duration" : 34357
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f875a32f97e24807",
+      "name" : "сheckSpecialSymbolsAtAdditionalInfo",
+      "time" : {
+        "start" : 1523540592203,
+        "stop" : 1523540626051,
+        "duration" : 33848
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "3588b9c4a31ea48",
+      "name" : "сheckEmailWithNumericInAccountNAme",
+      "time" : {
+        "start" : 1523538971483,
+        "stop" : 1523539017631,
+        "duration" : 46148
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "5a3d6d95de83ed8e",
+      "name" : "loadResumePDF",
+      "time" : {
+        "start" : 1523537344661,
+        "stop" : 1523537374787,
+        "duration" : 30126
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "a563e526916306e4",
+      "name" : "сheckEmailWithSpecificSymbolsInDomen",
+      "time" : {
+        "start" : 1523539058941,
+        "stop" : 1523539085950,
+        "duration" : 27009
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "2b6e98881f310c06",
+      "name" : "сheckEmailWithSpecificSymbolsInAccountName",
+      "time" : {
+        "start" : 1523539541557,
+        "stop" : 1523539567690,
+        "duration" : 26133
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "dfe798e5790558ca",
+      "name" : "сheckCancelButtonAtCadidateProfilePageTest",
+      "time" : {
+        "start" : 1523537934986,
+        "stop" : 1523537987314,
+        "duration" : 52328
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "16b36b03ac5f0ca4",
+      "name" : "сheckEmailWithDotInAccountNAme",
+      "time" : {
+        "start" : 1523539509159,
+        "stop" : 1523539539275,
+        "duration" : 30116
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "fb47a356f02959f3",
+      "name" : "сheckPhoneNumberMaxLenght",
+      "time" : {
+        "start" : 1523540340408,
+        "stop" : 1523540378172,
+        "duration" : 37764
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "9f7bd9128f4a5a6c",
+      "name" : "addFileMP4",
+      "time" : {
+        "start" : 1523537181817,
+        "stop" : 1523537217784,
+        "duration" : 35967
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "8e0085ee32495929",
+      "name" : "сheckEmailInLowerCase",
+      "time" : {
+        "start" : 1523539233654,
+        "stop" : 1523539270107,
+        "duration" : 36453
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "48a7dd0413836f04",
+      "name" : "сheckEmailWithUnderscoreInAccountNAme",
+      "time" : {
+        "start" : 1523539638599,
+        "stop" : 1523539676056,
+        "duration" : 37457
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "cd2bb19949fce5bb",
+      "name" : "сheckCreateNullPhone",
+      "time" : {
+        "start" : 1523537485383,
+        "stop" : 1523537515251,
+        "duration" : 29868
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "310a3ebb81ad175e",
+      "name" : "сheckCreateLastNameWithSpace",
+      "time" : {
+        "start" : 1523537624211,
+        "stop" : 1523537657652,
+        "duration" : 33441
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e02c05a5c9fbaff",
+      "name" : "сheckEmptyEmail",
+      "time" : {
+        "start" : 1523538667731,
+        "stop" : 1523538692282,
+        "duration" : 24551
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "5ebb3d617e1bc850",
+      "name" : "сheckLenghtOfCity",
+      "time" : {
+        "start" : 1523540741862,
+        "stop" : 1523540785127,
+        "duration" : 43265
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d4d6e1c7798489e8",
+      "name" : "checkCountOfDocuments",
+      "time" : {
+        "start" : 1523536784029,
+        "stop" : 1523537137120,
+        "duration" : 353091
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "24540ba4ab726e5b",
+      "name" : "сheckTransitionToCreateCadidatesPageTest",
+      "time" : {
+        "start" : 1523538279009,
+        "stop" : 1523538307707,
+        "duration" : 28698
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e426337446255b73",
+      "name" : "сheckEmailWithoutAccountNameAndDomen",
+      "time" : {
+        "start" : 1523539609881,
+        "stop" : 1523539635933,
+        "duration" : 26052
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "76fa00d77db875b9",
+      "name" : "сheckAddPhotoPNG",
+      "time" : {
+        "start" : 1523540040389,
+        "stop" : 1523540067713,
+        "duration" : 27324
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "ab3def6eca71fd7c",
+      "name" : "сheckEmailDifferentSymbols",
+      "time" : {
+        "start" : 1523538822722,
+        "stop" : 1523538893149,
+        "duration" : 70427
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "eb609ab51388b6ab",
+      "name" : "сheckCreateCadidateProfile",
+      "time" : {
+        "start" : 1523538043669,
+        "stop" : 1523538167212,
+        "duration" : 123543
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "40fdcbf96fe4fd08",
+      "name" : "сheckDateInFormateDDMMYYYY",
+      "time" : {
+        "start" : 1523538596544,
+        "stop" : 1523538635098,
+        "duration" : 38554
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "398cbf11fdd25ef4",
+      "name" : "сheckSkype",
+      "time" : {
+        "start" : 1523540628308,
+        "stop" : 1523540663699,
+        "duration" : 35391
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "c26a92cc3e52aaa5",
+      "name" : "сheckLetter",
+      "time" : {
+        "start" : 1523540204053,
+        "stop" : 1523540230894,
+        "duration" : 26841
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "76a457bce9858ebe",
+      "name" : "сheckEmailWithCirilicInDomen",
+      "time" : {
+        "start" : 1523538694856,
+        "stop" : 1523538731267,
+        "duration" : 36411
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "9f16b0d82d42a330",
+      "name" : "сheckCreatePhoneWithSpace",
+      "time" : {
+        "start" : 1523537889365,
+        "stop" : 1523537930749,
+        "duration" : 41384
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "399293835dcde072",
+      "name" : "сheckEmailWithSpaceDotsInDomen",
+      "time" : {
+        "start" : 1523539820620,
+        "stop" : 1523539857244,
+        "duration" : 36624
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "28b7fe6f91597410",
+      "name" : "сheckEmptyPhone",
+      "time" : {
+        "start" : 1523540098595,
+        "stop" : 1523540121109,
+        "duration" : 22514
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "2208f45bcaa0581e",
+      "name" : "сheckPhoneNumberWithSpecificSymbolsPart2",
+      "time" : {
+        "start" : 1523540451118,
+        "stop" : 1523540477183,
+        "duration" : 26065
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "31ec20f81924b1d7",
+      "name" : "сheckLastName",
+      "time" : {
+        "start" : 1523540665980,
+        "stop" : 1523540700827,
+        "duration" : 34847
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "198d4f8c590ce953",
+      "name" : "сheckEmailWithSpaceInAccountName",
+      "time" : {
+        "start" : 1523539791356,
+        "stop" : 1523539818231,
+        "duration" : 26875
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "2b3fb2cc50e642c4",
+      "name" : "сheckEmailWithOneLetterInDomen",
+      "time" : {
+        "start" : 1523539020022,
+        "stop" : 1523539056542,
+        "duration" : 36520
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "174f9350607cd6af",
+      "name" : "сheckLenghtOfFirstName",
+      "time" : {
+        "start" : 1523541339575,
+        "stop" : 1523541543483,
+        "duration" : 203908
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "feb235b74a850b6d",
+      "name" : "сheckEmailWithDashInAccountNAme",
+      "time" : {
+        "start" : 1523539707578,
+        "stop" : 1523539748874,
+        "duration" : 41296
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "5a915b419c8bec17",
+      "name" : "сheckCreateMailStartAndEndWithSpace",
+      "time" : {
+        "start" : 1523538169968,
+        "stop" : 1523538210769,
+        "duration" : 40801
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e9ea9d70ffbb4ba7",
+      "name" : "сheckEmailWithoutDomen",
+      "time" : {
+        "start" : 1523539388475,
+        "stop" : 1523539424146,
+        "duration" : 35671
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "cc3e4815655bb47a",
+      "name" : "сheckAnrealMonth",
+      "time" : {
+        "start" : 1523538538499,
+        "stop" : 1523538564866,
+        "duration" : 26367
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "5c9292b0f9c52937",
+      "name" : "removeDocuments",
+      "time" : {
+        "start" : 1523536732951,
+        "stop" : 1523536781515,
+        "duration" : 48564
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "9703f21b30412e8a",
+      "name" : "сheckAnrealYear",
+      "time" : {
+        "start" : 1523538461431,
+        "stop" : 1523538506565,
+        "duration" : 45134
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "7156151deb2ff8ec",
+      "name" : "сheckCreateNullLastName",
+      "time" : {
+        "start" : 1523538245660,
+        "stop" : 1523538276205,
+        "duration" : 30545
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "4d07c06b39b3a916",
+      "name" : "сheckTransitionToCadidatesPageTest",
+      "time" : {
+        "start" : 1523537416696,
+        "stop" : 1523537439681,
+        "duration" : 22985
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "27cef83ed6f0fa6f",
+      "name" : "сheckCreateIdenticalCadidateProfile",
+      "time" : {
+        "start" : 1523537519459,
+        "stop" : 1523537541877,
+        "duration" : 22418
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "e015c8745a369c22",
+      "name" : "сheckEmailWithDashInDomen",
+      "time" : {
+        "start" : 1523539350281,
+        "stop" : 1523539385949,
+        "duration" : 35668
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "44bb9d4a82877d84",
+      "name" : "сheckSpecialSymbolsAtDesiredPosition",
+      "time" : {
+        "start" : 1523540703052,
+        "stop" : 1523540739654,
+        "duration" : 36602
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "3ca9a0bdbee26d37",
+      "name" : "сheckEmailWithoutAt",
+      "time" : {
+        "start" : 1523538637959,
+        "stop" : 1523538665119,
+        "duration" : 27160
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "5d3fbe561c910aa0",
+      "name" : "сheckEmailWithoutDotsInDomen",
+      "time" : {
+        "start" : 1523538942218,
+        "stop" : 1523538968963,
+        "duration" : 26745
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "3ae86c652f4a90fb",
+      "name" : "сheckSecondName",
+      "time" : {
+        "start" : 1523541123911,
+        "stop" : 1523541159664,
+        "duration" : 35753
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "161a7861b9ea3aed",
+      "name" : "сheckEmailInUpperCase",
+      "time" : {
+        "start" : 1523539569897,
+        "stop" : 1523539606789,
+        "duration" : 36892
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d038f7e3392498fc",
+      "name" : "сheckPhoneNumberMinLenght",
+      "time" : {
+        "start" : 1523540380364,
+        "stop" : 1523540416730,
+        "duration" : 36366
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "52342cc9cfabcf06",
+      "name" : "сheckCreateLastNameStartAndEndWithSpace",
+      "time" : {
+        "start" : 1523537589220,
+        "stop" : 1523537620380,
+        "duration" : 31160
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "2e84a5354bc09654",
+      "name" : "addFileXLS",
+      "time" : {
+        "start" : 1523537262734,
+        "stop" : 1523537299151,
+        "duration" : 36417
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f0f70de3ba6a5a2d",
+      "name" : "сheckCreateNullFirstName",
+      "time" : {
+        "start" : 1523537845271,
+        "stop" : 1523537885514,
+        "duration" : 40243
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "809525dd60a0d66c",
+      "name" : "addFilePDF",
+      "time" : {
+        "start" : 1523537221495,
+        "stop" : 1523537258456,
+        "duration" : 36961
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "7cb938906795e70b",
+      "name" : "сheckEmailWithSomeDotsInDomen",
+      "time" : {
+        "start" : 1523539136255,
+        "stop" : 1523539230760,
+        "duration" : 94505
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "2007fc2d5cffb460",
+      "name" : "сheckSpecificSymbolsAtLastName",
+      "time" : {
+        "start" : 1523541049633,
+        "stop" : 1523541084635,
+        "duration" : 35002
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "674cc2c528e35143",
+      "name" : "сheckAddPhotoTXT",
+      "time" : {
+        "start" : 1523540069949,
+        "stop" : 1523540096093,
+        "duration" : 26144
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "8abc8e804debb229",
+      "name" : "сheckAddPhotoPDF",
+      "time" : {
+        "start" : 1523540012956,
+        "stop" : 1523540037983,
+        "duration" : 25027
+      },
+      "status" : "broken",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "4134f8d83e94f109",
+      "name" : "сheckCreateFirstNameStartAndEndWithSpace",
+      "time" : {
+        "start" : 1523537443422,
+        "stop" : 1523537481123,
+        "duration" : 37701
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "90d869cd04b178",
+      "name" : "сheckLenghtOfLastName",
+      "time" : {
+        "start" : 1523540788769,
+        "stop" : 1523540818145,
+        "duration" : 29376
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "c1a9aead228c8e6",
+      "name" : "сheckPhoneNumberWithSpace",
+      "time" : {
+        "start" : 1523540520311,
+        "stop" : 1523540557426,
+        "duration" : 37115
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "1a0f39d9af77cc55",
+      "name" : "сheckCountry",
+      "time" : {
+        "start" : 1523541264209,
+        "stop" : 1523541297354,
+        "duration" : 33145
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d6cdf5d2cc2a933f",
+      "name" : "сheckParametersPhoto",
+      "time" : {
+        "start" : 1523539891130,
+        "stop" : 1523539918488,
+        "duration" : 27358
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d3ef6695c558fbdd",
+      "name" : "addFileDOC",
+      "time" : {
+        "start" : 1523537141092,
+        "stop" : 1523537178776,
+        "duration" : 37684
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "c7f5ceb07965a74e",
+      "name" : "сheckCreateFirstNameWithSpace",
+      "time" : {
+        "start" : 1523537991462,
+        "stop" : 1523538040492,
+        "duration" : 49030
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "399322dafc46f4fc",
+      "name" : "сheckAddPhotoJPG",
+      "time" : {
+        "start" : 1523539980690,
+        "stop" : 1523540010740,
+        "duration" : 30050
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "3ecdb08641eb8a93",
+      "name" : "сheckPhoneNumberWithLettersAndNumeric",
+      "time" : {
+        "start" : 1523540270027,
+        "stop" : 1523540296089,
+        "duration" : 26062
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "f189b015a961960",
+      "name" : "сheckAddPhotoGIF",
+      "time" : {
+        "start" : 1523539951907,
+        "stop" : 1523539978449,
+        "duration" : 26542
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "d007ed1991bdf274",
+      "name" : "сheckDateInFormateDDMMYY",
+      "time" : {
+        "start" : 1523538375291,
+        "stop" : 1523538400945,
+        "duration" : 25654
+      },
+      "status" : "failed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "cd8d1253975a6ec5",
+      "name" : "сheckCreateNullMail",
+      "time" : {
+        "start" : 1523537795497,
+        "stop" : 1523537842691,
+        "duration" : 47194
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    }, {
+      "uid" : "166bb8e53a93bf65",
+      "name" : "сheckAdditionalInfo",
+      "time" : {
+        "start" : 1523541187956,
+        "stop" : 1523541222971,
+        "duration" : 35015
+      },
+      "status" : "passed",
+      "flaky" : false,
+      "type" : "TestCaseNode"
+    } ]
+  } ]
+}

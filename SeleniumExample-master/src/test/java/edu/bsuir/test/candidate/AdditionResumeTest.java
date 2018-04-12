@@ -5,11 +5,15 @@ import edu.bsuir.entity.Helper;
 import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.CreateCandidatePage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -32,6 +36,11 @@ public class AdditionResumeTest {
     }
 
     @Test
+    @DisplayName("Загрузка DOC")
+    @Description("Загрузка файлов с расширением DOC")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 17 – Загрузка резюме")
+    @Severity(SeverityLevel.NORMAL)
     public void loadResumeDOC() throws Exception {
         ccp.loadResume();
         ccp.loadFileSikuli("resources/Trush_Konstantin.doc");
@@ -43,6 +52,23 @@ public class AdditionResumeTest {
     }
 
     @Test
+    public void loadOtherResumeDOC() throws Exception {
+        ccp.loadResume();
+        ccp.loadFileSikuli("resources/Tochilo.doc");
+        Thread.sleep(5000);
+        WebElement el = driver.findElement(By.xpath("//input[@id='name']"));
+        Assert.assertEquals("Анна", el.getText());
+        //Assert.assertEquals("Точило", ccp.getLastName());
+        //Assert.assertEquals("+375 29 8285183", ccp.getPhone());
+       // Assert.assertEquals("ankabrest@mail.ru ", ccp.getMail());
+    }
+
+    @Test
+    @DisplayName("Загрузка PDF")
+    @Description("Загрузка файлов с расширением PDF")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 17 – Загрузка резюме")
+    @Severity(SeverityLevel.NORMAL)
     public void loadResumePDF() throws Exception {
         ccp.loadResume();
         ccp.loadFileSikuli("resources/Trush_Konstantin.pdf");

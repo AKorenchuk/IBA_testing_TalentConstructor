@@ -1,12 +1,13 @@
 package edu.bsuir.test.candidate;
 
-
 import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.CandidatePage;
 import edu.bsuir.web.page.CreateCandidatePage;
 import edu.bsuir.web.page.MenuPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -27,9 +28,6 @@ public class EditingCandaidatePage {
     public CreateCandidatePage ccp = new CreateCandidatePage();
 
 
-    public String ERROR = "Ошибка!";
-
-
     @Before
     public void init() throws SAXException, ParserConfigurationException, XPathExpressionException, IOException {
         driver = WebDriverSingleton.getInstance();
@@ -38,7 +36,13 @@ public class EditingCandaidatePage {
     }
 
 
+
     @Test
+    @DisplayName("Редактирование кандидата")
+    @Description("Создаем кандидата, нажимаем на кнопку 'Редактировать', изменяем некоторые поля и вновь сохраняем ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 11 – Редактирование кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void editCadidateProfile() {
         ccp.setLastName("Korenchuk");
         ccp.setName("Anna");

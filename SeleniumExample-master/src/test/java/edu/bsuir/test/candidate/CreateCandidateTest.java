@@ -6,6 +6,8 @@ import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.CandidatePage;
 import edu.bsuir.web.page.CreateCandidatePage;
 import edu.bsuir.web.page.MenuPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -40,12 +42,22 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Переход на страницу создания кандидата")
+    @Description("Переход на страницу создания кандидата")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 13 – Переход на страницу создания кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckTransitionToCreateCadidatesPageTest() throws InterruptedException {
         ccp.openCreateCandidatePageByButton();
         Assert.assertEquals(CREATE_CANDIDATE_PAGE, driver.getTitle());
     }
 
     @Test
+    @DisplayName("Отменить создания кандидата")
+    @Description("Отменить создания кандидата")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 14 – Отменить создания кандидата")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCancelButtonAtCadidateProfilePageTest() {
         ccp.openCreateProfile();
         ccp.canceledCreateCandidate();
@@ -53,6 +65,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Пустой профиль")
+    @Description("Создания кандидата со всеми пустыми полями")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateEmptyCadidateProfile() {
         ccp.openCreateProfile();
         ccp.saveCandidateProfile();
@@ -60,6 +77,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Корректные данные ")
+    @Description("Создания кандидата со всеми заполнеными полями")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateCadidateProfile() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -78,6 +100,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Пустое имя")
+    @Description("Создания кандидата без имени")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateNullFirstName() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -88,6 +115,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Пробелы ")
+    @Description("Создания кандидата, где поля  'Имя' содеерит пробелы в начале и конце")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateFirstNameStartAndEndWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -99,6 +131,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Имя состоит только из пробелов")
+    @Description("Создания кандидата с именем, состоящим только из пробелов")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateFirstNameWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -111,6 +148,11 @@ public class CreateCandidateTest {
 
 
     @Test
+    @DisplayName("Пустая фамилия")
+    @Description("Создания кандидата без фамилии")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateNullLastName() {
         ccp.openCreateProfile();
         ccp.setName("Anna");
@@ -121,6 +163,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Фамилия с пробелами")
+    @Description("Создания кандидата, где  'Фамилия' содеержат пробелы в начале и конце")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateLastNameStartAndEndWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("   Korenchuk   ");
@@ -132,6 +179,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Фамилия только из пробелов")
+    @Description("Создания кандидата, где  'Фамилия' содеержат только ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateLastNameWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("    ");
@@ -144,6 +196,11 @@ public class CreateCandidateTest {
 
 
     @Test
+    @DisplayName("Пустой телефон")
+    @Description("Создания кандидата, где   поле 'Телефон' пустое ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateNullPhone() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -154,6 +211,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Телефон с пробелами")
+    @Description("Создания кандидата, где   поле 'Телефон' содержит пробелы в начале и в конце")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreatePhoneStartAndEndWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -165,6 +227,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Телефон только с пробелами")
+    @Description("Создания кандидата, где   поле 'Телефон' содержит только пробелы ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreatePhoneWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -176,6 +243,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Пустая почта")
+    @Description("Создания кандидата, где   поле 'Эл.почта' не заполнено ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateNullMail() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -186,6 +258,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Почта с пробелами ")
+    @Description("Создания кандидата, где   поле 'Эл.почта' содержит пробелы в начале и в конце ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateMailStartAndEndWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");
@@ -197,6 +274,11 @@ public class CreateCandidateTest {
     }
 
     @Test
+    @DisplayName("Почта только из пробелов")
+    @Description("Создания кандидата, где   поле 'Эл.почта' содержит только пробелы ")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 15 – Обязательные поля")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckCreateMailWithSpace() {
         ccp.openCreateProfile();
         ccp.setLastName("Korenchuk");

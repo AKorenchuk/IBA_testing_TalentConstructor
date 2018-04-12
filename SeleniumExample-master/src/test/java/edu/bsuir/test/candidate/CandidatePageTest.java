@@ -5,6 +5,8 @@ import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.CandidatePage;
 import edu.bsuir.web.page.MenuPage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -33,6 +35,11 @@ public class CandidatePageTest {
     }
 
     @Test
+    @DisplayName("Кандидаты")
+    @Description("Переход н страницу, где содержится информация о кандидатах")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 16 – Переход на страницу с кандидатами")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckTransitionToCadidatesPageTest() {
         mp.moveToElementAdaptPage();
         cp.openCandidatesPage();

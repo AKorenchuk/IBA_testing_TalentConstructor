@@ -1,0 +1,60 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "statistic" : {
+      "failed" : 28,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 70,
+      "unknown" : 0,
+      "total" : 103
+    },
+    "time" : {
+      "minDuration" : 22418,
+      "maxDuration" : 353091,
+      "sumDuration" : 4562505,
+      "start" : 1523536624132,
+      "stop" : 1523541543483,
+      "duration" : 4919351
+    }
+  },
+  "environment" : [ ],
+  "history-trend" : [ {
+    "failed" : 28,
+    "broken" : 5,
+    "skipped" : 0,
+    "passed" : 70,
+    "unknown" : 0,
+    "total" : 103
+  } ],
+  "behaviors" : {
+    "total" : 2,
+    "items" : [ {
+      "name" : "Создание кандидата",
+      "statistic" : {
+        "failed" : 9,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 18
+      }
+    }, {
+      "name" : "Создание заявки",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 1
+      }
+    } ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "seleniumExample"
+  } ],
+  "launches" : [ ]
+}

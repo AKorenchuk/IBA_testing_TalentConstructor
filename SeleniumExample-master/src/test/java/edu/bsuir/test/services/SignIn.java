@@ -2,6 +2,7 @@ package edu.bsuir.test.services;
 
 import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.LoginPage;
+import io.qameta.allure.Step;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.xml.sax.SAXException;
@@ -22,6 +23,7 @@ public class SignIn {
 
     public LoginPage lp = new LoginPage();
 
+    @Step(" Вход в систему под {0}, {1}")
     public void signIn(String login,String password) {
         lp.openLoginPage();
         lp.enterLogin(login);
@@ -29,7 +31,7 @@ public class SignIn {
         lp.clickLoginButton();
     }
 
-
+    @Step(" Вход в систему под {0}")
     public void signIn(Role role) throws IOException, SAXException, ParserConfigurationException, XPathExpressionException {
         DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();

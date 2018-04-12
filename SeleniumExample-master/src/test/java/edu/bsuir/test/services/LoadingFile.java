@@ -1,9 +1,9 @@
 package edu.bsuir.test.services;
 
-
 import edu.bsuir.driver.WebDriverSingleton;
 import edu.bsuir.entity.Element;
 import edu.bsuir.entity.Helper;
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
@@ -19,15 +19,17 @@ public class LoadingFile {
     public WebDriver driver = WebDriverSingleton.getInstance();
 
 
+    @Step(" selenium  действии. Элемент {0},путь к файлу {1}")
     public void uploadFileUsingSelenium(Element inputFile, String  path) {
         inputFile.sendKeys(getAbsolutePath(path));
     }
 
-
+    @Step(" Robot  действии. Путь к файлу {0}")
     public void uploadFileUsingRobot(String path) {
         sendFile(getAbsolutePath( path));
     }
 
+    @Step(" отправление файла {0}")
     private void sendFile(String path) {
         try {
             setClipboardData(path);
@@ -46,16 +48,19 @@ public class LoadingFile {
         }
     }
 
+    @Step(" получение абсолютного пути к файлу {0}")
     public String getAbsolutePath(String file) {
         Path path = Paths.get(file);
         return path.toAbsolutePath().toString();
     }
 
+    @Step(" получение данных в клипборд {0}")
     private void setClipboardData(String string) {
         StringSelection stringSelection = new StringSelection(string);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
     }
 
+    @Step(" Sikuli в действии действии. Путь к файлу {0}")
     public void uploadFileUsingSikuli(String path) throws Exception {
 
         Pattern filePath = new Pattern(getAbsolutePath("resources/sikuli/FilePath.JPG"));

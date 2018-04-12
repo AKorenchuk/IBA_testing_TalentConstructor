@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: edu.bsuir.test.candidate.EmailTest
+-------------------------------------------------------------------------------
+Tests run: 28, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 1,222.109 s <<< FAILURE! - in edu.bsuir.test.candidate.EmailTest
+сheckEmailWithCirilicInDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 36.417 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInDomen(EmailTest.java:383)
+
+сheckIncorrectDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 42.73 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckIncorrectDomen(EmailTest.java:318)
+
+сheckEmailWithOneLetterInDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 36.525 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithOneLetterInDomen(EmailTest.java:357)
+
+сheckEmailWithCirilic(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 41.191 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilic(EmailTest.java:396)
+
+сheckEmailMaxLenght(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 74.305 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailMaxLenght(EmailTest.java:200)
+
+сheckEmailWithoutDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 35.677 s  <<< FAILURE!
+java.lang.AssertionError: By.xpath: //input [@id='primaryEmail'] is not found. 
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithoutDomen(EmailTest.java:302)
+
+сheckEmailWithCirilicInAccount(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 39.405 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInAccount(EmailTest.java:370)
+

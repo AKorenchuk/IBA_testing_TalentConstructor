@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.CreateCandidateTest" time="868.009" tests="17" errors="0" skipped="0" failures="6">
+  <properties>
+    <property name="idea.version" value="2016.3.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\bin"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7533"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\0737~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Java\jdk1.8.0_20\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Git\cmd;C:\Users\Аня\AppData\Local\Programs\Python\Python36-32;C:\Users\Аня\Documents\apache-maven-3.5.0\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Аня"/>
+    <property name="user.timezone" value="America/Bahia"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Аня"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.3.4 clean test allure:report"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA 2016.3.4\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="сheckCreateFirstNameStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="37.709">
+    <failure message="expected:&lt;[Korenchuk Anna]&gt; but was:&lt;[Создание резюме]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
+	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateFirstNameStartAndEndWithSpace(CreateCandidateTest.java:130)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 33627
+Only local connections are allowed.
+апр 12, 2018 9:50:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckCreateNullPhone" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="29.88"/>
+  <testcase name="сheckCreateIdenticalCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="22.428"/>
+  <testcase name="сheckCreatePhoneStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="39.694">
+    <failure message="By.xpath: //div[@id=&apos;primaryTelephone&apos;] is not found. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@id='primaryTelephone'] is not found. 
+	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreatePhoneStartAndEndWithSpace(CreateCandidateTest.java:226)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 26505
+Only local connections are allowed.
+апр 12, 2018 9:52:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckCreateLastNameStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="31.165">
+    <failure message="expected:&lt;[Korenchuk Anna]&gt; but was:&lt;[Создание резюме]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
+	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateLastNameStartAndEndWithSpace(CreateCandidateTest.java:178)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 41408
+Only local connections are allowed.
+апр 12, 2018 9:53:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckCreateLastNameWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="33.447"/>
+  <testcase name="сheckCreateMailWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="124.629">
+    <failure message="By.xpath: //div[@class=&apos;tc-theme-navigationFieldText&apos; and text()=&apos; Кандидаты &apos;] is not clickable. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@class='tc-theme-navigationFieldText' and text()=' Кандидаты '] is not clickable. 
+	at edu.bsuir.test.candidate.CreateCandidateTest.init(CreateCandidateTest.java:41)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 35861
+Only local connections are allowed.
+апр 12, 2018 9:54:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckCreateNullMail" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="47.202"/>
+  <testcase name="сheckCreateNullFirstName" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="40.244"/>
+  <testcase name="сheckCreatePhoneWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="41.391"/>
+  <testcase name="сheckCancelButtonAtCadidateProfilePageTest" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="52.334"/>
+  <testcase name="сheckCreateFirstNameWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="49.037"/>
+  <testcase name="сheckCreateCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="123.552">
+    <failure message="By.xpath: //div[@class=&apos;tc-theme-navigationFieldText&apos; and text()=&apos; Кандидаты &apos;] is not clickable. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@class='tc-theme-navigationFieldText' and text()=' Кандидаты '] is not clickable. 
+	at edu.bsuir.test.candidate.CreateCandidateTest.init(CreateCandidateTest.java:41)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16607
+Only local connections are allowed.
+апр 12, 2018 10:00:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckCreateMailStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="40.808">
+    <failure message="By.xpath: //div[@id=&apos;primaryEmail&apos;]	 is not found. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@id='primaryEmail']	 is not found. 
+	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateMailStartAndEndWithSpace(CreateCandidateTest.java:273)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16671
+Only local connections are allowed.
+апр 12, 2018 10:02:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckCreateEmptyCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="29.3"/>
+  <testcase name="сheckCreateNullLastName" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="30.552"/>
+  <testcase name="сheckTransitionToCreateCadidatesPageTest" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="28.703"/>
+</testsuite>

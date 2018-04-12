@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.bsuir.test.candidate.TelephoneTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 460.927 s <<< FAILURE! - in edu.bsuir.test.candidate.TelephoneTest
+сheckPhoneNumberMaxLenght(edu.bsuir.test.candidate.TelephoneTest)  Time elapsed: 37.771 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.TelephoneTest.сheckPhoneNumberMaxLenght(TelephoneTest.java:199)
+
+сheckPhoneNumberMinLenght(edu.bsuir.test.candidate.TelephoneTest)  Time elapsed: 36.374 s  <<< FAILURE!
+java.lang.AssertionError
+	at edu.bsuir.test.candidate.TelephoneTest.сheckPhoneNumberMinLenght(TelephoneTest.java:185)
+

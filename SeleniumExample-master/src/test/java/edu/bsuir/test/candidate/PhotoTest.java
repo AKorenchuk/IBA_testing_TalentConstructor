@@ -5,6 +5,8 @@ import edu.bsuir.entity.Helper;
 import edu.bsuir.test.services.SignIn;
 import edu.bsuir.test.services.enums.Role;
 import edu.bsuir.web.page.CreateCandidatePage;
+import io.qameta.allure.*;
+import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -61,36 +63,66 @@ public class PhotoTest {
     }
 
     @Test
+    @DisplayName("Загрузка JPG")
+    @Description("Загрузка фото с расширением JPG")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAddPhotoJPG() throws InterruptedException {
         ccp.loadFileSelenium("resources/photo.JPG");
         Assert.assertNotEquals(ccp.getLinkOfCurrentImg(), noAvatar);
     }
 
     @Test
+    @DisplayName("Загрузка PNG")
+    @Description("Загрузка фото с расширением PNG")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAddPhotoPNG() throws InterruptedException {
         ccp.loadFileSelenium("resources/girl.png");
         Assert.assertNotEquals(ccp.getLinkOfCurrentImg(), noAvatar);
     }
 
     @Test
+    @DisplayName("Загрузка PDF")
+    @Description("Загрузка фото с расширением PDF")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAddPhotoPDF() throws InterruptedException {
         ccp.loadFileSelenium("resources/Korenchuk.pdf");
         Assert.assertEquals(ccp.getLinkOfCurrentImg(), noAvatar);
     }
 
     @Test
+    @DisplayName("Загрузка TXT")
+    @Description("Загрузка фото с расширением TXT")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAddPhotoTXT() throws InterruptedException {
         ccp.loadFileSelenium("resources/photo.txt");
         Assert.assertEquals(ccp.getLinkOfCurrentImg(), noAvatar);
     }
 
     @Test
+    @DisplayName("Загрузка GIF")
+    @Description("Загрузка фото с расширением GIF")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckAddPhotoGIF() throws InterruptedException {
         ccp.loadFileSelenium("resources/dancer.gif");
         Assert.assertNotEquals(ccp.getLinkOfCurrentImg(), noAvatar);
     }
 
     @Test
+    @DisplayName("Загрузка фото дважды")
+    @Description("Загрузка фото два раза")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckDoubleChangePhoto() throws InterruptedException {
         ccp.loadFileSelenium("resources/dancer.gif");
         String gif = "http://testing.cld.iba.by/TC-RecruitingAndOnboarding-portlet/common/css/images/dancer.gif";
@@ -101,12 +133,22 @@ public class PhotoTest {
     }
 
     @Test
+    @DisplayName("Большой размер")
+    @Description("Загрузка фото большого размера")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckSizePhoto() throws InterruptedException {
         ccp.loadFileSelenium("resources/big_size.JPG");
         Assert.assertTrue(ccp.isVisibleImageError());
     }
 
     @Test
+    @DisplayName("Большое по рамерам фото")
+    @Description("Загрузка фото большого размера")
+    @Feature("Создание кандидата")
+    @Story("Сценарий 8 – Загрузка фото")
+    @Severity(SeverityLevel.NORMAL)
     public void сheckParametersPhoto() throws InterruptedException {
         ccp.loadFileSelenium("resources/big_parameters.JPG");
         String png = "http://testing.cld.iba.by/TC-RecruitingAndOnboarding-portlet/common/css/images/big_parameters.JPG";
