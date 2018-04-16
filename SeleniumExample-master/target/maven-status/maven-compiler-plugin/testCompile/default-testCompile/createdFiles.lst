@@ -7,6 +7,7 @@ edu\bsuir\web\page\CreatingApplicationPage.class
 edu\bsuir\test\candidate\InjectionsAtTextField.class
 edu\bsuir\web\page\LoginPage.class
 edu\bsuir\web\elements\CreateCandidateElement.class
+edu\bsuir\web\elements\ApplicationElement.class
 edu\bsuir\web\elements\MenuElement.class
 edu\bsuir\test\candidate\PhotoTest.class
 edu\bsuir\test\candidate\EmailTest.class
@@ -21,12 +22,15 @@ edu\bsuir\test\LoginTest.class
 edu\bsuir\web\page\CandidatePage.class
 edu\bsuir\entity\Helper$1.class
 edu\bsuir\web\elements\LoginElement.class
+edu\bsuir\web\page\ApplicationPage.class
 edu\bsuir\entity\Helper.class
 edu\bsuir\test\candidate\TextFieldTest.class
 edu\bsuir\test\candidate\CreateCandidateTest.class
+edu\bsuir\web\elements\AgreementElement.class
 edu\bsuir\web\elements\CandidatElement.class
 edu\bsuir\entity\Element.class
 edu\bsuir\test\candidate\CandidatePageTest.class
+edu\bsuir\web\page\AgreementPage.class
 edu\bsuir\test\ApplicationForWorkTest.class
 edu\bsuir\test\MenuTest.class
 edu\bsuir\web\page\MenuPage.class

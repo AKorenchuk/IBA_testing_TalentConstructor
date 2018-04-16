@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.AdditionFilesTest" time="570.013" tests="6" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.AdditionFilesTest" time="580.769" tests="6" errors="0" skipped="0" failures="6">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7535"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -50,7 +50,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="1.8.0_20"/>
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\classes"/>
@@ -63,187 +63,155 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="removeDocuments" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="48.568">
+  <testcase name="removeDocuments" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="48.348">
     <failure message="expected:&lt;[BigData.xls, sql.docx]&gt; but was:&lt;[BigData.xls, , sql.docx, ]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[BigData.xls, sql.docx]> but was:<[BigData.xls, , sql.docx, ]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.removeDocuments(AdditionFilesTest.java:139)
 ]]></failure>
     <system-out><![CDATA[4
-[[ChromeDriver: chrome on XP (9951e6b4577b4a2bc36bcdeb370102b0)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9951e6b4577b4a2bc36bcdeb370102b0)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9951e6b4577b4a2bc36bcdeb370102b0)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9951e6b4577b4a2bc36bcdeb370102b0)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (b7d90bde4582e041effdc72d07a60177)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (b7d90bde4582e041effdc72d07a60177)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (b7d90bde4582e041effdc72d07a60177)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (b7d90bde4582e041effdc72d07a60177)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 38617
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 11693
 Only local connections are allowed.
-апр 12, 2018 9:38:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:30:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="checkCountOfDocuments" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="353.096">
-    <failure message="expected:&lt;[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]&gt; but was:&lt;[BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, ]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, ]>
+  <testcase name="checkCountOfDocuments" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="351.974">
+    <failure message="expected:&lt;[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]&gt; but was:&lt;[BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, ]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, ]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.checkCountOfDocuments(AdditionFilesTest.java:120)
 ]]></failure>
-    <system-out><![CDATA[100
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (9e6d1cd572858d3f7098c2b875a54074)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+    <system-out><![CDATA[72
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (d1402a0962337ac3dd09c2f0d576c415)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 9070
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 34339
 Only local connections are allowed.
-апр 12, 2018 9:39:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:31:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="addFileDOC" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="37.696">
+  <testcase name="addFileDOC" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="36.24">
     <failure message="expected:&lt;[sql.docx]&gt; but was:&lt;[sql.docx, ]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[sql.docx]> but was:<[sql.docx, ]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFileDOC(AdditionFilesTest.java:54)
 ]]></failure>
     <system-out><![CDATA[2
-[[ChromeDriver: chrome on XP (310d179533eabdd56159c133b2c6d136)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (310d179533eabdd56159c133b2c6d136)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (14e38191a70d0efa88e9ef16975d7bda)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (14e38191a70d0efa88e9ef16975d7bda)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 27123
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 19497
 Only local connections are allowed.
-апр 12, 2018 9:45:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:37:00 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="addFileMP4" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="35.966">
+  <testcase name="addFileMP4" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="36.489">
     <failure message="expected:&lt;[video.mp4]&gt; but was:&lt;[video.mp4, ]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[video.mp4]> but was:<[video.mp4, ]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFileMP4(AdditionFilesTest.java:85)
 ]]></failure>
     <system-out><![CDATA[2
-[[ChromeDriver: chrome on XP (3a5a68dff4b673eb8444d2be56e63d53)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (3a5a68dff4b673eb8444d2be56e63d53)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (037203c3f3c7d574102ce0c9c2478b71)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+[[ChromeDriver: chrome on XP (037203c3f3c7d574102ce0c9c2478b71)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 46029
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 15396
 Only local connections are allowed.
-апр 12, 2018 9:46:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:37:38 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="addFilePDF" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="36.969">
-    <failure message="expected:&lt;[sql.pdf]&gt; but was:&lt;[sql.pdf, ]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[sql.pdf]> but was:<[sql.pdf, ]>
+  <testcase name="addFilePDF" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="47.461">
+    <failure message="expected:&lt;[sql.pdf]&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[sql.pdf]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFilePDF(AdditionFilesTest.java:69)
 ]]></failure>
-    <system-out><![CDATA[2
-[[ChromeDriver: chrome on XP (97413e29bae87e734cedcb73d24f671c)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (97413e29bae87e734cedcb73d24f671c)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+    <system-out><![CDATA[0
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 22461
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 36585
 Only local connections are allowed.
-апр 12, 2018 9:47:01 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:38:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="addFileXLS" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="36.429">
-    <failure message="expected:&lt;[BigData.xls]&gt; but was:&lt;[BigData.xls, ]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[BigData.xls]> but was:<[BigData.xls, ]>
+  <testcase name="addFileXLS" classname="edu.bsuir.test.candidate.AdditionFilesTest" time="44.67">
+    <failure message="expected:&lt;[BigData.xls]&gt; but was:&lt;[]&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<[BigData.xls]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFileXLS(AdditionFilesTest.java:101)
 ]]></failure>
-    <system-out><![CDATA[2
-[[ChromeDriver: chrome on XP (0d380991def9a7ca71dc645b4ecd7123)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
-[[ChromeDriver: chrome on XP (0d380991def9a7ca71dc645b4ecd7123)] -> xpath: //div[@id='attached-files']/div[@class='control-group']/span]
+    <system-out><![CDATA[0
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 13757
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 28509
 Only local connections are allowed.
-апр 12, 2018 9:47:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:39:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

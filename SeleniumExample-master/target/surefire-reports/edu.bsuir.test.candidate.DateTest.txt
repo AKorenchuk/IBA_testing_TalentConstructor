@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: edu.bsuir.test.candidate.DateTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 327.354 s <<< FAILURE! - in edu.bsuir.test.candidate.DateTest
-сheckDateInFormateDDMMYY(edu.bsuir.test.candidate.DateTest)  Time elapsed: 25.663 s  <<< FAILURE!
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 322.396 s <<< FAILURE! - in edu.bsuir.test.candidate.DateTest
+сheckDateInFormateDDMMYY(edu.bsuir.test.candidate.DateTest)  Time elapsed: 27.793 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckDateInFormateDDMMYY(DateTest.java:78)
 
-сheckAnrealYear(edu.bsuir.test.candidate.DateTest)  Time elapsed: 45.141 s  <<< FAILURE!
+сheckAnrealYear(edu.bsuir.test.candidate.DateTest)  Time elapsed: 35.706 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckAnrealYear(DateTest.java:123)
 

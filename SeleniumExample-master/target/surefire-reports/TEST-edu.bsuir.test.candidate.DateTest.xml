@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.DateTest" time="327.354" tests="9" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.DateTest" time="322.396" tests="9" errors="0" skipped="0" failures="2">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7535"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -50,7 +50,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="1.8.0_20"/>
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\classes"/>
@@ -63,31 +63,31 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="сheckAnrealFebruaryDay" classname="edu.bsuir.test.candidate.DateTest" time="24.594"/>
-  <testcase name="сheckFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="34.384"/>
-  <testcase name="сheckDateInFormateDDMMYY" classname="edu.bsuir.test.candidate.DateTest" time="25.663">
+  <testcase name="сheckAnrealFebruaryDay" classname="edu.bsuir.test.candidate.DateTest" time="32.001"/>
+  <testcase name="сheckFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="33.343"/>
+  <testcase name="сheckDateInFormateDDMMYY" classname="edu.bsuir.test.candidate.DateTest" time="27.793">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckDateInFormateDDMMYY(DateTest.java:78)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 23963
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16422
 Only local connections are allowed.
-апр 12, 2018 10:06:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:54:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckDateInFormateDMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="52.792"/>
-  <testcase name="сheckAnrealYear" classname="edu.bsuir.test.candidate.DateTest" time="45.141">
+  <testcase name="сheckDateInFormateDMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="35.411"/>
+  <testcase name="сheckAnrealYear" classname="edu.bsuir.test.candidate.DateTest" time="35.706">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckAnrealYear(DateTest.java:123)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 26092
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 33113
 Only local connections are allowed.
-апр 12, 2018 10:07:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:55:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckAnrealDay" classname="edu.bsuir.test.candidate.DateTest" time="26.835"/>
-  <testcase name="сheckAnrealMonth" classname="edu.bsuir.test.candidate.DateTest" time="26.375"/>
-  <testcase name="сheckAnrealFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="26.615"/>
-  <testcase name="сheckDateInFormateDDMMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="38.562"/>
+  <testcase name="сheckAnrealDay" classname="edu.bsuir.test.candidate.DateTest" time="25.472"/>
+  <testcase name="сheckAnrealMonth" classname="edu.bsuir.test.candidate.DateTest" time="30.857"/>
+  <testcase name="сheckAnrealFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="27.957"/>
+  <testcase name="сheckDateInFormateDDMMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="33.908"/>
 </testsuite>

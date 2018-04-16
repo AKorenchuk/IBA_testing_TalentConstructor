@@ -1,0 +1,217 @@
+{
+  "uid" : "a04d9b36d76cce81",
+  "name" : "Спец. символы",
+  "fullName" : "edu.bsuir.test.candidate.EmailTest.сheckEmailDifferentSymbols",
+  "historyId" : "1876676beb15154cc07357272253435d",
+  "time" : {
+    "start" : 1523872885050,
+    "stop" : 1523872971670,
+    "duration" : 86620
+  },
+  "status" : "passed",
+  "description" : "Ввод email содержащий спец. символы в аккауне ",
+  "descriptionHtml" : "<p>Ввод email содержащий спец. символы в аккауне </p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523872885051,
+        "stop" : 1523872918531,
+        "duration" : 33480
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 5,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523872885064,
+          "stop" : 1523872918531,
+          "duration" : 33467
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "stepsCount" : 4,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523872885064,
+            "stop" : 1523872896326,
+            "duration" : 11262
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523872896326,
+            "stop" : 1523872897507,
+            "duration" : 1181
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523872897507,
+            "stop" : 1523872898650,
+            "duration" : 1143
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523872898650,
+            "stop" : 1523872918531,
+            "duration" : 19881
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "attachmentsCount" : 0,
+          "stepsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523872918532,
+        "stop" : 1523872926129,
+        "duration" : 7597
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка эл.почты !(]SV(|b4&0DNS26cs~Pq|Pfc]LC#mJ0mNddBg?=1/hJ?$.Tg?vo^6^PN-1nc/RdRAF=~_W20w~3GJm!Q[qT|jkP4m>YJaGD0PU<P,F?ZI0$HRaa72EfW$gnl8lB1y_HMudk{%%?}r6otozlDL#%(E[]axv6#!>Tgo!3PjSCBN<dc?>Ab29XpR/Wl)vDerP0#$K68At+&Z=,kbx&^=fqTK&S#_C6=3O*9g,sO9z9K%fT1Bj,u</xQ]]=u[t/~rgm,*y5/v{QPv,1mjvx$?x6o},Ius=a,nAyjQa52O0Hu+jIjL^<[4p,b3vO=~wBzK@gW]bOmU!I+){[<MWr1AhF.M^>DV2<,)Y}~zKB_~/bV.HrOs@)smE)0lrA#r7@3M{R@P$l_d.ga60Pu8*@0>eu5[~Th2NZpjTpD,NOFpQ+l>[ul(677#kiPF{C1A[0sBcN,|R0qZaH>73F.ne=oNZCRKGPz)2aez3b]DHTN.OnVs>|(Px>08sz|tP=#LqT{F|I1SB38@M<aBpEx#[>O4vr9a$esd){7P%9K022cAW64*fGhIR}_]T5f6Ya(J#8<k@5@SMt)*}zdO.-%#e)j?^IgSIesVJ9QHI}_W%_E%z,D}6Od~Z$PQuW$LxjDK>rZxU&4WTg*89?Uz7W^*Z$yGG^)[UpN>SlbD5XVV[(4>r)uum1]Dy}S2c{2l(hN>!igS%dUE7Ge&D}UuZ1r+dBS%@[j^tMO=tOLnSZZI]}%q,)uIT?d<aP[Dt(Rd--WKE^GOC0t49Ib]yev_Rqg.fazBA*9DWW<D!Kubd-M)p[>eLQwwH~+2|*)j/Dwd!+,7hLm37U$eu-%L(X0~=<yq~0)5JZ3p@GitP!,JMN3L,zm6g=-8o|rxCQF!m1FTDqOvXLIpdpdj?L4UsdJHggr#1]X9D5.*Dy=FDU0au.IX8yt<-=.GtV~dJSkue&Sy2Cq9.$jdYWYdO.=+{3]xWBDZbW{120rVE1|J%$}3O?HCd?lpW0@gmail.com",
+      "time" : {
+        "start" : 1523872926157,
+        "stop" : 1523872966896,
+        "duration" : 40739
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "!(]SV(|b4&0DNS26cs~Pq|Pfc]LC#mJ0mNddBg?=1/hJ?$.Tg?vo^6^PN-1nc/RdRAF=~_W20w~3GJm!Q[qT|jkP4m>YJaGD0PU<P,F?ZI0$HRaa72EfW$gnl8lB1y_HMudk{%%?}r6otozlDL#%(E[]axv6#!>Tgo!3PjSCBN<dc?>Ab29XpR/Wl)vDerP0#$K68At+&Z=,kbx&^=fqTK&S#_C6=3O*9g,sO9z9K%fT1Bj,u</xQ]]=u[t/~rgm,*y5/v{QPv,1mjvx$?x6o},Ius=a,nAyjQa52O0Hu+jIjL^<[4p,b3vO=~wBzK@gW]bOmU!I+){[<MWr1AhF.M^>DV2<,)Y}~zKB_~/bV.HrOs@)smE)0lrA#r7@3M{R@P$l_d.ga60Pu8*@0>eu5[~Th2NZpjTpD,NOFpQ+l>[ul(677#kiPF{C1A[0sBcN,|R0qZaH>73F.ne=oNZCRKGPz)2aez3b]DHTN.OnVs>|(Px>08sz|tP=#LqT{F|I1SB38@M<aBpEx#[>O4vr9a$esd){7P%9K022cAW64*fGhIR}_]T5f6Ya(J#8<k@5@SMt)*}zdO.-%#e)j?^IgSIesVJ9QHI}_W%_E%z,D}6Od~Z$PQuW$LxjDK>rZxU&4WTg*89?Uz7W^*Z$yGG^)[UpN>SlbD5XVV[(4>r)uum1]Dy}S2c{2l(hN>!igS%dUE7Ge&D}UuZ1r+dBS%@[j^tMO=tOLnSZZI]}%q,)uIT?d<aP[Dt(Rd--WKE^GOC0t49Ib]yev_Rqg.fazBA*9DWW<D!Kubd-M)p[>eLQwwH~+2|*)j/Dwd!+,7hLm37U$eu-%L(X0~=<yq~0)5JZ3p@GitP!,JMN3L,zm6g=-8o|rxCQF!m1FTDqOvXLIpdpdj?L4UsdJHggr#1]X9D5.*Dy=FDU0au.IX8yt<-=.GtV~dJSkue&Sy2Cq9.$jdYWYdO.=+{3]xWBDZbW{120rVE1|J%$}3O?HCd?lpW0@gmail.com"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523872966897,
+        "stop" : 1523872967496,
+        "duration" : 599
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки связанной с эл.почтой",
+      "time" : {
+        "start" : 1523872969497,
+        "stop" : 1523872969560,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 10
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.EmailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckEmailDifferentSymbols"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.EmailTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "14100@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 10 – Проверка тексового поля 'Эл. почта'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

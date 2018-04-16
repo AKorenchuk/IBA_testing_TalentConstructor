@@ -2,52 +2,52 @@
   "summary" : {
     "reportName" : "Allure Report",
     "statistic" : {
-      "failed" : 28,
-      "broken" : 5,
+      "failed" : 24,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 70,
+      "passed" : 45,
       "unknown" : 0,
-      "total" : 103
+      "total" : 70
     },
     "time" : {
-      "minDuration" : 22418,
-      "maxDuration" : 353091,
-      "sumDuration" : 4562505,
-      "start" : 1523536624132,
-      "stop" : 1523541543483,
-      "duration" : 4919351
+      "minDuration" : 18371,
+      "maxDuration" : 351967,
+      "sumDuration" : 3824598,
+      "start" : 1523870408315,
+      "stop" : 1523874567960,
+      "duration" : 4159645
     }
   },
   "environment" : [ ],
   "history-trend" : [ {
-    "failed" : 28,
-    "broken" : 5,
+    "failed" : 24,
+    "broken" : 1,
     "skipped" : 0,
-    "passed" : 70,
+    "passed" : 45,
     "unknown" : 0,
-    "total" : 103
+    "total" : 70
   } ],
   "behaviors" : {
     "total" : 2,
     "items" : [ {
       "name" : "Создание кандидата",
       "statistic" : {
-        "failed" : 9,
-        "broken" : 2,
+        "failed" : 5,
+        "broken" : 0,
         "skipped" : 0,
-        "passed" : 7,
+        "passed" : 3,
         "unknown" : 0,
-        "total" : 18
+        "total" : 8
       }
     }, {
       "name" : "Создание заявки",
       "statistic" : {
-        "failed" : 0,
+        "failed" : 2,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 1
+        "total" : 6
       }
     } ]
   },

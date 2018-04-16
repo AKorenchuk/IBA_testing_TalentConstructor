@@ -1,9 +1,12 @@
+D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\elements\AgreementElement.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\elements\CreateCandidateElement.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\MenuTest.java
+D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\page\ApplicationPage.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\elements\CandidatElement.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\candidate\CandidatePageTest.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\LoginTest.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\candidate\TextFieldTest.java
+D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\elements\ApplicationElement.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\elements\MenuElement.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\candidate\PhotoTest.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\candidate\AdditionResumeTest.java
@@ -25,6 +28,7 @@ D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bs
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\services\enums\Role.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\candidate\CreateCandidateTest.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\page\CandidatePage.java
+D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\page\AgreementPage.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\page\LoginPage.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\web\page\CreatingApplicationPage.java
 D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\src\test\java\edu\bsuir\test\candidate\InjectionsAtTextField.java

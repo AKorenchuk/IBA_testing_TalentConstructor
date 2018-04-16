@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.CreateCandidateTest" time="868.009" tests="17" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.CreateCandidateTest" time="630.532" tests="17" errors="1" skipped="0" failures="5">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7533"/>
+    <property name="idea.launcher.port" value="7535"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -50,7 +50,7 @@
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="ru"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.version" value="1.8.0_20"/>
     <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_20\jre\classes"/>
@@ -63,75 +63,84 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="сheckCreateFirstNameStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="37.709">
+  <testcase name="сheckCreateFirstNameStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="30.531">
     <failure message="expected:&lt;[Korenchuk Anna]&gt; but was:&lt;[Создание резюме]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateFirstNameStartAndEndWithSpace(CreateCandidateTest.java:130)
 ]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 33627
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 36043
 Only local connections are allowed.
-апр 12, 2018 9:50:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:42:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckCreateNullPhone" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="29.88"/>
-  <testcase name="сheckCreateIdenticalCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="22.428"/>
-  <testcase name="сheckCreatePhoneStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="39.694">
+  <testcase name="сheckCreateNullPhone" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="30.015"/>
+  <testcase name="сheckCreateIdenticalCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="18.379">
+    <error message="element not visible&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;ANYA&apos;, ip: &apos;192.168.229.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\0737~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: f0e8c2fd3c6d206c10be42712bc5450a" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: 
+element not visible
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ANYA', ip: '192.168.229.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\0737~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: f0e8c2fd3c6d206c10be42712bc5450a
+	at edu.bsuir.test.candidate.CreateCandidateTest.init(CreateCandidateTest.java:41)
+</error>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 13376
+Only local connections are allowed.
+апр 16, 2018 6:43:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckCreatePhoneStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="40.548">
     <failure message="By.xpath: //div[@id=&apos;primaryTelephone&apos;] is not found. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@id='primaryTelephone'] is not found. 
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreatePhoneStartAndEndWithSpace(CreateCandidateTest.java:226)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 26505
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 9232
 Only local connections are allowed.
-апр 12, 2018 9:52:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:44:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckCreateLastNameStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="31.165">
+  <testcase name="сheckCreateLastNameStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="54.981">
     <failure message="expected:&lt;[Korenchuk Anna]&gt; but was:&lt;[Создание резюме]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateLastNameStartAndEndWithSpace(CreateCandidateTest.java:178)
 ]]></failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 41408
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 12772
 Only local connections are allowed.
-апр 12, 2018 9:53:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:44:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckCreateLastNameWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="33.447"/>
-  <testcase name="сheckCreateMailWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="124.629">
-    <failure message="By.xpath: //div[@class=&apos;tc-theme-navigationFieldText&apos; and text()=&apos; Кандидаты &apos;] is not clickable. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@class='tc-theme-navigationFieldText' and text()=' Кандидаты '] is not clickable. 
-	at edu.bsuir.test.candidate.CreateCandidateTest.init(CreateCandidateTest.java:41)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 35861
+  <testcase name="сheckCreateLastNameWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="32.875"/>
+  <testcase name="сheckCreateMailWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="38.669"/>
+  <testcase name="сheckCreateNullMail" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="29.068"/>
+  <testcase name="сheckCreateNullFirstName" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="37.691"/>
+  <testcase name="сheckCreatePhoneWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="29.866"/>
+  <testcase name="сheckCancelButtonAtCadidateProfilePageTest" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="27.857"/>
+  <testcase name="сheckCreateFirstNameWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="30.675"/>
+  <testcase name="сheckCreateCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="30.096">
+    <failure message="expected:&lt;[Korenchuk Anna]&gt; but was:&lt;[Создание резюме]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
+	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateCadidateProfile(CreateCandidateTest.java:92)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16330
 Only local connections are allowed.
-апр 12, 2018 9:54:26 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:50:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckCreateNullMail" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="47.202"/>
-  <testcase name="сheckCreateNullFirstName" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="40.244"/>
-  <testcase name="сheckCreatePhoneWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="41.391"/>
-  <testcase name="сheckCancelButtonAtCadidateProfilePageTest" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="52.334"/>
-  <testcase name="сheckCreateFirstNameWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="49.037"/>
-  <testcase name="сheckCreateCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="123.552">
-    <failure message="By.xpath: //div[@class=&apos;tc-theme-navigationFieldText&apos; and text()=&apos; Кандидаты &apos;] is not clickable. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@class='tc-theme-navigationFieldText' and text()=' Кандидаты '] is not clickable. 
-	at edu.bsuir.test.candidate.CreateCandidateTest.init(CreateCandidateTest.java:41)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16607
-Only local connections are allowed.
-апр 12, 2018 10:00:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="сheckCreateMailStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="40.808">
+  <testcase name="сheckCreateMailStartAndEndWithSpace" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="40.693">
     <failure message="By.xpath: //div[@id=&apos;primaryEmail&apos;]	 is not found. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //div[@id='primaryEmail']	 is not found. 
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateMailStartAndEndWithSpace(CreateCandidateTest.java:273)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16671
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 33859
 Only local connections are allowed.
-апр 12, 2018 10:02:49 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 6:50:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckCreateEmptyCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="29.3"/>
-  <testcase name="сheckCreateNullLastName" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="30.552"/>
-  <testcase name="сheckTransitionToCreateCadidatesPageTest" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="28.703"/>
+  <testcase name="сheckCreateEmptyCadidateProfile" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="27.712"/>
+  <testcase name="сheckCreateNullLastName" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="37.884"/>
+  <testcase name="сheckTransitionToCreateCadidatesPageTest" classname="edu.bsuir.test.candidate.CreateCandidateTest" time="27.069"/>
 </testsuite>

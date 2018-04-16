@@ -1,8 +1,8 @@
 [ {
-  "failed" : 28,
-  "broken" : 5,
+  "failed" : 24,
+  "broken" : 1,
   "skipped" : 0,
-  "passed" : 70,
+  "passed" : 45,
   "unknown" : 0,
-  "total" : 103
+  "total" : 70
 } ]
