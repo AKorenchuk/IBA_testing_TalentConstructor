@@ -1,0 +1,491 @@
+{
+  "uid" : "c697463d6283eb29",
+  "name" : "Создание заявки",
+  "fullName" : "edu.bsuir.test.ApplicationForWorkTest.checkApplicationForWorkTest",
+  "historyId" : "bf65206d94b49382a34ee92bb406f997",
+  "time" : {
+    "start" : 1523877545167,
+    "stop" : 1523877607927,
+    "duration" : 62760
+  },
+  "status" : "passed",
+  "description" : "Создание заявки с корректными данными",
+  "descriptionHtml" : "<p>Создание заявки с корректными данными</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523877545167,
+        "stop" : 1523877564593,
+        "duration" : 19426
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523877545361,
+          "stop" : 1523877564593,
+          "duration" : 19232
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523877545361,
+            "stop" : 1523877552017,
+            "duration" : 6656
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523877552018,
+            "stop" : 1523877553247,
+            "duration" : 1229
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523877553247,
+            "stop" : 1523877554502,
+            "duration" : 1255
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523877554503,
+            "stop" : 1523877564592,
+            "duration" : 10089
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : "открытие страницы подбора и адаптации",
+      "time" : {
+        "start" : 1523877564593,
+        "stop" : 1523877568312,
+        "duration" : 3719
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "нажатие на кнопку создания заявки",
+      "time" : {
+        "start" : 1523877568312,
+        "stop" : 1523877573768,
+        "duration" : 5456
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "ввод должности : programmer",
+      "time" : {
+        "start" : 1523877573769,
+        "stop" : 1523877574903,
+        "duration" : 1134
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "programmer"
+      } ]
+    }, {
+      "name" : "ввод даты(затрашее число) ",
+      "time" : {
+        "start" : 1523877574904,
+        "stop" : 1523877575686,
+        "duration" : 782
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "установка приоритета ",
+      "time" : {
+        "start" : 1523877575688,
+        "stop" : 1523877576259,
+        "duration" : 571
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "ввод кол-ва соотрудников : 20",
+      "time" : {
+        "start" : 1523877576260,
+        "stop" : 1523877576864,
+        "duration" : 604
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "quantity",
+        "value" : "20"
+      } ]
+    }, {
+      "name" : " установка обязанности",
+      "time" : {
+        "start" : 1523877576865,
+        "stop" : 1523877577882,
+        "duration" : 1017
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "reason",
+        "value" : "expansion of the department"
+      } ]
+    }, {
+      "name" : "установка типа еонтракта ",
+      "time" : {
+        "start" : 1523877577883,
+        "stop" : 1523877578692,
+        "duration" : 809
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "установка зарплаты: 800 ",
+      "time" : {
+        "start" : 1523877578694,
+        "stop" : 1523877579302,
+        "duration" : 608
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "salary",
+        "value" : "800"
+      } ]
+    }, {
+      "name" : "установка кол-ва подчиненных no ",
+      "time" : {
+        "start" : 1523877579303,
+        "stop" : 1523877579872,
+        "duration" : 569
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "employees",
+        "value" : "no"
+      } ]
+    }, {
+      "name" : " установка графика командировок",
+      "time" : {
+        "start" : 1523877579873,
+        "stop" : 1523877580673,
+        "duration" : 800
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "businessTrip",
+        "value" : "twice a week"
+      } ]
+    }, {
+      "name" : " установка графика работы ",
+      "time" : {
+        "start" : 1523877580674,
+        "stop" : 1523877581365,
+        "duration" : 691
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "timetable",
+        "value" : "5 day a week"
+      } ]
+    }, {
+      "name" : " установка испытательного периода",
+      "time" : {
+        "start" : 1523877581366,
+        "stop" : 1523877582005,
+        "duration" : 639
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "probationPeriod",
+        "value" : "1 month"
+      } ]
+    }, {
+      "name" : " установка специальности {10} ",
+      "time" : {
+        "start" : 1523877582006,
+        "stop" : 1523877582673,
+        "duration" : 667
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "responsibilities",
+        "value" : "bug fixing"
+      } ]
+    }, {
+      "name" : " установка импа кондидата ",
+      "time" : {
+        "start" : 1523877582673,
+        "stop" : 1523877583408,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка специальности {10} ",
+      "time" : {
+        "start" : 1523877583409,
+        "stop" : 1523877584128,
+        "duration" : 719
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "requiredEducation",
+        "value" : "technical"
+      } ]
+    }, {
+      "name" : " установка опыта работы в престижных компаниях: IBA,EPAM ",
+      "time" : {
+        "start" : 1523877584129,
+        "stop" : 1523877584973,
+        "duration" : 844
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "priorityWorkingExperience",
+        "value" : "IBA,EPAM"
+      } ]
+    }, {
+      "name" : " установка опыта работы в отсталой  компаниии: - ",
+      "time" : {
+        "start" : 1523877584975,
+        "stop" : 1523877585601,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "undesirableWorkingExperience",
+        "value" : "-"
+      } ]
+    }, {
+      "name" : " установка обязательных компетенций ",
+      "time" : {
+        "start" : 1523877585601,
+        "stop" : 1523877594323,
+        "duration" : 8722
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " запись комментария : urgently ",
+      "time" : {
+        "start" : 1523877594324,
+        "stop" : 1523877595090,
+        "duration" : 766
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "comment",
+        "value" : "urgently"
+      } ]
+    }, {
+      "name" : " сохранение заявки ",
+      "time" : {
+        "start" : 1523877600091,
+        "stop" : 1523877600724,
+        "duration" : 633
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 27,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.ApplicationForWorkTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkApplicationForWorkTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.ApplicationForWorkTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание заявки"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Создание заявки"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

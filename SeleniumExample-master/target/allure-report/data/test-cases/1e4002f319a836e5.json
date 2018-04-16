@@ -1,0 +1,217 @@
+{
+  "uid" : "1e4002f319a836e5",
+  "name" : "Отсутствие @ ",
+  "fullName" : "edu.bsuir.test.candidate.EmailTest.сheckEmailWithoutAt",
+  "historyId" : "eac771d0f552ce0c45b978e00a218e35",
+  "time" : {
+    "start" : 1523879693594,
+    "stop" : 1523879720939,
+    "duration" : 27345
+  },
+  "status" : "passed",
+  "description" : "Ввод email не содержащий @ ",
+  "descriptionHtml" : "<p>Ввод email не содержащий @ </p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523879693594,
+        "stop" : 1523879710560,
+        "duration" : 16966
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523879693608,
+          "stop" : 1523879710560,
+          "duration" : 16952
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523879693609,
+            "stop" : 1523879699039,
+            "duration" : 5430
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523879699040,
+            "stop" : 1523879700272,
+            "duration" : 1232
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523879700272,
+            "stop" : 1523879701443,
+            "duration" : 1171
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523879701444,
+            "stop" : 1523879710560,
+            "duration" : 9116
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523879710560,
+        "stop" : 1523879715029,
+        "duration" : 4469
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка эл.почты korenchukgmail.com",
+      "time" : {
+        "start" : 1523879715030,
+        "stop" : 1523879716098,
+        "duration" : 1068
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "korenchukgmail.com"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523879716099,
+        "stop" : 1523879716768,
+        "duration" : 669
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки связанной с эл.почтой",
+      "time" : {
+        "start" : 1523879718770,
+        "stop" : 1523879718832,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.EmailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckEmailWithoutAt"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.EmailTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 10 – Проверка тексового поля 'Эл. почта'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

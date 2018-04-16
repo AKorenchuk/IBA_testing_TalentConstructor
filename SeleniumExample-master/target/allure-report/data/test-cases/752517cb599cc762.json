@@ -1,0 +1,172 @@
+{
+  "uid" : "752517cb599cc762",
+  "name" : "Пробелы в поле логина",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckLoginEndsWithSpace",
+  "historyId" : "928955fcf9eca99215db63666b6830d4",
+  "time" : {
+    "start" : 1523883322100,
+    "stop" : 1523883367628,
+    "duration" : 45528
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. ",
+    "trace" : "java.lang.AssertionError: By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. \r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat edu.bsuir.entity.Element.assertPresence(Element.java:75)\r\n\tat edu.bsuir.entity.Element.getText(Element.java:99)\r\n\tat edu.bsuir.web.page.LoginPage.getErrorMessage_aroundBody6(LoginPage.java:29)\r\n\tat edu.bsuir.web.page.LoginPage$AjcClosure7.run(LoginPage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat edu.bsuir.web.page.LoginPage.getErrorMessage(LoginPage.java:29)\r\n\tat edu.bsuir.test.LoginTest.сheckLoginEndsWithSpace(LoginTest.java:164)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+    "flaky" : false
+  },
+  "description" : "Ввод корректного пароля и логина  с пробелыми на конце",
+  "descriptionHtml" : "<p>Ввод корректного пароля и логина с пробелыми на конце</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. ",
+      "trace" : "java.lang.AssertionError: By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. \r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat edu.bsuir.entity.Element.assertPresence(Element.java:75)\r\n\tat edu.bsuir.entity.Element.getText(Element.java:99)\r\n\tat edu.bsuir.web.page.LoginPage.getErrorMessage_aroundBody6(LoginPage.java:29)\r\n\tat edu.bsuir.web.page.LoginPage$AjcClosure7.run(LoginPage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat edu.bsuir.web.page.LoginPage.getErrorMessage(LoginPage.java:29)\r\n\tat edu.bsuir.test.LoginTest.сheckLoginEndsWithSpace(LoginTest.java:164)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : " Вход в систему под kabanov@tc.by   , welcome",
+      "time" : {
+        "start" : 1523883322101,
+        "stop" : 1523883355172,
+        "duration" : 33071
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883322101,
+          "stop" : 1523883338483,
+          "duration" : 16382
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина kabanov@tc.by   ",
+        "time" : {
+          "start" : 1523883338484,
+          "stop" : 1523883339839,
+          "duration" : 1355
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "kabanov@tc.by   "
+        } ]
+      }, {
+        "name" : "Ввод пароля welcome",
+        "time" : {
+          "start" : 1523883339840,
+          "stop" : 1523883340948,
+          "duration" : 1108
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883340949,
+          "stop" : 1523883355172,
+          "duration" : 14223
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "kabanov@tc.by   "
+      }, {
+        "name" : "password",
+        "value" : "welcome"
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректных данных ",
+      "time" : {
+        "start" : 1523883355173,
+        "stop" : 1523883365302,
+        "duration" : 10129
+      },
+      "status" : "failed",
+      "statusDetails" : {
+        "message" : "By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. ",
+        "trace" : "java.lang.AssertionError: By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. \r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat edu.bsuir.entity.Element.assertPresence(Element.java:75)\r\n\tat edu.bsuir.entity.Element.getText(Element.java:99)\r\n\tat edu.bsuir.web.page.LoginPage.getErrorMessage_aroundBody6(LoginPage.java:29)\r\n\tat edu.bsuir.web.page.LoginPage$AjcClosure7.run(LoginPage.java:1)\r\n\tat org.aspectj.runtime.reflect.JoinPointImpl.proceed(JoinPointImpl.java:149)\r\n\tat io.qameta.allure.aspects.StepsAspects.step(StepsAspects.java:51)\r\n\tat edu.bsuir.web.page.LoginPage.getErrorMessage(LoginPage.java:29)\r\n\tat edu.bsuir.test.LoginTest.сheckLoginEndsWithSpace(LoginTest.java:164)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+        "flaky" : false
+      },
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckLoginEndsWithSpace"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 4 – Пробелы"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects"
+    } ]
+  }
+}

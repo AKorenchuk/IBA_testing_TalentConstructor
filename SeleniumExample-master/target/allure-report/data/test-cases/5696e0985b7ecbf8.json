@@ -1,0 +1,251 @@
+{
+  "uid" : "5696e0985b7ecbf8",
+  "name" : "Формат DDMMYYYY",
+  "fullName" : "edu.bsuir.test.candidate.DateTest.сheckDateInFormateDDMMYYYY",
+  "historyId" : "a29a29ce9e6d1d2a9baf24c5026a1dbb",
+  "time" : {
+    "start" : 1523879634590,
+    "stop" : 1523879689657,
+    "duration" : 55067
+  },
+  "status" : "passed",
+  "description" : "Ввод дате в формате DDMMYYYY ",
+  "descriptionHtml" : "<p>Ввод дате в формате DDMMYYYY </p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523879634590,
+        "stop" : 1523879651901,
+        "duration" : 17311
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523879634603,
+          "stop" : 1523879651901,
+          "duration" : 17298
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523879634604,
+            "stop" : 1523879639890,
+            "duration" : 5286
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523879639890,
+            "stop" : 1523879641086,
+            "duration" : 1196
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523879641087,
+            "stop" : 1523879642218,
+            "duration" : 1131
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523879642219,
+            "stop" : 1523879651901,
+            "duration" : 9682
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523879651902,
+        "stop" : 1523879675072,
+        "duration" : 23170
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка дня рождения кандидата 20",
+      "time" : {
+        "start" : 1523879675073,
+        "stop" : 1523879675840,
+        "duration" : 767
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "day",
+        "value" : "20"
+      } ]
+    }, {
+      "name" : " установка месяца рождения кандидата 04",
+      "time" : {
+        "start" : 1523879675840,
+        "stop" : 1523879676328,
+        "duration" : 488
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "month",
+        "value" : "04"
+      } ]
+    }, {
+      "name" : " установка года рождения кандидата 2018",
+      "time" : {
+        "start" : 1523879676328,
+        "stop" : 1523879676876,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "year",
+        "value" : "2018"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523879676876,
+        "stop" : 1523879677500,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки, связаной со значением даты рождения",
+      "time" : {
+        "start" : 1523879677500,
+        "stop" : 1523879687552,
+        "duration" : 10052
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.DateTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckDateInFormateDDMMYYYY"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.DateTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 12 – Проверка поля 'Даты рождения'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

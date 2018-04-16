@@ -1,0 +1,217 @@
+{
+  "uid" : "e5cd6fcc947d321a",
+  "name" : "Ввод символов",
+  "fullName" : "edu.bsuir.test.candidate.TextFieldTest.сheckSpecificSymbolsAtLastName",
+  "historyId" : "2b18e8f5fb2bf20501d973b02e3f5048",
+  "time" : {
+    "start" : 1523882281271,
+    "stop" : 1523882320881,
+    "duration" : 39610
+  },
+  "status" : "passed",
+  "description" : "Ввод фамилии, содержащий 20 любых символов",
+  "descriptionHtml" : "<p>Ввод фамилии, содержащий 20 любых символов</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523882281272,
+        "stop" : 1523882301694,
+        "duration" : 20422
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523882281287,
+          "stop" : 1523882301694,
+          "duration" : 20407
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523882281287,
+            "stop" : 1523882289258,
+            "duration" : 7971
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523882289259,
+            "stop" : 1523882290432,
+            "duration" : 1173
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523882290432,
+            "stop" : 1523882291224,
+            "duration" : 792
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523882291224,
+            "stop" : 1523882301694,
+            "duration" : 10470
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523882301695,
+        "stop" : 1523882306803,
+        "duration" : 5108
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка фамилии кандидата Wgy{=pt<GLqWVAr%rQ(b",
+      "time" : {
+        "start" : 1523882306804,
+        "stop" : 1523882308228,
+        "duration" : 1424
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Wgy{=pt<GLqWVAr%rQ(b"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523882308228,
+        "stop" : 1523882308740,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки, связаной с  фамилией",
+      "time" : {
+        "start" : 1523882308741,
+        "stop" : 1523882318791,
+        "duration" : 10050
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckSpecificSymbolsAtLastName"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 2 – Проверка тексового поля 'Фамилия'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

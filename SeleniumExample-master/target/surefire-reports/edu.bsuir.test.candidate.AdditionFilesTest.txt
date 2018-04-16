@@ -1,28 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: edu.bsuir.test.candidate.AdditionFilesTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 580.769 s <<< FAILURE! - in edu.bsuir.test.candidate.AdditionFilesTest
-removeDocuments(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 48.348 s  <<< FAILURE!
-java.lang.AssertionError: expected:<[BigData.xls, sql.docx]> but was:<[BigData.xls, , sql.docx, ]>
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 710.691 s <<< FAILURE! - in edu.bsuir.test.candidate.AdditionFilesTest
+removeDocuments(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 126.034 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[BigData.xls, sql.docx]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.removeDocuments(AdditionFilesTest.java:139)
 
-checkCountOfDocuments(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 351.974 s  <<< FAILURE!
-java.lang.AssertionError: expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, , BigData.xls, ]>
+checkCountOfDocuments(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 355.094 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.checkCountOfDocuments(AdditionFilesTest.java:120)
 
-addFileDOC(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 36.24 s  <<< FAILURE!
-java.lang.AssertionError: expected:<[sql.docx]> but was:<[sql.docx, ]>
+addFileDOC(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 58.588 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[sql.docx]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFileDOC(AdditionFilesTest.java:54)
 
-addFileMP4(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 36.489 s  <<< FAILURE!
+addFileMP4(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 39.79 s  <<< FAILURE!
 java.lang.AssertionError: expected:<[video.mp4]> but was:<[video.mp4, ]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFileMP4(AdditionFilesTest.java:85)
 
-addFilePDF(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 47.461 s  <<< FAILURE!
-java.lang.AssertionError: expected:<[sql.pdf]> but was:<[]>
+addFilePDF(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 62.712 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[sql.pdf]> but was:<[sql.pdf, ]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFilePDF(AdditionFilesTest.java:69)
 
-addFileXLS(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 44.67 s  <<< FAILURE!
-java.lang.AssertionError: expected:<[BigData.xls]> but was:<[]>
+addFileXLS(edu.bsuir.test.candidate.AdditionFilesTest)  Time elapsed: 39.343 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[BigData.xls]> but was:<[BigData.xls, ]>
 	at edu.bsuir.test.candidate.AdditionFilesTest.addFileXLS(AdditionFilesTest.java:101)
 

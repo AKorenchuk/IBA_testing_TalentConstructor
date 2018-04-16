@@ -1,0 +1,172 @@
+{
+  "uid" : "1df1084fcda785b5",
+  "name" : "Главная страница",
+  "fullName" : "edu.bsuir.test.MenuTest.сheckTransitionToMainPageTest",
+  "historyId" : "ec6eac620eabecc5a3434f71dbdb3a22",
+  "time" : {
+    "start" : 1523883729309,
+    "stop" : 1523883758966,
+    "duration" : 29657
+  },
+  "status" : "passed",
+  "description" : "Переход на главную страницу",
+  "descriptionHtml" : "<p>Переход на главную страницу</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523883729310,
+        "stop" : 1523883748538,
+        "duration" : 19228
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523883729321,
+          "stop" : 1523883748538,
+          "duration" : 19217
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523883729322,
+            "stop" : 1523883736798,
+            "duration" : 7476
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523883736799,
+            "stop" : 1523883738176,
+            "duration" : 1377
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523883738178,
+            "stop" : 1523883739167,
+            "duration" : 989
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523883739167,
+            "stop" : 1523883748538,
+            "duration" : 9371
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : "открытие главной страницы",
+      "time" : {
+        "start" : 1523883748541,
+        "stop" : 1523883756005,
+        "duration" : 7464
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.MenuTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckTransitionToMainPageTest"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.MenuTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Меню"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Переход на страницы по меню"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

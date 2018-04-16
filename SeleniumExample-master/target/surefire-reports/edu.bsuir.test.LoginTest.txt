@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: edu.bsuir.test.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 573.895 s <<< FAILURE! - in edu.bsuir.test.LoginTest
+сheckLoginEndsWithSpace(edu.bsuir.test.LoginTest)  Time elapsed: 45.533 s  <<< FAILURE!
+java.lang.AssertionError: By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. 
+	at edu.bsuir.test.LoginTest.сheckLoginEndsWithSpace(LoginTest.java:164)
+
+сheckLoginDifferentCase(edu.bsuir.test.LoginTest)  Time elapsed: 32.488 s  <<< FAILURE!
+java.lang.AssertionError: By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. 
+	at edu.bsuir.test.LoginTest.сheckLoginDifferentCase(LoginTest.java:231)
+
+сheckLoginStartsWithSpace(edu.bsuir.test.LoginTest)  Time elapsed: 31.119 s  <<< FAILURE!
+java.lang.AssertionError: By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. 
+	at edu.bsuir.test.LoginTest.сheckLoginStartsWithSpace(LoginTest.java:175)
+
+сheckLoginUpperCase(edu.bsuir.test.LoginTest)  Time elapsed: 30.656 s  <<< FAILURE!
+java.lang.AssertionError: By.xpath: //div[@class='portlet-body']/div[@class='alert alert-error'] is not found. 
+	at edu.bsuir.test.LoginTest.сheckLoginUpperCase(LoginTest.java:242)
+

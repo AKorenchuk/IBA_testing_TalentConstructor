@@ -1,0 +1,217 @@
+{
+  "uid" : "3d7e6c34fd54d354",
+  "name" : "Ввод большой строки",
+  "fullName" : "edu.bsuir.test.candidate.TextFieldTest.сheckLenghtOfLastName",
+  "historyId" : "75e9eea6384378405e20b1d3efc2fb4a",
+  "time" : {
+    "start" : 1523881972877,
+    "stop" : 1523882022542,
+    "duration" : 49665
+  },
+  "status" : "passed",
+  "description" : "Ввод фамилии, содержащий 200 любых символов",
+  "descriptionHtml" : "<p>Ввод фамилии, содержащий 200 любых символов</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523881972878,
+        "stop" : 1523881992259,
+        "duration" : 19381
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523881972889,
+          "stop" : 1523881992259,
+          "duration" : 19370
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523881972889,
+            "stop" : 1523881979772,
+            "duration" : 6883
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523881979772,
+            "stop" : 1523881981002,
+            "duration" : 1230
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523881981002,
+            "stop" : 1523881982040,
+            "duration" : 1038
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523881982040,
+            "stop" : 1523881992259,
+            "duration" : 10219
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523881992260,
+        "stop" : 1523882007814,
+        "duration" : 15554
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка фамилии кандидата r#X-Q>)=YZIxj!eno-E%-p@6F_hsn5&,3jAbshBn1#8m6F69+Ag>fxc9E?0_^TqS%^7vJnA8p%C3yzbJ!/MRt,lJNe+ToL5SA^EvK^b9,8(P/^^p|B/[M_,%RO|_&(=%~0N6HHR,fp*(@ZmK~Ack&!jZ6SxJs9aA(3&R^FT<)s2g*~)}/a+Xe^l+dEXd0Y.rTy3)oX_n",
+      "time" : {
+        "start" : 1523882007816,
+        "stop" : 1523882019566,
+        "duration" : 11750
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "r#X-Q>)=YZIxj!eno-E%-p@6F_hsn5&,3jAbshBn1#8m6F69+Ag>fxc9E?0_^TqS%^7vJnA8p%C3yzbJ!/MRt,lJNe+ToL5SA^EvK^b9,8(P/^^p|B/[M_,%RO|_&(=%~0N6HHR,fp*(@ZmK~Ack&!jZ6SxJs9aA(3&R^FT<)s2g*~)}/a+Xe^l+dEXd0Y.rTy3)oX_n"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523882019566,
+        "stop" : 1523882020081,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки, связаной с  фамилией",
+      "time" : {
+        "start" : 1523882020082,
+        "stop" : 1523882020175,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckLenghtOfLastName"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 2 – Проверка тексового поля 'Фамилия'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

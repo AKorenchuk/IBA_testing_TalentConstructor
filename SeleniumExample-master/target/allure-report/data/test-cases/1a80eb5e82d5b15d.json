@@ -1,0 +1,217 @@
+{
+  "uid" : "1a80eb5e82d5b15d",
+  "name" : "Ввод большой строки",
+  "fullName" : "edu.bsuir.test.candidate.TextFieldTest.сheckLenghtOfCountry",
+  "historyId" : "b827d1cd5cd3ff49b1db58eeffeebd4d",
+  "time" : {
+    "start" : 1523882892895,
+    "stop" : 1523882928247,
+    "duration" : 35352
+  },
+  "status" : "passed",
+  "description" : "Ввод страны, содержащий 200 спец. символов и букв",
+  "descriptionHtml" : "<p>Ввод страны, содержащий 200 спец. символов и букв</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523882892896,
+        "stop" : 1523882911683,
+        "duration" : 18787
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523882892908,
+          "stop" : 1523882911683,
+          "duration" : 18775
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523882892908,
+            "stop" : 1523882900450,
+            "duration" : 7542
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523882900451,
+            "stop" : 1523882901763,
+            "duration" : 1312
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523882901763,
+            "stop" : 1523882902722,
+            "duration" : 959
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523882902723,
+            "stop" : 1523882911683,
+            "duration" : 8960
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523882911684,
+        "stop" : 1523882916478,
+        "duration" : 4794
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка страны кандидата %W|*VpZ#shbp<lS!2Q[XCdGYiPvZQ&ilJ}~k$)uTQ(DLGV4{OFswPnRm1K-Tm~v^k|b<C1Vm{OKG07IQ(1!Yu.My,b1J}HKr/fMD,y!,c,vT*tRR.2(voYWIavn$9ww.MC@v_-,3,ObUN99sQ4R>4aMa<P}-^-^S3Z>tTm<JXBsn}OMPJx1V~1Zj@OH.tjlB1hPG4WZG",
+      "time" : {
+        "start" : 1523882916479,
+        "stop" : 1523882925474,
+        "duration" : 8995
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "country",
+        "value" : "%W|*VpZ#shbp<lS!2Q[XCdGYiPvZQ&ilJ}~k$)uTQ(DLGV4{OFswPnRm1K-Tm~v^k|b<C1Vm{OKG07IQ(1!Yu.My,b1J}HKr/fMD,y!,c,vT*tRR.2(voYWIavn$9ww.MC@v_-,3,ObUN99sQ4R>4aMa<P}-^-^S3Z>tTm<JXBsn}OMPJx1V~1Zj@OH.tjlB1hPG4WZG"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523882925474,
+        "stop" : 1523882926062,
+        "duration" : 588
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки, связаной со значением страны",
+      "time" : {
+        "start" : 1523882926062,
+        "stop" : 1523882926148,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckLenghtOfCountry"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 5 – Проверка тексового поля 'Страна'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

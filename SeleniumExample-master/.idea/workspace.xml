@@ -15,7 +15,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/LoginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +76,6 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/services/ApplicationForWorkTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/services/xml/MenuTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/services/MenuTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/LoadingFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/services/LoginTest.java" />
@@ -95,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/elements/ApplicationElement.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/web/page/ApplicationPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/ApplicationForWorkTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/bsuir/test/LoginTest.java" />
       </list>
     </option>
   </component>
@@ -249,10 +260,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="elements" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -994,7 +1001,7 @@
       <workItem from="1523377010840" duration="3820000" />
       <workItem from="1523424401543" duration="9425000" />
       <workItem from="1523525560610" duration="13492000" />
-      <workItem from="1523808234295" duration="24117000" />
+      <workItem from="1523808234295" duration="28191000" />
     </task>
     <servers />
   </component>
@@ -1031,10 +1038,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246521000" />
+    <option name="totallyTimeSpent" value="250595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1109,13 +1116,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/services/ViewApplicationTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/web/elements/LoginElement.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1150,14 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/candidate/TelephoneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="187" column="4" lean-forward="false" selection-start-line="187" selection-start-column="4" selection-end-line="192" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/candidate/PhotoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1170,22 +1162,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/candidate/InjectionsAtTextField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="35" column="66" lean-forward="true" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/LoginTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="58" column="72" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,14 +1212,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1541,6 +1509,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/candidate/InjectionsAtTextField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="35" column="66" lean-forward="false" selection-start-line="35" selection-start-column="66" selection-end-line="35" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/candidate/TelephoneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="46" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="32" column="33" lean-forward="false" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/edu/bsuir/test/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="57" column="40" lean-forward="false" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
           <folding />
         </state>
       </provider>

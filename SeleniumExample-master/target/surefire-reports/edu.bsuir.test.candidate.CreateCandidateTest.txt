@@ -1,37 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: edu.bsuir.test.candidate.CreateCandidateTest
 -------------------------------------------------------------------------------
-Tests run: 17, Failures: 5, Errors: 1, Skipped: 0, Time elapsed: 630.532 s <<< FAILURE! - in edu.bsuir.test.candidate.CreateCandidateTest
-сheckCreateFirstNameStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 30.531 s  <<< FAILURE!
+Tests run: 17, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 716.693 s <<< FAILURE! - in edu.bsuir.test.candidate.CreateCandidateTest
+сheckCreateFirstNameStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 33.681 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateFirstNameStartAndEndWithSpace(CreateCandidateTest.java:130)
 
-сheckCreateIdenticalCadidateProfile(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 18.379 s  <<< ERROR!
-org.openqa.selenium.ElementNotVisibleException: 
-element not visible
-  (Session info: chrome=65.0.3325.181)
-  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'ANYA', ip: '192.168.229.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_20'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\0737~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
-Session ID: f0e8c2fd3c6d206c10be42712bc5450a
-	at edu.bsuir.test.candidate.CreateCandidateTest.init(CreateCandidateTest.java:41)
-
-сheckCreatePhoneStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 40.548 s  <<< FAILURE!
+сheckCreatePhoneStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 62.976 s  <<< FAILURE!
 java.lang.AssertionError: By.xpath: //div[@id='primaryTelephone'] is not found. 
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreatePhoneStartAndEndWithSpace(CreateCandidateTest.java:226)
 
-сheckCreateLastNameStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 54.981 s  <<< FAILURE!
+сheckCreateLastNameStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 31.919 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateLastNameStartAndEndWithSpace(CreateCandidateTest.java:178)
 
-сheckCreateCadidateProfile(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 30.096 s  <<< FAILURE!
+сheckCreateCadidateProfile(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 32.497 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Korenchuk Anna]> but was:<[Создание резюме]>
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateCadidateProfile(CreateCandidateTest.java:92)
 
-сheckCreateMailStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 40.693 s  <<< FAILURE!
+сheckCreateMailStartAndEndWithSpace(edu.bsuir.test.candidate.CreateCandidateTest)  Time elapsed: 40.464 s  <<< FAILURE!
 java.lang.AssertionError: By.xpath: //div[@id='primaryEmail']	 is not found. 
 	at edu.bsuir.test.candidate.CreateCandidateTest.сheckCreateMailStartAndEndWithSpace(CreateCandidateTest.java:273)
 

@@ -1,0 +1,155 @@
+{
+  "uid" : "fcd714888984a94c",
+  "name" : "Проверка некорректных данных",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckNegativeLoginAndPassword",
+  "historyId" : "5f57271bc8b26f354a40e1e3030ce13",
+  "time" : {
+    "start" : 1523883216026,
+    "stop" : 1523883242051,
+    "duration" : 26025
+  },
+  "status" : "passed",
+  "description" : "Вход в систему с несуществующим логином и паролем",
+  "descriptionHtml" : "<p>Вход в систему с несуществующим логином и паролем</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под login, password",
+      "time" : {
+        "start" : 1523883216027,
+        "stop" : 1523883237159,
+        "duration" : 21132
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883216027,
+          "stop" : 1523883232337,
+          "duration" : 16310
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина login",
+        "time" : {
+          "start" : 1523883232337,
+          "stop" : 1523883233403,
+          "duration" : 1066
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "login"
+        } ]
+      }, {
+        "name" : "Ввод пароля password",
+        "time" : {
+          "start" : 1523883233403,
+          "stop" : 1523883234641,
+          "duration" : 1238
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : "password"
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883234642,
+          "stop" : 1523883237159,
+          "duration" : 2517
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "login"
+      }, {
+        "name" : "password",
+        "value" : "password"
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректных данных ",
+      "time" : {
+        "start" : 1523883237162,
+        "stop" : 1523883237371,
+        "duration" : 209
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckNegativeLoginAndPassword"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 1 – Логирование"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

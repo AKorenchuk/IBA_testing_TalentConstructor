@@ -1,0 +1,155 @@
+{
+  "uid" : "de17128b677101cd",
+  "name" : "Нулевой логин",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckNullLogin",
+  "historyId" : "dcc2b227f07b00fbcefdbdfc4e456bfa",
+  "time" : {
+    "start" : 1523883480018,
+    "stop" : 1523883493103,
+    "duration" : 13085
+  },
+  "status" : "passed",
+  "description" : "Вход в систему при пустом логине",
+  "descriptionHtml" : "<p>Вход в систему при пустом логине</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под , welcome",
+      "time" : {
+        "start" : 1523883480019,
+        "stop" : 1523883489455,
+        "duration" : 9436
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883480019,
+          "stop" : 1523883487343,
+          "duration" : 7324
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина ",
+        "time" : {
+          "start" : 1523883487343,
+          "stop" : 1523883487887,
+          "duration" : 544
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : ""
+        } ]
+      }, {
+        "name" : "Ввод пароля welcome",
+        "time" : {
+          "start" : 1523883487887,
+          "stop" : 1523883488672,
+          "duration" : 785
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883488673,
+          "stop" : 1523883489455,
+          "duration" : 782
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : ""
+      }, {
+        "name" : "password",
+        "value" : "welcome"
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректного логина ",
+      "time" : {
+        "start" : 1523883489456,
+        "stop" : 1523883490995,
+        "duration" : 1539
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckNullLogin"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 2 – Пустое поле"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

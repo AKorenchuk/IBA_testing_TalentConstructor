@@ -1,0 +1,464 @@
+{
+  "uid" : "cfdb1733c0556a69",
+  "name" : "Удаление докуметов",
+  "fullName" : "edu.bsuir.test.candidate.AdditionFilesTest.removeDocuments",
+  "historyId" : "878c279a0d6044b9df695fb2e3e0ea37",
+  "time" : {
+    "start" : 1523877764986,
+    "stop" : 1523877891015,
+    "duration" : 126029
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "expected:<[BigData.xls, sql.docx]> but was:<[]>",
+    "trace" : "java.lang.AssertionError: expected:<[BigData.xls, sql.docx]> but was:<[]>\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat edu.bsuir.test.candidate.AdditionFilesTest.removeDocuments(AdditionFilesTest.java:139)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+    "flaky" : false
+  },
+  "description" : "Удаление файла",
+  "descriptionHtml" : "<p>Удаление файла</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "expected:<[BigData.xls, sql.docx]> but was:<[]>",
+      "trace" : "java.lang.AssertionError: expected:<[BigData.xls, sql.docx]> but was:<[]>\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat edu.bsuir.test.candidate.AdditionFilesTest.removeDocuments(AdditionFilesTest.java:139)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523877764986,
+        "stop" : 1523877842089,
+        "duration" : 77103
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523877765066,
+          "stop" : 1523877842089,
+          "duration" : 77023
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523877765066,
+            "stop" : 1523877778174,
+            "duration" : 13108
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523877778174,
+            "stop" : 1523877779688,
+            "duration" : 1514
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523877779688,
+            "stop" : 1523877780541,
+            "duration" : 853
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523877780542,
+            "stop" : 1523877842089,
+            "duration" : 61547
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523877842091,
+        "stop" : 1523877847191,
+        "duration" : 5100
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка фамилии кандидата Korenchuk",
+      "time" : {
+        "start" : 1523877847192,
+        "stop" : 1523877847999,
+        "duration" : 807
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Korenchuk"
+      } ]
+    }, {
+      "name" : " установка имени кандидата Anna ",
+      "time" : {
+        "start" : 1523877848000,
+        "stop" : 1523877848425,
+        "duration" : 425
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Anna"
+      } ]
+    }, {
+      "name" : " установка номера телефона кандидата 2345678",
+      "time" : {
+        "start" : 1523877848426,
+        "stop" : 1523877848895,
+        "duration" : 469
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "2345678"
+      } ]
+    }, {
+      "name" : " установка эл.почты korenchuk@mail.com",
+      "time" : {
+        "start" : 1523877848896,
+        "stop" : 1523877849601,
+        "duration" : 705
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "korenchuk@mail.com"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877849601,
+        "stop" : 1523877858383,
+        "duration" : 8782
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877858384,
+        "stop" : 1523877864346,
+        "duration" : 5962
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877858384,
+          "stop" : 1523877864346,
+          "duration" : 5962
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877858385,
+            "stop" : 1523877858385,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877858386,
+            "stop" : 1523877864346,
+            "duration" : 5960
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877858387,
+              "stop" : 1523877859315,
+              "duration" : 928
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877864346,
+        "stop" : 1523877872859,
+        "duration" : 8513
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/sql.docx испльзуя robot",
+      "time" : {
+        "start" : 1523877872859,
+        "stop" : 1523877875867,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/sql.docx",
+        "time" : {
+          "start" : 1523877872860,
+          "stop" : 1523877875867,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/sql.docx",
+          "time" : {
+            "start" : 1523877872860,
+            "stop" : 1523877872860,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/sql.docx"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\sql.docx",
+          "time" : {
+            "start" : 1523877872861,
+            "stop" : 1523877875867,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\sql.docx",
+            "time" : {
+              "start" : 1523877872861,
+              "stop" : 1523877872863,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\sql.docx"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\sql.docx"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/sql.docx"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/sql.docx"
+      } ]
+    }, {
+      "name" : " получение списка прикрепенных документов",
+      "time" : {
+        "start" : 1523877878868,
+        "stop" : 1523877888928,
+        "duration" : 10060
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 24,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.AdditionFilesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "removeDocuments"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.AdditionFilesTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 18 – Прикрепление файлов"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects"
+    } ]
+  }
+}

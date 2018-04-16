@@ -1,0 +1,155 @@
+{
+  "uid" : "1ee4b184b21a2315",
+  "name" : "Разный регистр в поле пароля",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckPasswordDifferentCase",
+  "historyId" : "b8c8567f37259663bb6429a419bafef",
+  "time" : {
+    "start" : 1523883608564,
+    "stop" : 1523883622988,
+    "duration" : 14424
+  },
+  "status" : "passed",
+  "description" : "Ввод корректного логина и пароля с буквами разного регистра",
+  "descriptionHtml" : "<p>Ввод корректного логина и пароля с буквами разного регистра</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под kabanov@tc.by, welComE",
+      "time" : {
+        "start" : 1523883608565,
+        "stop" : 1523883620580,
+        "duration" : 12015
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883608565,
+          "stop" : 1523883615208,
+          "duration" : 6643
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина kabanov@tc.by",
+        "time" : {
+          "start" : 1523883615209,
+          "stop" : 1523883616533,
+          "duration" : 1324
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля welComE",
+        "time" : {
+          "start" : 1523883616534,
+          "stop" : 1523883617797,
+          "duration" : 1263
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : "welComE"
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883617797,
+          "stop" : 1523883620580,
+          "duration" : 2783
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "kabanov@tc.by"
+      }, {
+        "name" : "password",
+        "value" : "welComE"
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректных данных ",
+      "time" : {
+        "start" : 1523883620581,
+        "stop" : 1523883620861,
+        "duration" : 280
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckPasswordDifferentCase"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 5 – Регистр "
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

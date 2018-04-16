@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.ApplicationForWorkTest" time="611.771" tests="6" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.ApplicationForWorkTest" time="796.406" tests="6" errors="0" skipped="0" failures="2">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7535"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,31 +63,31 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="checkCreateVacancy" classname="edu.bsuir.test.ApplicationForWorkTest" time="103.55">
-    <failure message="By.xpath: //a[@id=&apos;reviewButton&apos;] is not found. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //a[@id='reviewButton'] is not found. 
-	at edu.bsuir.test.ApplicationForWorkTest.checkCreateVacancy(ApplicationForWorkTest.java:262)
-</failure>
+  <testcase name="checkCreateVacancy" classname="edu.bsuir.test.ApplicationForWorkTest" time="167.492">
+    <failure message="expected:&lt;[Создание вакансии] - Конструктор Талан...&gt; but was:&lt;[programmer] - Конструктор Талан...&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Создание вакансии] - Конструктор Талан...> but was:<[programmer] - Конструктор Талан...>
+	at edu.bsuir.test.ApplicationForWorkTest.checkCreateVacancy(ApplicationForWorkTest.java:274)
+]]></failure>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 37369
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 23260
 Only local connections are allowed.
-апр 16, 2018 6:20:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:09:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="checkSendForAgreement" classname="edu.bsuir.test.ApplicationForWorkTest" time="96.847"/>
-  <testcase name="checkApprove" classname="edu.bsuir.test.ApplicationForWorkTest" time="115.398"/>
-  <testcase name="checkReview" classname="edu.bsuir.test.ApplicationForWorkTest" time="100.383"/>
-  <testcase name="checkApplicationForWorkTest" classname="edu.bsuir.test.ApplicationForWorkTest" time="59.619"/>
-  <testcase name="checkAnnulApp" classname="edu.bsuir.test.ApplicationForWorkTest" time="112.07">
+  <testcase name="checkSendForAgreement" classname="edu.bsuir.test.ApplicationForWorkTest" time="133.781"/>
+  <testcase name="checkApprove" classname="edu.bsuir.test.ApplicationForWorkTest" time="107.672">
     <failure message="By.xpath: //a[@id=&apos;reviewButton&apos;] is not found. " type="java.lang.AssertionError">java.lang.AssertionError: By.xpath: //a[@id='reviewButton'] is not found. 
-	at edu.bsuir.test.ApplicationForWorkTest.checkAnnulApp(ApplicationForWorkTest.java:325)
+	at edu.bsuir.test.ApplicationForWorkTest.checkApprove(ApplicationForWorkTest.java:208)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 3452
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 40111
 Only local connections are allowed.
-апр 16, 2018 6:28:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:15:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
+  <testcase name="checkReview" classname="edu.bsuir.test.ApplicationForWorkTest" time="112.001"/>
+  <testcase name="checkApplicationForWorkTest" classname="edu.bsuir.test.ApplicationForWorkTest" time="62.768"/>
+  <testcase name="checkAnnulApp" classname="edu.bsuir.test.ApplicationForWorkTest" time="143.56"/>
 </testsuite>

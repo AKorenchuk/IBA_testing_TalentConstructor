@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: edu.bsuir.test.candidate.AdditionResumeTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 138.333 s <<< FAILURE! - in edu.bsuir.test.candidate.AdditionResumeTest
-loadResumeDOC(edu.bsuir.test.candidate.AdditionResumeTest)  Time elapsed: 46.136 s  <<< FAILURE!
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 149.435 s <<< FAILURE! - in edu.bsuir.test.candidate.AdditionResumeTest
+loadResumeDOC(edu.bsuir.test.candidate.AdditionResumeTest)  Time elapsed: 46.954 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Konstantin]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionResumeTest.loadResumeDOC(AdditionResumeTest.java:48)
 
-loadResumePDF(edu.bsuir.test.candidate.AdditionResumeTest)  Time elapsed: 42.271 s  <<< FAILURE!
+loadResumePDF(edu.bsuir.test.candidate.AdditionResumeTest)  Time elapsed: 45.521 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Konstantin]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionResumeTest.loadResumePDF(AdditionResumeTest.java:76)
 
-loadOtherResumeDOC(edu.bsuir.test.candidate.AdditionResumeTest)  Time elapsed: 42.094 s  <<< FAILURE!
+loadOtherResumeDOC(edu.bsuir.test.candidate.AdditionResumeTest)  Time elapsed: 48.856 s  <<< FAILURE!
 org.junit.ComparisonFailure: expected:<[Анна]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionResumeTest.loadOtherResumeDOC(AdditionResumeTest.java:60)
 

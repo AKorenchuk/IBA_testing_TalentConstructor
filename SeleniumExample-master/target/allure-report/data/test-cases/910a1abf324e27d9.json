@@ -1,0 +1,155 @@
+{
+  "uid" : "910a1abf324e27d9",
+  "name" : "Нулевой пароль",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckNullPassword",
+  "historyId" : "49ca03df8b7567dd312e71b617eac192",
+  "time" : {
+    "start" : 1523883155762,
+    "stop" : 1523883176861,
+    "duration" : 21099
+  },
+  "status" : "passed",
+  "description" : "Вход в систему при пустом пароле",
+  "descriptionHtml" : "<p>Вход в систему при пустом пароле</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под kabanov@tc.by, ",
+      "time" : {
+        "start" : 1523883155763,
+        "stop" : 1523883174831,
+        "duration" : 19068
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883155763,
+          "stop" : 1523883172538,
+          "duration" : 16775
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина kabanov@tc.by",
+        "time" : {
+          "start" : 1523883172539,
+          "stop" : 1523883173448,
+          "duration" : 909
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Ввод пароля ",
+        "time" : {
+          "start" : 1523883173448,
+          "stop" : 1523883173894,
+          "duration" : 446
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : ""
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883173894,
+          "stop" : 1523883174831,
+          "duration" : 937
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "kabanov@tc.by"
+      }, {
+        "name" : "password",
+        "value" : ""
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректного пароля",
+      "time" : {
+        "start" : 1523883174832,
+        "stop" : 1523883175134,
+        "duration" : 302
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckNullPassword"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 2 – Пустое поле"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

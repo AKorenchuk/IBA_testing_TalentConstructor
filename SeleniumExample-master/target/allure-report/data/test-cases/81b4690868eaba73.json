@@ -1,0 +1,115 @@
+{
+  "uid" : "81b4690868eaba73",
+  "name" : "Нулевой логин и пароль",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckNullLoginAndPassword",
+  "historyId" : "986dd5dfd56db0919b2669acb3cf62b2",
+  "time" : {
+    "start" : 1523883184829,
+    "stop" : 1523883208149,
+    "duration" : 23320
+  },
+  "status" : "passed",
+  "description" : "Вход в систему при пустом логине и пароле",
+  "descriptionHtml" : "<p>Вход в систему при пустом логине и пароле</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Открытие страницы логина и пароля",
+      "time" : {
+        "start" : 1523883184829,
+        "stop" : 1523883203932,
+        "duration" : 19103
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Нажатие на кнопки 'Вход' ",
+      "time" : {
+        "start" : 1523883203932,
+        "stop" : 1523883204898,
+        "duration" : 966
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректного логина ",
+      "time" : {
+        "start" : 1523883204899,
+        "stop" : 1523883205260,
+        "duration" : 361
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректного пароля",
+      "time" : {
+        "start" : 1523883205261,
+        "stop" : 1523883205586,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckNullLoginAndPassword"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 2 – Пустое поле"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

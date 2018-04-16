@@ -1,0 +1,217 @@
+{
+  "uid" : "1ed9d73d47bbbe98",
+  "name" : "Ввод большой строки",
+  "fullName" : "edu.bsuir.test.candidate.TextFieldTest.сheckLenghtOfSecondName",
+  "historyId" : "f884036ab346d1730b959a9982c016bd",
+  "time" : {
+    "start" : 1523882725816,
+    "stop" : 1523882770812,
+    "duration" : 44996
+  },
+  "status" : "passed",
+  "description" : "Ввод отчества, содержащий 200 спец. символов и букв",
+  "descriptionHtml" : "<p>Ввод отчества, содержащий 200 спец. символов и букв</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523882725816,
+        "stop" : 1523882757025,
+        "duration" : 31209
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523882725834,
+          "stop" : 1523882757025,
+          "duration" : 31191
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523882725835,
+            "stop" : 1523882744217,
+            "duration" : 18382
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523882744218,
+            "stop" : 1523882745443,
+            "duration" : 1225
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523882745444,
+            "stop" : 1523882746492,
+            "duration" : 1048
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523882746492,
+            "stop" : 1523882757025,
+            "duration" : 10533
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523882757026,
+        "stop" : 1523882761820,
+        "duration" : 4794
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка отчества кандидата %n!&z}VDN9uuDzMCdgcX![Ds{i@+T1%#a).(,&MGtQd!.FPwC>E&jZ1aumJmOqg/wLdc_Zk{hoQXq-u!08LKf{N@~rbm~~~x)dmr.^5ZT{LZT|R~.A-=+<p~4t[}[SO/]E,[O~$M/O{|I+yiNdm]+ABJUcx<Pq=Q3!C65<e-GieEi*}Wy~u&E>&/c|{ZU7OufTj8YWr?",
+      "time" : {
+        "start" : 1523882761821,
+        "stop" : 1523882769688,
+        "duration" : 7867
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "%n!&z}VDN9uuDzMCdgcX![Ds{i@+T1%#a).(,&MGtQd!.FPwC>E&jZ1aumJmOqg/wLdc_Zk{hoQXq-u!08LKf{N@~rbm~~~x)dmr.^5ZT{LZT|R~.A-=+<p~4t[}[SO/]E,[O~$M/O{|I+yiNdm]+ABJUcx<Pq=Q3!C65<e-GieEi*}Wy~u&E>&/c|{ZU7OufTj8YWr?"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523882769689,
+        "stop" : 1523882770399,
+        "duration" : 710
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки, связаной с  отчеством",
+      "time" : {
+        "start" : 1523882770399,
+        "stop" : 1523882770533,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckLenghtOfSecondName"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 3 – Проверка тексового поля 'Отчество'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: edu.bsuir.test.ApplicationForWorkTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 611.771 s <<< FAILURE! - in edu.bsuir.test.ApplicationForWorkTest
-checkCreateVacancy(edu.bsuir.test.ApplicationForWorkTest)  Time elapsed: 103.55 s  <<< FAILURE!
-java.lang.AssertionError: By.xpath: //a[@id='reviewButton'] is not found. 
-	at edu.bsuir.test.ApplicationForWorkTest.checkCreateVacancy(ApplicationForWorkTest.java:262)
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 796.406 s <<< FAILURE! - in edu.bsuir.test.ApplicationForWorkTest
+checkCreateVacancy(edu.bsuir.test.ApplicationForWorkTest)  Time elapsed: 167.492 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Создание вакансии] - Конструктор Талан...> but was:<[programmer] - Конструктор Талан...>
+	at edu.bsuir.test.ApplicationForWorkTest.checkCreateVacancy(ApplicationForWorkTest.java:274)
 
-checkAnnulApp(edu.bsuir.test.ApplicationForWorkTest)  Time elapsed: 112.07 s  <<< FAILURE!
+checkApprove(edu.bsuir.test.ApplicationForWorkTest)  Time elapsed: 107.672 s  <<< FAILURE!
 java.lang.AssertionError: By.xpath: //a[@id='reviewButton'] is not found. 
-	at edu.bsuir.test.ApplicationForWorkTest.checkAnnulApp(ApplicationForWorkTest.java:325)
+	at edu.bsuir.test.ApplicationForWorkTest.checkApprove(ApplicationForWorkTest.java:208)
 

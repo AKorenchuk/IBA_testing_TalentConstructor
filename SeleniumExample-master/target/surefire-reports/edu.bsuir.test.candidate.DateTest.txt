@@ -1,12 +1,25 @@
 -------------------------------------------------------------------------------
 Test set: edu.bsuir.test.candidate.DateTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 322.396 s <<< FAILURE! - in edu.bsuir.test.candidate.DateTest
-сheckDateInFormateDDMMYY(edu.bsuir.test.candidate.DateTest)  Time elapsed: 27.793 s  <<< FAILURE!
+Tests run: 9, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 326.786 s <<< FAILURE! - in edu.bsuir.test.candidate.DateTest
+сheckDateInFormateDDMMYY(edu.bsuir.test.candidate.DateTest)  Time elapsed: 30.831 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckDateInFormateDDMMYY(DateTest.java:78)
 
-сheckAnrealYear(edu.bsuir.test.candidate.DateTest)  Time elapsed: 35.706 s  <<< FAILURE!
+сheckAnrealYear(edu.bsuir.test.candidate.DateTest)  Time elapsed: 37.562 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckAnrealYear(DateTest.java:123)
+
+сheckAnrealDay(edu.bsuir.test.candidate.DateTest)  Time elapsed: 0.891 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ANYA', ip: '192.168.229.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\0737~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: edbcfbe6016842a0311212ba5d9662a1
+	at edu.bsuir.test.candidate.DateTest.<init>(DateTest.java:25)
 

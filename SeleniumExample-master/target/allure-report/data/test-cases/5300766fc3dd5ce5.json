@@ -1,0 +1,5216 @@
+{
+  "uid" : "5300766fc3dd5ce5",
+  "name" : "Загрузка большого кол-ва докуметов",
+  "fullName" : "edu.bsuir.test.candidate.AdditionFilesTest.checkCountOfDocuments",
+  "historyId" : "14306323d930d35829cafc67381792ff",
+  "time" : {
+    "start" : 1523877894929,
+    "stop" : 1523878250016,
+    "duration" : 355087
+  },
+  "status" : "failed",
+  "statusDetails" : {
+    "message" : "expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[]>",
+    "trace" : "java.lang.AssertionError: expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[]>\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat edu.bsuir.test.candidate.AdditionFilesTest.checkCountOfDocuments(AdditionFilesTest.java:120)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+    "flaky" : false
+  },
+  "description" : "Загрузка большого кол-ва докуметов",
+  "descriptionHtml" : "<p>Загрузка большого кол-ва докуметов</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusDetails" : {
+      "message" : "expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[]>",
+      "trace" : "java.lang.AssertionError: expected:<[BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls, BigData.xls]> but was:<[]>\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:834)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat edu.bsuir.test.candidate.AdditionFilesTest.checkCountOfDocuments(AdditionFilesTest.java:120)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:483)\r\n\tat org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)\r\n\tat org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)\r\n\tat org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)\r\n\tat org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)\r\n\tat org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)\r\n",
+      "flaky" : false
+    },
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523877894930,
+        "stop" : 1523877913335,
+        "duration" : 18405
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523877894948,
+          "stop" : 1523877913335,
+          "duration" : 18387
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523877894948,
+            "stop" : 1523877902148,
+            "duration" : 7200
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523877902148,
+            "stop" : 1523877903460,
+            "duration" : 1312
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523877903461,
+            "stop" : 1523877904368,
+            "duration" : 907
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523877904368,
+            "stop" : 1523877913335,
+            "duration" : 8967
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523877913336,
+        "stop" : 1523877918134,
+        "duration" : 4798
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка фамилии кандидата Korenchuk",
+      "time" : {
+        "start" : 1523877918134,
+        "stop" : 1523877919195,
+        "duration" : 1061
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Korenchuk"
+      } ]
+    }, {
+      "name" : " установка имени кандидата Anna ",
+      "time" : {
+        "start" : 1523877919196,
+        "stop" : 1523877919865,
+        "duration" : 669
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "name",
+        "value" : "Anna"
+      } ]
+    }, {
+      "name" : " установка номера телефона кандидата 2345678",
+      "time" : {
+        "start" : 1523877919865,
+        "stop" : 1523877920474,
+        "duration" : 609
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "number",
+        "value" : "2345678"
+      } ]
+    }, {
+      "name" : " установка эл.почты korenchuk@mail.com",
+      "time" : {
+        "start" : 1523877920475,
+        "stop" : 1523877921424,
+        "duration" : 949
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "email",
+        "value" : "korenchuk@mail.com"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877921424,
+        "stop" : 1523877925039,
+        "duration" : 3615
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877925039,
+        "stop" : 1523877928047,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877925039,
+          "stop" : 1523877928047,
+          "duration" : 3008
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877925040,
+            "stop" : 1523877925040,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877925040,
+            "stop" : 1523877928047,
+            "duration" : 3007
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877925041,
+              "stop" : 1523877925044,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877928048,
+        "stop" : 1523877931498,
+        "duration" : 3450
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877931498,
+        "stop" : 1523877934506,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877931498,
+          "stop" : 1523877934506,
+          "duration" : 3008
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877931499,
+            "stop" : 1523877931499,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877931499,
+            "stop" : 1523877934506,
+            "duration" : 3007
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877931500,
+              "stop" : 1523877931502,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877934506,
+        "stop" : 1523877937802,
+        "duration" : 3296
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877937802,
+        "stop" : 1523877940809,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877937802,
+          "stop" : 1523877940809,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877937803,
+            "stop" : 1523877937803,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877937803,
+            "stop" : 1523877940809,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877937804,
+              "stop" : 1523877937806,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877940809,
+        "stop" : 1523877944021,
+        "duration" : 3212
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877944021,
+        "stop" : 1523877947027,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877944021,
+          "stop" : 1523877947027,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877944022,
+            "stop" : 1523877944022,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877944022,
+            "stop" : 1523877947027,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877944022,
+              "stop" : 1523877944024,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877947027,
+        "stop" : 1523877950311,
+        "duration" : 3284
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877950311,
+        "stop" : 1523877953317,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877950312,
+          "stop" : 1523877953317,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877950312,
+            "stop" : 1523877950312,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877950313,
+            "stop" : 1523877953317,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877950313,
+              "stop" : 1523877950315,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877953317,
+        "stop" : 1523877956551,
+        "duration" : 3234
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877956551,
+        "stop" : 1523877959559,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877956551,
+          "stop" : 1523877959559,
+          "duration" : 3008
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877956552,
+            "stop" : 1523877956552,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877956552,
+            "stop" : 1523877959559,
+            "duration" : 3007
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877956553,
+              "stop" : 1523877956556,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877959559,
+        "stop" : 1523877962798,
+        "duration" : 3239
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877962798,
+        "stop" : 1523877965803,
+        "duration" : 3005
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877962798,
+          "stop" : 1523877965803,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877962799,
+            "stop" : 1523877962799,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877962799,
+            "stop" : 1523877965803,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877962799,
+              "stop" : 1523877962801,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877965803,
+        "stop" : 1523877969054,
+        "duration" : 3251
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877969054,
+        "stop" : 1523877972060,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877969054,
+          "stop" : 1523877972060,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877969055,
+            "stop" : 1523877969055,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877969055,
+            "stop" : 1523877972060,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877969055,
+              "stop" : 1523877969057,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877972060,
+        "stop" : 1523877975311,
+        "duration" : 3251
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877975311,
+        "stop" : 1523877978316,
+        "duration" : 3005
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877975311,
+          "stop" : 1523877978316,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877975312,
+            "stop" : 1523877975312,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877975312,
+            "stop" : 1523877978316,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877975312,
+              "stop" : 1523877975314,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877978316,
+        "stop" : 1523877981572,
+        "duration" : 3256
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877981572,
+        "stop" : 1523877984580,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877981572,
+          "stop" : 1523877984580,
+          "duration" : 3008
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877981572,
+            "stop" : 1523877981573,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877981573,
+            "stop" : 1523877984580,
+            "duration" : 3007
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877981573,
+              "stop" : 1523877981575,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877984580,
+        "stop" : 1523877987867,
+        "duration" : 3287
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877987867,
+        "stop" : 1523877990874,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877987868,
+          "stop" : 1523877990874,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877987868,
+            "stop" : 1523877987868,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877987868,
+            "stop" : 1523877990874,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877987869,
+              "stop" : 1523877987871,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877990874,
+        "stop" : 1523877994129,
+        "duration" : 3255
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523877994129,
+        "stop" : 1523877997136,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523877994130,
+          "stop" : 1523877997136,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523877994130,
+            "stop" : 1523877994130,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523877994130,
+            "stop" : 1523877997136,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523877994131,
+              "stop" : 1523877994133,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523877997136,
+        "stop" : 1523878000407,
+        "duration" : 3271
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878000407,
+        "stop" : 1523878003413,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878000407,
+          "stop" : 1523878003413,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878000408,
+            "stop" : 1523878000408,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878000408,
+            "stop" : 1523878003413,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878000408,
+              "stop" : 1523878000410,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878003413,
+        "stop" : 1523878006744,
+        "duration" : 3331
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878006744,
+        "stop" : 1523878009749,
+        "duration" : 3005
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878006744,
+          "stop" : 1523878009749,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878006745,
+            "stop" : 1523878006745,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878006745,
+            "stop" : 1523878009749,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878006745,
+              "stop" : 1523878006747,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878009749,
+        "stop" : 1523878012976,
+        "duration" : 3227
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878012976,
+        "stop" : 1523878015982,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878012977,
+          "stop" : 1523878015982,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878012977,
+            "stop" : 1523878012977,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878012977,
+            "stop" : 1523878015982,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878012978,
+              "stop" : 1523878012980,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878015982,
+        "stop" : 1523878019228,
+        "duration" : 3246
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878019228,
+        "stop" : 1523878022234,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878019228,
+          "stop" : 1523878022234,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878019228,
+            "stop" : 1523878019228,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878019228,
+            "stop" : 1523878022234,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878019228,
+              "stop" : 1523878019230,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878022234,
+        "stop" : 1523878025519,
+        "duration" : 3285
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878025519,
+        "stop" : 1523878028525,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878025519,
+          "stop" : 1523878028525,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878025520,
+            "stop" : 1523878025520,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878025520,
+            "stop" : 1523878028525,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878025520,
+              "stop" : 1523878025523,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878028525,
+        "stop" : 1523878031836,
+        "duration" : 3311
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878031836,
+        "stop" : 1523878034842,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878031836,
+          "stop" : 1523878034842,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878031837,
+            "stop" : 1523878031837,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878031837,
+            "stop" : 1523878034842,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878031837,
+              "stop" : 1523878031839,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878034842,
+        "stop" : 1523878038093,
+        "duration" : 3251
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878038093,
+        "stop" : 1523878041100,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878038093,
+          "stop" : 1523878041100,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878038094,
+            "stop" : 1523878038094,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878038094,
+            "stop" : 1523878041100,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878038094,
+              "stop" : 1523878038096,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878041100,
+        "stop" : 1523878044325,
+        "duration" : 3225
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878044325,
+        "stop" : 1523878047332,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878044325,
+          "stop" : 1523878047332,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878044326,
+            "stop" : 1523878044326,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878044326,
+            "stop" : 1523878047332,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878044327,
+              "stop" : 1523878044328,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878047332,
+        "stop" : 1523878050590,
+        "duration" : 3258
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878050590,
+        "stop" : 1523878053596,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878050590,
+          "stop" : 1523878053596,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878050590,
+            "stop" : 1523878050591,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878050591,
+            "stop" : 1523878053596,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878050591,
+              "stop" : 1523878050592,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878053596,
+        "stop" : 1523878056883,
+        "duration" : 3287
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878056883,
+        "stop" : 1523878059889,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878056883,
+          "stop" : 1523878059889,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878056884,
+            "stop" : 1523878056884,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878056884,
+            "stop" : 1523878059889,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878056884,
+              "stop" : 1523878056886,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878059889,
+        "stop" : 1523878063185,
+        "duration" : 3296
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878063185,
+        "stop" : 1523878066191,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878063185,
+          "stop" : 1523878066191,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878063186,
+            "stop" : 1523878063186,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878063186,
+            "stop" : 1523878066191,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878063186,
+              "stop" : 1523878063188,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878066191,
+        "stop" : 1523878069434,
+        "duration" : 3243
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878069434,
+        "stop" : 1523878072448,
+        "duration" : 3014
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878069435,
+          "stop" : 1523878072448,
+          "duration" : 3013
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878069435,
+            "stop" : 1523878069435,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878069436,
+            "stop" : 1523878072448,
+            "duration" : 3012
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878069436,
+              "stop" : 1523878069438,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878072448,
+        "stop" : 1523878075712,
+        "duration" : 3264
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878075712,
+        "stop" : 1523878078717,
+        "duration" : 3005
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878075712,
+          "stop" : 1523878078717,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878075712,
+            "stop" : 1523878075713,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878075713,
+            "stop" : 1523878078717,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878075713,
+              "stop" : 1523878075715,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878078717,
+        "stop" : 1523878082036,
+        "duration" : 3319
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878082036,
+        "stop" : 1523878085042,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878082037,
+          "stop" : 1523878085042,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878082037,
+            "stop" : 1523878082037,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878082038,
+            "stop" : 1523878085042,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878082038,
+              "stop" : 1523878082040,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878085042,
+        "stop" : 1523878088308,
+        "duration" : 3266
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878088308,
+        "stop" : 1523878091716,
+        "duration" : 3408
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878088308,
+          "stop" : 1523878091716,
+          "duration" : 3408
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878088309,
+            "stop" : 1523878088309,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878088309,
+            "stop" : 1523878091716,
+            "duration" : 3407
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878088309,
+              "stop" : 1523878088311,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878091716,
+        "stop" : 1523878094941,
+        "duration" : 3225
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878094941,
+        "stop" : 1523878097947,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878094941,
+          "stop" : 1523878097947,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878094941,
+            "stop" : 1523878094942,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878094942,
+            "stop" : 1523878097947,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878094942,
+              "stop" : 1523878094944,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878097947,
+        "stop" : 1523878101215,
+        "duration" : 3268
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878101215,
+        "stop" : 1523878104221,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878101216,
+          "stop" : 1523878104221,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878101216,
+            "stop" : 1523878101216,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878101216,
+            "stop" : 1523878104221,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878101216,
+              "stop" : 1523878101219,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878104222,
+        "stop" : 1523878107651,
+        "duration" : 3429
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878107652,
+        "stop" : 1523878110660,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878107652,
+          "stop" : 1523878110660,
+          "duration" : 3008
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878107653,
+            "stop" : 1523878107653,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878107653,
+            "stop" : 1523878110660,
+            "duration" : 3007
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878107654,
+              "stop" : 1523878107657,
+              "duration" : 3
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878110660,
+        "stop" : 1523878113920,
+        "duration" : 3260
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878113920,
+        "stop" : 1523878116926,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878113920,
+          "stop" : 1523878116926,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878113920,
+            "stop" : 1523878113921,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878113921,
+            "stop" : 1523878116926,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878113921,
+              "stop" : 1523878113923,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878116926,
+        "stop" : 1523878120145,
+        "duration" : 3219
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878120145,
+        "stop" : 1523878123152,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878120145,
+          "stop" : 1523878123152,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878120145,
+            "stop" : 1523878120146,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878120146,
+            "stop" : 1523878123152,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878120146,
+              "stop" : 1523878120147,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878123152,
+        "stop" : 1523878126406,
+        "duration" : 3254
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878126406,
+        "stop" : 1523878129413,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878126406,
+          "stop" : 1523878129413,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878126407,
+            "stop" : 1523878126407,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878126407,
+            "stop" : 1523878129413,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878126408,
+              "stop" : 1523878126410,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878129413,
+        "stop" : 1523878132675,
+        "duration" : 3262
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878132675,
+        "stop" : 1523878135697,
+        "duration" : 3022
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878132675,
+          "stop" : 1523878135697,
+          "duration" : 3022
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878132676,
+            "stop" : 1523878132676,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878132676,
+            "stop" : 1523878135697,
+            "duration" : 3021
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878132676,
+              "stop" : 1523878132678,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878135697,
+        "stop" : 1523878138924,
+        "duration" : 3227
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878138924,
+        "stop" : 1523878141931,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878138924,
+          "stop" : 1523878141931,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878138925,
+            "stop" : 1523878138925,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878138925,
+            "stop" : 1523878141931,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878138925,
+              "stop" : 1523878138927,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878141931,
+        "stop" : 1523878145144,
+        "duration" : 3213
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878145144,
+        "stop" : 1523878148151,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878145144,
+          "stop" : 1523878148151,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878145145,
+            "stop" : 1523878145145,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878145145,
+            "stop" : 1523878148151,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878145146,
+              "stop" : 1523878145148,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878148151,
+        "stop" : 1523878151380,
+        "duration" : 3229
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878151380,
+        "stop" : 1523878154388,
+        "duration" : 3008
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878151381,
+          "stop" : 1523878154388,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878151381,
+            "stop" : 1523878151381,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878151382,
+            "stop" : 1523878154388,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878151382,
+              "stop" : 1523878151384,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878154388,
+        "stop" : 1523878157636,
+        "duration" : 3248
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878157636,
+        "stop" : 1523878160645,
+        "duration" : 3009
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878157636,
+          "stop" : 1523878160645,
+          "duration" : 3009
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878157637,
+            "stop" : 1523878157637,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878157637,
+            "stop" : 1523878160645,
+            "duration" : 3008
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878157638,
+              "stop" : 1523878157640,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878160646,
+        "stop" : 1523878163857,
+        "duration" : 3211
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878163857,
+        "stop" : 1523878166863,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878163858,
+          "stop" : 1523878166863,
+          "duration" : 3005
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878163858,
+            "stop" : 1523878163858,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878163859,
+            "stop" : 1523878166863,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878163859,
+              "stop" : 1523878163861,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878166864,
+        "stop" : 1523878170078,
+        "duration" : 3214
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878170078,
+        "stop" : 1523878173083,
+        "duration" : 3005
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878170079,
+          "stop" : 1523878173083,
+          "duration" : 3004
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878170079,
+            "stop" : 1523878170079,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878170079,
+            "stop" : 1523878173083,
+            "duration" : 3004
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878170080,
+              "stop" : 1523878170081,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878173083,
+        "stop" : 1523878176321,
+        "duration" : 3238
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878176321,
+        "stop" : 1523878179327,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878176321,
+          "stop" : 1523878179327,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878176321,
+            "stop" : 1523878176322,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878176322,
+            "stop" : 1523878179327,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878176322,
+              "stop" : 1523878176324,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878179328,
+        "stop" : 1523878182548,
+        "duration" : 3220
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878182548,
+        "stop" : 1523878185552,
+        "duration" : 3004
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878182548,
+          "stop" : 1523878185552,
+          "duration" : 3004
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878182548,
+            "stop" : 1523878182549,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878182549,
+            "stop" : 1523878185552,
+            "duration" : 3003
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878182549,
+              "stop" : 1523878182550,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878185552,
+        "stop" : 1523878188869,
+        "duration" : 3317
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878188869,
+        "stop" : 1523878191880,
+        "duration" : 3011
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878188869,
+          "stop" : 1523878191880,
+          "duration" : 3011
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878188870,
+            "stop" : 1523878188870,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878188870,
+            "stop" : 1523878191880,
+            "duration" : 3010
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878188870,
+              "stop" : 1523878188872,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878191880,
+        "stop" : 1523878195104,
+        "duration" : 3224
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878195104,
+        "stop" : 1523878198108,
+        "duration" : 3004
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878195104,
+          "stop" : 1523878198108,
+          "duration" : 3004
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878195105,
+            "stop" : 1523878195105,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878195105,
+            "stop" : 1523878198108,
+            "duration" : 3003
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878195105,
+              "stop" : 1523878195106,
+              "duration" : 1
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878198108,
+        "stop" : 1523878201335,
+        "duration" : 3227
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878201335,
+        "stop" : 1523878204342,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878201335,
+          "stop" : 1523878204342,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878201335,
+            "stop" : 1523878201336,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878201336,
+            "stop" : 1523878204342,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878201336,
+              "stop" : 1523878201338,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878204342,
+        "stop" : 1523878207578,
+        "duration" : 3236
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878207578,
+        "stop" : 1523878210597,
+        "duration" : 3019
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878207578,
+          "stop" : 1523878210597,
+          "duration" : 3019
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878207579,
+            "stop" : 1523878207579,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878207579,
+            "stop" : 1523878210597,
+            "duration" : 3018
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878207579,
+              "stop" : 1523878207581,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878210597,
+        "stop" : 1523878213819,
+        "duration" : 3222
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878213819,
+        "stop" : 1523878216825,
+        "duration" : 3006
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878213819,
+          "stop" : 1523878216825,
+          "duration" : 3006
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878213820,
+            "stop" : 1523878213820,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878213820,
+            "stop" : 1523878216825,
+            "duration" : 3005
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878213820,
+              "stop" : 1523878213822,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878216825,
+        "stop" : 1523878220055,
+        "duration" : 3230
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878220055,
+        "stop" : 1523878223064,
+        "duration" : 3009
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878220056,
+          "stop" : 1523878223064,
+          "duration" : 3008
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878220057,
+            "stop" : 1523878220057,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878220057,
+            "stop" : 1523878223064,
+            "duration" : 3007
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878220058,
+              "stop" : 1523878220060,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878223064,
+        "stop" : 1523878226290,
+        "duration" : 3226
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878226290,
+        "stop" : 1523878229297,
+        "duration" : 3007
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878226290,
+          "stop" : 1523878229297,
+          "duration" : 3007
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878226291,
+            "stop" : 1523878226291,
+            "duration" : 0
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878226291,
+            "stop" : 1523878229297,
+            "duration" : 3006
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878226291,
+              "stop" : 1523878226293,
+              "duration" : 2
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " Вызов диалогового окна для добавления документа",
+      "time" : {
+        "start" : 1523878229297,
+        "stop" : 1523878232961,
+        "duration" : 3664
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " загрузка файла resources/BigData.xls испльзуя robot",
+      "time" : {
+        "start" : 1523878232962,
+        "stop" : 1523878236082,
+        "duration" : 3120
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Robot  действии. Путь к файлу resources/BigData.xls",
+        "time" : {
+          "start" : 1523878232962,
+          "stop" : 1523878236082,
+          "duration" : 3120
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : " получение абсолютного пути к файлу resources/BigData.xls",
+          "time" : {
+            "start" : 1523878232962,
+            "stop" : 1523878232963,
+            "duration" : 1
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "file",
+            "value" : "resources/BigData.xls"
+          } ]
+        }, {
+          "name" : " отправление файла D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+          "time" : {
+            "start" : 1523878232963,
+            "stop" : 1523878236082,
+            "duration" : 3119
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 1,
+          "attachmentsCount" : 0,
+          "steps" : [ {
+            "name" : " получение данных в клипборд D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls",
+            "time" : {
+              "start" : 1523878232963,
+              "stop" : 1523878232967,
+              "duration" : 4
+            },
+            "status" : "passed",
+            "hasContent" : true,
+            "stepsCount" : 0,
+            "attachmentsCount" : 0,
+            "steps" : [ ],
+            "attachments" : [ ],
+            "parameters" : [ {
+              "name" : "string",
+              "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+            } ]
+          } ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "path",
+            "value" : "D:\\IBA\\IBA_testing_TalentConstructor\\SeleniumExample-master\\resources\\BigData.xls"
+          } ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "path",
+          "value" : "resources/BigData.xls"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "path",
+        "value" : "resources/BigData.xls"
+      } ]
+    }, {
+      "name" : " получение списка прикрепенных документов",
+      "time" : {
+        "start" : 1523878239082,
+        "stop" : 1523878249146,
+        "duration" : 10064
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 312,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.AdditionFilesTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkCountOfDocuments"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.AdditionFilesTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 18 – Прикрепление файлов"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ {
+      "name" : "Product defects"
+    } ]
+  }
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.DateTest" time="322.396" tests="9" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.DateTest" time="326.786" tests="9" errors="1" skipped="0" failures="2">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7535"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,31 +63,49 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="сheckAnrealFebruaryDay" classname="edu.bsuir.test.candidate.DateTest" time="32.001"/>
-  <testcase name="сheckFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="33.343"/>
-  <testcase name="сheckDateInFormateDDMMYY" classname="edu.bsuir.test.candidate.DateTest" time="27.793">
+  <testcase name="сheckAnrealFebruaryDay" classname="edu.bsuir.test.candidate.DateTest" time="27.711"/>
+  <testcase name="сheckFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="36.913"/>
+  <testcase name="сheckDateInFormateDDMMYY" classname="edu.bsuir.test.candidate.DateTest" time="30.831">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckDateInFormateDDMMYY(DateTest.java:78)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16422
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 28435
 Only local connections are allowed.
-апр 16, 2018 6:54:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:50:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckDateInFormateDMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="35.411"/>
-  <testcase name="сheckAnrealYear" classname="edu.bsuir.test.candidate.DateTest" time="35.706">
+  <testcase name="сheckDateInFormateDMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="39.901"/>
+  <testcase name="сheckAnrealYear" classname="edu.bsuir.test.candidate.DateTest" time="37.562">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.DateTest.сheckAnrealYear(DateTest.java:123)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 33113
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 10551
 Only local connections are allowed.
-апр 16, 2018 6:55:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:51:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckAnrealDay" classname="edu.bsuir.test.candidate.DateTest" time="25.472"/>
-  <testcase name="сheckAnrealMonth" classname="edu.bsuir.test.candidate.DateTest" time="30.857"/>
-  <testcase name="сheckAnrealFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="27.957"/>
-  <testcase name="сheckDateInFormateDDMMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="33.908"/>
+  <testcase name="сheckAnrealDay" classname="edu.bsuir.test.candidate.DateTest" time="0.891">
+    <error message="unknown error: failed to change window state to maximized, current state is minimized&#10;  (Session info: chrome=65.0.3325.181)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;ANYA&apos;, ip: &apos;192.168.229.1&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_20&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\0737~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}&#10;Session ID: edbcfbe6016842a0311212ba5d9662a1" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: failed to change window state to maximized, current state is minimized
+  (Session info: chrome=65.0.3325.181)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ANYA', ip: '192.168.229.1', os.name: 'Windows 8.1', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\0737~1\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 65.0.3325.181, webStorageEnabled: true}
+Session ID: edbcfbe6016842a0311212ba5d9662a1
+	at edu.bsuir.test.candidate.DateTest.<init>(DateTest.java:25)
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 23001
+Only local connections are allowed.
+апр 16, 2018 8:52:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+  <testcase name="сheckAnrealMonth" classname="edu.bsuir.test.candidate.DateTest" time="38.628"/>
+  <testcase name="сheckAnrealFebruaryDay29" classname="edu.bsuir.test.candidate.DateTest" time="25.16"/>
+  <testcase name="сheckDateInFormateDDMMYYYY" classname="edu.bsuir.test.candidate.DateTest" time="55.089"/>
 </testsuite>

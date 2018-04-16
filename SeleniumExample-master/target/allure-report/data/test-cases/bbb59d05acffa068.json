@@ -1,0 +1,155 @@
+{
+  "uid" : "bbb59d05acffa068",
+  "name" : "Смена мест логина и пароля",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckChangeOfPlacesOfLoginAndPassword",
+  "historyId" : "ad321b7c28efc7001d136ba79eb16d4b",
+  "time" : {
+    "start" : 1523883278530,
+    "stop" : 1523883315362,
+    "duration" : 36832
+  },
+  "status" : "passed",
+  "description" : "Ввод корректного логина в поле для ввода пароля и корректного пароля в поле логина",
+  "descriptionHtml" : "<p>Ввод корректного логина в поле для ввода пароля и корректного пароля в поле логина</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под welcome, kabanov@tc.by",
+      "time" : {
+        "start" : 1523883278530,
+        "stop" : 1523883312862,
+        "duration" : 34332
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883278531,
+          "stop" : 1523883305715,
+          "duration" : 27184
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина welcome",
+        "time" : {
+          "start" : 1523883305716,
+          "stop" : 1523883306770,
+          "duration" : 1054
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Ввод пароля kabanov@tc.by",
+        "time" : {
+          "start" : 1523883306771,
+          "stop" : 1523883307740,
+          "duration" : 969
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : "kabanov@tc.by"
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883307740,
+          "stop" : 1523883312862,
+          "duration" : 5122
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "welcome"
+      }, {
+        "name" : "password",
+        "value" : "kabanov@tc.by"
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректных данных ",
+      "time" : {
+        "start" : 1523883312863,
+        "stop" : 1523883313138,
+        "duration" : 275
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckChangeOfPlacesOfLoginAndPassword"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 3 – Смена мест"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

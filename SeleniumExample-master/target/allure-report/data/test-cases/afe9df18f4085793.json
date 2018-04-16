@@ -1,0 +1,155 @@
+{
+  "uid" : "afe9df18f4085793",
+  "name" : "Инъекция в поле логина",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckScriptAtLogin",
+  "historyId" : "ec5fd8c079905e894310d00f8f729071",
+  "time" : {
+    "start" : 1523883463447,
+    "stop" : 1523883477253,
+    "duration" : 13806
+  },
+  "status" : "passed",
+  "description" : "Ввод скрипта в поле логина",
+  "descriptionHtml" : "<p>Ввод скрипта в поле логина</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под <script>alert(kabanov@tc.by)</script>, welcome",
+      "time" : {
+        "start" : 1523883463447,
+        "stop" : 1523883474841,
+        "duration" : 11394
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883463447,
+          "stop" : 1523883468521,
+          "duration" : 5074
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина <script>alert(kabanov@tc.by)</script>",
+        "time" : {
+          "start" : 1523883468521,
+          "stop" : 1523883471053,
+          "duration" : 2532
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "<script>alert(kabanov@tc.by)</script>"
+        } ]
+      }, {
+        "name" : "Ввод пароля welcome",
+        "time" : {
+          "start" : 1523883471053,
+          "stop" : 1523883471798,
+          "duration" : 745
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : "welcome"
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883471798,
+          "stop" : 1523883474841,
+          "duration" : 3043
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "<script>alert(kabanov@tc.by)</script>"
+      }, {
+        "name" : "password",
+        "value" : "welcome"
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректных данных ",
+      "time" : {
+        "start" : 1523883474842,
+        "stop" : 1523883475130,
+        "duration" : 288
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckScriptAtLogin"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 3 – Инъекции"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

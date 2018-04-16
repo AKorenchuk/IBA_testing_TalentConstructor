@@ -1,0 +1,155 @@
+{
+  "uid" : "73719d788439d4a0",
+  "name" : "Кириллица в пароле",
+  "fullName" : "edu.bsuir.test.LoginTest.сheckPasswordWithCyrillic",
+  "historyId" : "c09076e6f75cce53f6b050488ccb5128",
+  "time" : {
+    "start" : 1523883531748,
+    "stop" : 1523883546173,
+    "duration" : 14425
+  },
+  "status" : "passed",
+  "description" : "Ввод корректного логина и пароля с кирилличными буквами",
+  "descriptionHtml" : "<p>Ввод корректного логина и пароля с кирилличными буквами</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под kаbаnоv@tc.bу, wеlcоmе",
+      "time" : {
+        "start" : 1523883531748,
+        "stop" : 1523883543778,
+        "duration" : 12030
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : "Открытие страницы логина и пароля",
+        "time" : {
+          "start" : 1523883531749,
+          "stop" : 1523883539085,
+          "duration" : 7336
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      }, {
+        "name" : "Ввод логина kаbаnоv@tc.bу",
+        "time" : {
+          "start" : 1523883539085,
+          "stop" : 1523883540203,
+          "duration" : 1118
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userName",
+          "value" : "kаbаnоv@tc.bу"
+        } ]
+      }, {
+        "name" : "Ввод пароля wеlcоmе",
+        "time" : {
+          "start" : 1523883540203,
+          "stop" : 1523883541007,
+          "duration" : 804
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "userPassword",
+          "value" : "wеlcоmе"
+        } ]
+      }, {
+        "name" : "Нажатие на кнопки 'Вход' ",
+        "time" : {
+          "start" : 1523883541007,
+          "stop" : 1523883543778,
+          "duration" : 2771
+        },
+        "status" : "passed",
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "kаbаnоv@tc.bу"
+      }, {
+        "name" : "password",
+        "value" : "wеlcоmе"
+      } ]
+    }, {
+      "name" : "Получение текста ошибки при вводе некорректных данных ",
+      "time" : {
+        "start" : 1523883543778,
+        "stop" : 1523883544048,
+        "duration" : 270
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckPasswordWithCyrillic"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.LoginTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Вход в систему"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 7 – Кириллица "
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}

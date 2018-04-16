@@ -1,28 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: edu.bsuir.test.candidate.EmailTest
 -------------------------------------------------------------------------------
-Tests run: 28, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 1,860.032 s <<< FAILURE! - in edu.bsuir.test.candidate.EmailTest
-сheckEmailWithCirilicInDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 36.8 s  <<< FAILURE!
+Tests run: 28, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 1,230.401 s <<< FAILURE! - in edu.bsuir.test.candidate.EmailTest
+сheckEmailWithCirilicInDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 39.05 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInDomen(EmailTest.java:383)
 
-сheckIncorrectDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 42.74 s  <<< FAILURE!
+сheckIncorrectDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 38.182 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckIncorrectDomen(EmailTest.java:318)
 
-сheckEmailWithOneLetterInDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 38.158 s  <<< FAILURE!
+сheckEmailWithOneLetterInDomen(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 38.452 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithOneLetterInDomen(EmailTest.java:357)
 
-сheckEmailWithCirilic(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 36.526 s  <<< FAILURE!
+сheckEmailWithCirilic(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 40.503 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilic(EmailTest.java:396)
 
-сheckEmailMaxLenght(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 75.611 s  <<< FAILURE!
+сheckEmailMaxLenght(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 81.152 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailMaxLenght(EmailTest.java:200)
 
-сheckEmailWithCirilicInAccount(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 131.862 s  <<< FAILURE!
+сheckEmailWithCirilicInAccount(edu.bsuir.test.candidate.EmailTest)  Time elapsed: 41.38 s  <<< FAILURE!
 java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInAccount(EmailTest.java:370)
 

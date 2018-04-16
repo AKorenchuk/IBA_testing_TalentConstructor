@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.AdditionResumeTest" time="138.333" tests="3" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.AdditionResumeTest" time="149.435" tests="3" errors="0" skipped="0" failures="3">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7535"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,39 +63,39 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="loadResumeDOC" classname="edu.bsuir.test.candidate.AdditionResumeTest" time="46.136">
+  <testcase name="loadResumeDOC" classname="edu.bsuir.test.candidate.AdditionResumeTest" time="46.954">
     <failure message="expected:&lt;[Konstantin]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Konstantin]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionResumeTest.loadResumeDOC(AdditionResumeTest.java:48)
 ]]></failure>
-    <system-out><![CDATA[[log] CLICK on L(401,417)@S(0)[0,0 1366x768]
+    <system-out><![CDATA[[log] CLICK on L(334,417)@S(0)[0,0 1366x768]
 [log]  TYPE "D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\resources\Trush_Konstantin.doc"
 [log] CLICK on L(581,447)@S(0)[0,0 1366x768]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 18927
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 3009
 Only local connections are allowed.
-апр 16, 2018 6:39:54 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:34:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
-апр 16, 2018 6:40:19 AM org.bridj.BridJ log
+апр 16, 2018 8:34:55 AM org.bridj.BridJ log
 INFO: Registering type org.sikuli.util.SysJNA$WinKernel32
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type org.bridj.TimeT
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type org.bridj.TimeT$timeval_customizer
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type org.bridj.StructIO$DefaultCustomizer
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type org.bridj.TimeT$timeval
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type org.bridj.StructObject
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type org.bridj.NativeObject
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type org.bridj.AbstractIntegral
-апр 16, 2018 6:40:20 AM org.bridj.BridJ log
+апр 16, 2018 8:34:56 AM org.bridj.BridJ log
 INFO: Registering type java.lang.Number
 ]]></system-err>
   </testcase>
-  <testcase name="loadResumePDF" classname="edu.bsuir.test.candidate.AdditionResumeTest" time="42.271">
+  <testcase name="loadResumePDF" classname="edu.bsuir.test.candidate.AdditionResumeTest" time="45.521">
     <failure message="expected:&lt;[Konstantin]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Konstantin]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionResumeTest.loadResumePDF(AdditionResumeTest.java:76)
 ]]></failure>
@@ -103,23 +103,23 @@ INFO: Registering type java.lang.Number
 [log]  TYPE "D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\resources\Trush_Konstantin.pdf"
 [log] CLICK on L(581,447)@S(0)[0,0 1366x768]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 3726
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 32660
 Only local connections are allowed.
-апр 16, 2018 6:40:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:35:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="loadOtherResumeDOC" classname="edu.bsuir.test.candidate.AdditionResumeTest" time="42.094">
+  <testcase name="loadOtherResumeDOC" classname="edu.bsuir.test.candidate.AdditionResumeTest" time="48.856">
     <failure message="expected:&lt;[Анна]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Анна]> but was:<[]>
 	at edu.bsuir.test.candidate.AdditionResumeTest.loadOtherResumeDOC(AdditionResumeTest.java:60)
 ]]></failure>
-    <system-out><![CDATA[[log] CLICK on L(334,417)@S(0)[0,0 1366x768]
+    <system-out><![CDATA[[log] CLICK on L(401,417)@S(0)[0,0 1366x768]
 [log]  TYPE "D:\IBA\IBA_testing_TalentConstructor\SeleniumExample-master\resources\Tochilo.doc"
 [log] CLICK on L(581,447)@S(0)[0,0 1366x768]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 8865
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 48435
 Only local connections are allowed.
-апр 16, 2018 6:41:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:36:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>

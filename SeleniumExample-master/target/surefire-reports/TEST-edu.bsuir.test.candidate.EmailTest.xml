@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.EmailTest" time="1,860.032" tests="28" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.bsuir.test.candidate.EmailTest" time="1,230.401" tests="28" errors="0" skipped="0" failures="6">
   <properties>
     <property name="idea.version" value="2016.3.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -12,7 +12,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7535"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="RU"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,86 +63,86 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
-  <testcase name="сheckEmailWithoutAt" classname="edu.bsuir.test.candidate.EmailTest" time="27.095"/>
-  <testcase name="сheckEmptyEmail" classname="edu.bsuir.test.candidate.EmailTest" time="19.993"/>
-  <testcase name="сheckEmailWithCirilicInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="36.8">
+  <testcase name="сheckEmailWithoutAt" classname="edu.bsuir.test.candidate.EmailTest" time="27.305"/>
+  <testcase name="сheckEmptyEmail" classname="edu.bsuir.test.candidate.EmailTest" time="24.503"/>
+  <testcase name="сheckEmailWithCirilicInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="39.05">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInDomen(EmailTest.java:383)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 23529
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 35267
 Only local connections are allowed.
-апр 16, 2018 6:59:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:55:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckEmailWithSomeAt" classname="edu.bsuir.test.candidate.EmailTest" time="26.191"/>
-  <testcase name="сheckEmailWithNumericInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="36.378"/>
-  <testcase name="сheckEmailDifferentSymbols" classname="edu.bsuir.test.candidate.EmailTest" time="86.625"/>
-  <testcase name="сheckIncorrectDomen" classname="edu.bsuir.test.candidate.EmailTest" time="42.74">
+  <testcase name="сheckEmailWithSomeAt" classname="edu.bsuir.test.candidate.EmailTest" time="26.189"/>
+  <testcase name="сheckEmailWithNumericInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="37.68"/>
+  <testcase name="сheckEmailDifferentSymbols" classname="edu.bsuir.test.candidate.EmailTest" time="69.227"/>
+  <testcase name="сheckIncorrectDomen" classname="edu.bsuir.test.candidate.EmailTest" time="38.182">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckIncorrectDomen(EmailTest.java:318)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 2107
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 39107
 Only local connections are allowed.
-апр 16, 2018 7:02:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 8:58:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckEmailWithoutDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="28.12"/>
-  <testcase name="сheckEmailWithNumericInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="36.842"/>
-  <testcase name="сheckEmailWithOneLetterInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="38.158">
+  <testcase name="сheckEmailWithoutDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="26.738"/>
+  <testcase name="сheckEmailWithNumericInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="42.891"/>
+  <testcase name="сheckEmailWithOneLetterInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="38.452">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithOneLetterInDomen(EmailTest.java:357)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 3727
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 18851
 Only local connections are allowed.
-апр 16, 2018 7:04:53 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 9:01:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckEmailWithSpecificSymbolsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="25.843"/>
-  <testcase name="сheckEmailWithCirilic" classname="edu.bsuir.test.candidate.EmailTest" time="36.526">
+  <testcase name="сheckEmailWithSpecificSymbolsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="33.115"/>
+  <testcase name="сheckEmailWithCirilic" classname="edu.bsuir.test.candidate.EmailTest" time="40.503">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilic(EmailTest.java:396)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 1119
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 11766
 Only local connections are allowed.
-апр 16, 2018 7:06:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 9:02:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckEmailWithSomeDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="35.378"/>
-  <testcase name="сheckEmailInLowerCase" classname="edu.bsuir.test.candidate.EmailTest" time="36.97"/>
-  <testcase name="сheckEmailMaxLenght" classname="edu.bsuir.test.candidate.EmailTest" time="75.611">
+  <testcase name="сheckEmailWithSomeDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="58.179"/>
+  <testcase name="сheckEmailInLowerCase" classname="edu.bsuir.test.candidate.EmailTest" time="38.846"/>
+  <testcase name="сheckEmailMaxLenght" classname="edu.bsuir.test.candidate.EmailTest" time="81.152">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailMaxLenght(EmailTest.java:200)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 42273
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 16037
 Only local connections are allowed.
-апр 16, 2018 7:08:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 9:04:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckEmailWithDashInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="48.1"/>
-  <testcase name="сheckEmailWithoutDomen" classname="edu.bsuir.test.candidate.EmailTest" time="57.54"/>
-  <testcase name="сheckEmailWithCirilicInAccount" classname="edu.bsuir.test.candidate.EmailTest" time="131.862">
+  <testcase name="сheckEmailWithDashInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="39.786"/>
+  <testcase name="сheckEmailWithoutDomen" classname="edu.bsuir.test.candidate.EmailTest" time="30.809"/>
+  <testcase name="сheckEmailWithCirilicInAccount" classname="edu.bsuir.test.candidate.EmailTest" time="41.38">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at edu.bsuir.test.candidate.EmailTest.сheckEmailWithCirilicInAccount(EmailTest.java:370)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 4216
+    <system-err><![CDATA[Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 32492
 Only local connections are allowed.
-апр 16, 2018 7:11:18 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+апр 16, 2018 9:07:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="сheckEmailWithDotInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="149.846"/>
-  <testcase name="сheckEmailWithSpecificSymbolsInAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="189.506"/>
-  <testcase name="сheckEmailInUpperCase" classname="edu.bsuir.test.candidate.EmailTest" time="127.693"/>
-  <testcase name="сheckEmailWithoutAccountNameAndDomen" classname="edu.bsuir.test.candidate.EmailTest" time="68.627"/>
-  <testcase name="сheckEmailWithUnderscoreInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="50.783"/>
-  <testcase name="сheckEmailWithoutAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="33.094"/>
-  <testcase name="сheckEmailWithDashInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="41.448"/>
-  <testcase name="сheckEmailWithUnderscoreInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="44.823"/>
-  <testcase name="сheckEmailWithSpaceInAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="102.37"/>
-  <testcase name="сheckEmailWithSpaceDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="37.93"/>
+  <testcase name="сheckEmailWithDotInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="48.915"/>
+  <testcase name="сheckEmailWithSpecificSymbolsInAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="27.068"/>
+  <testcase name="сheckEmailInUpperCase" classname="edu.bsuir.test.candidate.EmailTest" time="38.551"/>
+  <testcase name="сheckEmailWithoutAccountNameAndDomen" classname="edu.bsuir.test.candidate.EmailTest" time="26.656"/>
+  <testcase name="сheckEmailWithUnderscoreInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="43.879"/>
+  <testcase name="сheckEmailWithoutAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="28.733"/>
+  <testcase name="сheckEmailWithDashInAccountNAme" classname="edu.bsuir.test.candidate.EmailTest" time="39.39"/>
+  <testcase name="сheckEmailWithUnderscoreInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="52.558"/>
+  <testcase name="сheckEmailWithSpaceInAccountName" classname="edu.bsuir.test.candidate.EmailTest" time="46.359"/>
+  <testcase name="сheckEmailWithSpaceDotsInDomen" classname="edu.bsuir.test.candidate.EmailTest" time="28.313"/>
 </testsuite>

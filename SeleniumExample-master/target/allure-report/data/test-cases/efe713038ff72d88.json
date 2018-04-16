@@ -1,0 +1,217 @@
+{
+  "uid" : "efe713038ff72d88",
+  "name" : "Ввод большой строки",
+  "fullName" : "edu.bsuir.test.candidate.TextFieldTest.сheckLenghtOfSkype",
+  "historyId" : "5c4dd45cbdf1789e2ca824cc3d8f1bc9",
+  "time" : {
+    "start" : 1523881718961,
+    "stop" : 1523881754114,
+    "duration" : 35153
+  },
+  "status" : "passed",
+  "description" : "Ввод skype, содержащий 200 спец. символов и букв",
+  "descriptionHtml" : "<p>Ввод skype, содержащий 200 спец. символов и букв</p>",
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : " Вход в систему под CHIEF_RECRUITER",
+      "time" : {
+        "start" : 1523881718961,
+        "stop" : 1523881738181,
+        "duration" : 19220
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "steps" : [ {
+        "name" : " Вход в систему под kabanov@tc.by, welcome",
+        "time" : {
+          "start" : 1523881718974,
+          "stop" : 1523881738181,
+          "duration" : 19207
+        },
+        "status" : "passed",
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "steps" : [ {
+          "name" : "Открытие страницы логина и пароля",
+          "time" : {
+            "start" : 1523881718974,
+            "stop" : 1523881726360,
+            "duration" : 7386
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        }, {
+          "name" : "Ввод логина kabanov@tc.by",
+          "time" : {
+            "start" : 1523881726360,
+            "stop" : 1523881727451,
+            "duration" : 1091
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userName",
+            "value" : "kabanov@tc.by"
+          } ]
+        }, {
+          "name" : "Ввод пароля welcome",
+          "time" : {
+            "start" : 1523881727451,
+            "stop" : 1523881728193,
+            "duration" : 742
+          },
+          "status" : "passed",
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ {
+            "name" : "userPassword",
+            "value" : "welcome"
+          } ]
+        }, {
+          "name" : "Нажатие на кнопки 'Вход' ",
+          "time" : {
+            "start" : 1523881728193,
+            "stop" : 1523881738181,
+            "duration" : 9988
+          },
+          "status" : "passed",
+          "hasContent" : false,
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ]
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "login",
+          "value" : "kabanov@tc.by"
+        }, {
+          "name" : "password",
+          "value" : "welcome"
+        } ]
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "role",
+        "value" : "CHIEF_RECRUITER"
+      } ]
+    }, {
+      "name" : " открытие формы создания нового кандидата",
+      "time" : {
+        "start" : 1523881738182,
+        "stop" : 1523881743280,
+        "duration" : 5098
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : " установка skype XfO}.?pW%>W+?U#dnSixY!n8Fs%ti+ug3wWxNb!^{(SJ+v.H%F/&#ln7pZZORNMie-5h=@u|qcc@$*E{({Tjp*ivfwfL[qU&S{#Oh@y[poQ/hNk*X=5D5i3TWM)HeWEKB^Z?PHC4R6ewAn[|L[K-CR%Vau{?7]^!R(hS*q6zXRpj{1zdid>7<q<M~U~)U|<5az-KRMWD",
+      "time" : {
+        "start" : 1523881743292,
+        "stop" : 1523881751352,
+        "duration" : 8060
+      },
+      "status" : "passed",
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "skype",
+        "value" : "XfO}.?pW%>W+?U#dnSixY!n8Fs%ti+ug3wWxNb!^{(SJ+v.H%F/&#ln7pZZORNMie-5h=@u|qcc@$*E{({Tjp*ivfwfL[qU&S{#Oh@y[poQ/hNk*X=5D5i3TWM)HeWEKB^Z?PHC4R6ewAn[|L[K-CR%Vau{?7]^!R(hS*q6zXRpj{1zdid>7<q<M~U~)U|<5az-KRMWD"
+      } ]
+    }, {
+      "name" : "свободный клик",
+      "time" : {
+        "start" : 1523881751352,
+        "stop" : 1523881751904,
+        "duration" : 552
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    }, {
+      "name" : "наличие ошибки, связаной со skype",
+      "time" : {
+        "start" : 1523881751906,
+        "stop" : 1523881752002,
+        "duration" : 96
+      },
+      "status" : "passed",
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ]
+    } ],
+    "attachments" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "edu.bsuir.test.candidate"
+  }, {
+    "name" : "testClass",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "сheckLenghtOfSkype"
+  }, {
+    "name" : "suite",
+    "value" : "edu.bsuir.test.candidate.TextFieldTest"
+  }, {
+    "name" : "host",
+    "value" : "Anya"
+  }, {
+    "name" : "thread",
+    "value" : "10932@Anya.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Создание кандидата"
+  }, {
+    "name" : "story",
+    "value" : "Сценарий 4 – Проверка тексового поля 'Skype'"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "categories" : [ ]
+  }
+}
